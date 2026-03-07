@@ -1,0 +1,27 @@
+# F1 Predictions 2026 — Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── F1 Data ────────────────────────────────────────────────────────────────
+fastf1>=3.3.0                  # F1 session data, lap times, telemetry
+
+# ── Data Processing ────────────────────────────────────────────────────────
+pandas>=2.0.0                  # DataFrames and data manipulation
+numpy>=1.26.0                  # Numerical computations
+
+# ── Machine Learning ───────────────────────────────────────────────────────
+scikit-learn>=1.4.0            # GradientBoostingRegressor, train/test split, MAE
+xgboost>=2.0.0                 # XGBoost (secondary ensemble model)
+
+# ── Visualisation ──────────────────────────────────────────────────────────
+matplotlib>=3.8.0              # Plotting predictions and results
+seaborn>=0.13.0                # Statistical visualisations
+
+# ── Notebook Support ───────────────────────────────────────────────────────
+jupyter>=1.0.0                 # Jupyter notebooks for EDA and evaluation
+ipykernel>=6.29.0              # Kernel for Jupyter
+
+# ── Utilities ──────────────────────────────────────────────────────────────
+requests>=2.31.0               # HTTP requests (used internally by FastF1)
+tqdm>=4.66.0                   # Progress bars during data loading
+python-dateutil>=2.9.0         # Date parsing utilities
+pyarrow>=15.0.0                # Fast data serialisation (FastF1 cache)
