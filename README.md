@@ -50,7 +50,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 ### Workflow Per Round
 
 ```
-1. Qualifying Session (Friday)
+1. Qualifying Sessions
        ↓
 2. Input Top 10 Qualifying Results
        ↓
