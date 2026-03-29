@@ -18,7 +18,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 |-------|------|---------|------|:-----------------:|:----------------:|:----------------:|:-------------:|
 | R01 | 🇦🇺 Australian GP | Melbourne | Mar 8, 2026 | ✅ Russell 1:18.518 | 🥇 Russell ✅ | Russell / Antonelli / Piastri | 🥇 Russell 🥈 Antonelli 🥉 Leclerc ✅✅⚠️ |
 | R02 | 🇨🇳 Chinese GP | Shanghai | Mar 15, 2026 | ✅ Antonelli P1 1:32.064 | 🥇 Russell ❌ | Russell / Leclerc / Hamilton ❌❌✅ | 🥇 Antonelli 🥈 Russell 🥉 Hamilton |
-| R03 | 🇯🇵 Japanese GP | Suzuka | Mar 30, 2026 | ✅ Antonelli P1 1:28.778 | 🥇 Antonelli | Antonelli / Russell / Piastri | ⏳ Race Day |
+| R03 | 🇯🇵 Japanese GP | Suzuka | Mar 29, 2026 | ✅ Antonelli P1 1:28.778 | 🥇 Antonelli | Antonelli / Russell / Piastri | ⏳ Race Day |
 | R04 | 🇧🇭 Bahrain GP | Sakhir | ~~Apr 12, 2026~~ | ❌ CANCELLED | — | — | Cancelled — Middle East situation |
 | R05 | 🇸🇦 Saudi Arabian GP | Jeddah | ~~Apr 19, 2026~~ | ❌ CANCELLED | — | — | Cancelled — Middle East situation |
 | R06 | 🇺🇸 Miami GP | Miami | May 3, 2026 | — | — | — | — |
