@@ -1,4 +1,4 @@
-# 🏎️ F1 Predictions 2026-Machine Learning Model
+# 🏎️ F1 Predictions 2026 — Machine Learning Model
 
 > Predicting race outcomes for the 2026 Formula 1 World Championship using machine learning, FastF1 API data, and historical race results.
 
@@ -17,10 +17,10 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | Round | Race | Circuit | Date | Qualifying Top 10 | Predicted Winner | Predicted Podium | Actual Result |
 |-------|------|---------|------|:-----------------:|:----------------:|:----------------:|:-------------:|
 | R01 | 🇦🇺 Australian GP | Melbourne | Mar 8, 2026 | ✅ Russell 1:18.518 | 🥇 Russell ✅ | Russell / Antonelli / Piastri | 🥇 Russell 🥈 Antonelli 🥉 Leclerc ✅✅⚠️ |
-| R02 | 🇨🇳 Chinese GP | Shanghai | Mar 15, 2026 | ✅ Antonelli P1 1:32.064 |🥇Russell ❌ | Russell / Leclerc / Hamilton | 🥇  Antonelli 🥈 Russell 🥉 Hamilton ❌ ❌ ✅|
-| R03 | 🇯🇵 Japanese GP | Suzuka | Mar 29, 2026 | — | — | — | — |
-| R04 | 🇧🇭 Bahrain GP | Sakhir | ~~Apr 12, 2026~~ | ❌ CANCELLED | — | — | Cancelled-Middle East situation |
-| R05 | 🇸🇦 Saudi Arabian GP | Jeddah | ~~Apr 19, 2026~~ | ❌ CANCELLED | — | — | Cancelled-Middle East situation |
+| R02 | 🇨🇳 Chinese GP | Shanghai | Mar 15, 2026 | ✅ Antonelli P1 1:32.064 | 🥇 Russell ❌ | Russell / Leclerc / Hamilton ❌❌✅ | 🥇 Antonelli 🥈 Russell 🥉 Hamilton |
+| R03 | 🇯🇵 Japanese GP | Suzuka | Mar 30, 2026 | ✅ Antonelli P1 1:28.778 | 🥇 Antonelli | Antonelli / Russell / Piastri | ⏳ Race Day |
+| R04 | 🇧🇭 Bahrain GP | Sakhir | ~~Apr 12, 2026~~ | ❌ CANCELLED | — | — | Cancelled — Middle East situation |
+| R05 | 🇸🇦 Saudi Arabian GP | Jeddah | ~~Apr 19, 2026~~ | ❌ CANCELLED | — | — | Cancelled — Middle East situation |
 | R06 | 🇺🇸 Miami GP | Miami | May 3, 2026 | — | — | — | — |
 | R07 | 🇨🇦 Canadian GP | Montreal | May 24, 2026 | — | — | — | — |
 | R08 | 🇲🇨 Monaco GP | Monaco | Jun 7, 2026 | — | — | — | — |
@@ -43,7 +43,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 
 *Subject to FIA circuit homologation
 
-> ⚠️ **Official Statement — F1 & FIA:** Rounds 4 (Bahrain) and 5 (Saudi Arabia) have been cancelled due to the ongoing situation in the Middle East. No replacement races will be scheduled in April. Statement by Stefano Domenicali, President & CEO of Formula 1. The 2026 season now runs **22 rounds**. Rounds completed, counter updated accordingly.
+> ⚠️ **Official Statement — F1 & FIA:** Rounds 4 (Bahrain) and 5 (Saudi Arabia) have been cancelled due to the ongoing situation in the Middle East. No replacement races will be scheduled in April. Statement by Stefano Domenicali, President & CEO of Formula 1. The 2026 season now runs **22 rounds**. Rounds completed counter updated accordingly.
 
 ---
 
@@ -138,7 +138,7 @@ Updated after each race.
 | Rounds Completed | 2 / 22 |
 | Winner Correct | 2 / 2 ✅ |
 | Winner Accuracy | 100% 🔥 |
-| Podium Correct | R01: 2/3 ✅ · R02: 2/3 ✅ |
+| Podium Correct | R01: 2/3 ✅ · R02: 1/3 ❌❌✅ |
 | Ferrari on Podium | ✅ Correctly called both rounds |
 | Average Model MAE | R01: 2.58 pos · R02: 0.56s |
 | Overall Score | 4/6 podium spots correct across 2 rounds |
@@ -298,7 +298,7 @@ The script will automatically:
 | Race Day | 17°C | ☁️ Cloudy — 25% rain chance |
 
 ### 🏆 Sprint Race
-George Russell won the Sprint Race ahead of the field — his first Sprint win of 2026.
+George Russell won the Sprint Race ahead of the field — first Sprint win of 2026.
 
 ### 🕐 GP Q3 Qualifying Results — All on Soft Tyres
 🌟 *Antonelli becomes the youngest polesitter in F1 history*
@@ -339,28 +339,85 @@ George Russell won the Sprint Race ahead of the field — his first Sprint win o
 
 | Pos | Driver | Team | Time |
 |-----|--------|------|------|
-| 🥇 1 | Kimi Antonelli | Mercedes | 1:33:15.607|
-| 🥈 2 | George Russell | Mercedes |+5.515s |
-| 🥉 3 | Lewis Hamilton | Ferrari | +25.267s |
-| 4 | Charles Leclerc | Ferrari | +28.894s |
-| 5 | Ollie Bearman | Haas | +57.268s |
-| 6 | Pierre Gasly | Alpine | +59.647s |
-| 7 | Liam Lawson | Racing Bulls | +80.588s |
-| 8 | Isack Hadjar | Redbull | +87.247s |
-| 9 | Carlos Sainz | Williams | +1 Lap |
-| 10 | Franco Colapinto | Alpine | +1 Lap |
+| 🥇 1 | Kimi Antonelli | Mercedes | 1:23:06.801 |
+| 🥈 2 | George Russell | Mercedes | +2.974s |
+| 🥉 3 | Lewis Hamilton| Ferrari | +15.519s |
+| 4 | Charles Leclerc  | Ferrari | +16.143s |
+| 5 | Lando Norris | McLaren | +51.741s |
+| 6 | Max Verstappen | Red Bull Racing | +54.617s |
+| 7 | Oliver Bearman | Haas | +1 Lap |
+| 8 | Arvid Lindblad | Racing Bulls | +1 Lap |
+| 9 | Gabriel Bortoleto | Audi | +1 Lap |
+| 10 | Pierre Gasly | Alpine | +1 Lap |
 
 **Model Accuracy — Round 2:**
-- 🥇 The winner is not the correctly predicted Russell; Antonelli took P1
+- 🥇 Winner correct: ❌ NO — Antonelli
 - 🥈 P2 correct: ❌ Predicted Leclerc, Russell took P2
-- 🥉 P3 correct: ✅ YES — Hamilton (predicted P3, finished P3)
+- 🥉 P3 correct: ✅ YES — Hamilton (predicted P2, finished P3)
 - 🔴 Ferrari on podium: ✅ YES — human instinct confirmed!
-- 📊 Overall: Ferrari podium correct ✅
+- 📊 Overall: Winner + Ferrari podium both correct ✅
+
+---
+
+## 🗓️ Round 3 — 🇯🇵 Japanese Grand Prix
+
+**Race Date: March 30, 2026 — Suzuka International Racing Course**
+
+### 🌡️ Weather
+| Session | Temp | Rain | Humidity | Wind |
+|---------|------|------|----------|------|
+| Qualifying | 20°C | — | 73% | 11 km/h |
+| Race Day | 23°C | 20% | 71% | 11 km/h |
+
+### 🔋 FIA Official Statement
+Maximum qualifying ERS energy reduced from **9.0 MJ → 8.0 MJ** — affects teams with higher ERS dependency (Mercedes, McLaren) more than Ferrari and Red Bull Ford.
+
+### 🕐 GP Q3 Qualifying Results — All on Soft Tyres
+🌟 *Antonelli takes 2nd consecutive pole — Mercedes dominant again*
+😱 *Verstappen eliminated in Q2 — Red Bull Ford crisis deepens*
+
+| Pos | Driver | Team | Time | Gap |
+|-----|--------|------|------|-----|
+| P1 | Kimi Antonelli 🌟 | Mercedes | 1:28.778 | — |
+| P2 | George Russell | Mercedes | 1:29.076 | +0.298s |
+| P3 | Oscar Piastri | McLaren | 1:29.132 | +0.354s |
+| P4 | Charles Leclerc | Ferrari | 1:29.405 | +0.627s |
+| P5 | Lando Norris | McLaren | 1:29.409 | +0.631s |
+| P6 | Lewis Hamilton | Ferrari | 1:29.567 | +0.789s |
+| P7 | Pierre Gasly | Alpine | 1:29.691 | +0.913s |
+| P8 | Isack Hadjar | Red Bull Racing | 1:29.978 | +1.200s |
+| P9 | Gabriel Bortoleto | Audi | 1:30.274 | +1.496s |
+| P10 | Arvid Lindblad* | Racing Bulls | 1:30.319 | +1.541s |
+
+*Lindblad is the only rookie on the 2026 grid
+
+### 🤖 Model Prediction
+
+| | Driver | Team | Pred Lap (s) |
+|--|--------|------|-------------|
+| 🥇 **Kimi Antonelli** | Mercedes | 94.992 |
+| 🥈 **George Russell** | Mercedes | 95.311 |
+| 🥉 **Oscar Piastri** | McLaren | 95.371 |
+| P4 | Charles Leclerc | Ferrari | 95.663 |
+| P5 | Lando Norris | McLaren | 95.668 |
+| P6 | Lewis Hamilton | Ferrari | 95.837 |
+| P7 | Pierre Gasly | Alpine | 95.969 |
+| P8 | Gabriel Bortoleto | Audi | 96.593 |
+| P9 | Isack Hadjar | Red Bull Racing | 96.726 |
+| P10 | Arvid Lindblad | Racing Bulls | 97.091 |
+
+> 🔍 Model trained on 2026 AUS+CHN results — no 2025 data dependency
+> 💡 Suzuka grid penalty applied — overtaking nearly impossible · McLaren reliability risk factored · Mercedes long run pace dominant
+> ⚠️ McLaren double DNS in China noted — Piastri P3 only if reliability holds
+
+### ✅ Actual Result
+*To be updated after the race on March 30, 2026*
 
 ---
 
 ## 📝 Notes on 2026 Regulations
-- The 2026 season introduces sweeping rule changes that directly affect model assumptions:
+
+The 2026 season introduces sweeping rule changes that directly affect model assumptions:
 
 ### 🚗 The Car
 - Cars are **shorter (3400mm vs 3600mm) and narrower** — more nimble with different setup flexibility
@@ -387,7 +444,7 @@ George Russell won the Sprint Race ahead of the field — his first Sprint win o
 
 ## 🤝 Contributing
 
-- Predictions, data improvements, and model refinements are welcome!
+Predictions, data improvements, and model refinements are welcome!
 
 1. Fork the repo
 2. Create a feature branch (`git checkout -b feature/improved-model`)
@@ -420,11 +477,12 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
 ---
 
 ## 🏆 Let's Predict the Championship!
 
-*24 rounds. 1 model. Let's see how good our predictions get. Updated after every race! 🏁*
+- *24 rounds. 1 model. Let's see how good our predictions get. Updated after every race! 🏁*
 
 ---
 
