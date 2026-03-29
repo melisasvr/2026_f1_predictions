@@ -1,7 +1,7 @@
 """
 ============================================================
  F1 PREDICTIONS 2026 — ROUND 3: JAPANESE GP
- Suzuka International Racing Course | March 30, 2026
+ Suzuka International Racing Course | March 29,2026
  
  CHANGES FROM ORIGINAL:
  - Removed fastf1 dependency (no 2025 data loading)
