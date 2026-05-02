@@ -1,4 +1,4 @@
-# 🏎️ F1 Predictions 2026 — Machine Learning Model
+# 🏎️ F1 Predictions 2026-Machine Learning Model
 
 > Predicting race outcomes for the 2026 Formula 1 World Championship using machine learning, FastF1 API data, and historical race results.
 
@@ -21,7 +21,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | R03 | 🇯🇵 Japanese GP | Suzuka | Mar 29, 2026 | ✅ Antonelli P1 1:28.778 | 🥇 Antonelli ✅ | Antonelli / Russell / Piastri ✅❌❌ | 🥇 Antonelli 🥈 Piastri 🥉 Leclerc |
 | R04 | 🇧🇭 Bahrain GP | Sakhir | ~~Apr 12, 2026~~ | ❌ CANCELLED | — | — | Cancelled — Middle East situation |
 | R05 | 🇸🇦 Saudi Arabian GP | Jeddah | ~~Apr 19, 2026~~ | ❌ CANCELLED | — | — | Cancelled — Middle East situation |
-| R06 | 🇺🇸 Miami GP | Miami | May 3, 2026 | — | — | — | 🔋 New regs from Miami |
+| R06 | 🇺🇸 Miami GP | Miami | May 3, 2026 | ✅ Antonelli P1 1:27.798 | 🥇 Verstappen | Verstappen / Antonelli / Hamilton | ⏳ Race Day |
 | R07 | 🇨🇦 Canadian GP | Montreal | May 24, 2026 | — | — | — | — |
 | R08 | 🇲🇨 Monaco GP | Monaco | Jun 7, 2026 | — | — | — | — |
 | R09 | 🇪🇸 Spanish GP | Barcelona-Catalunya | Jun 14, 2026 | — | — | — | — |
@@ -43,7 +43,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 
 *Subject to FIA circuit homologation
 
-> ⚠️ **Official Statement-F1 & FIA:** Rounds 4 (Bahrain) and 5 (Saudi Arabia) have been cancelled due to the ongoing situation in the Middle East. No replacement races will be scheduled in April. Statement by Stefano Domenicali, President & CEO of Formula 1. The 2026 season now runs **22 rounds**. Rounds completed, counter updated accordingly.
+> ⚠️ **Official Statement — F1 & FIA:** Rounds 4 (Bahrain) and 5 (Saudi Arabia) have been cancelled due to the ongoing situation in the Middle East. No replacement races will be scheduled in April. Statement by Stefano Domenicali, President & CEO of Formula 1. The 2026 season now runs **22 rounds**. Rounds completed counter updated accordingly.
 
 ---
 
@@ -52,7 +52,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 ### Workflow Per Round
 
 ```
-1. Qualifying Sessions
+1. Qualifying Session 
        ↓
 2. Input Top 10 Qualifying Results
        ↓
@@ -65,8 +65,8 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 
 ### Prediction Targets
 
-- 🥇 **Race Winner**: Who crosses the line first
-- 🏆 **Podium (Top 3)**: The full podium finishers
+- 🥇 **Race Winner** — Who crosses the line first
+- 🏆 **Podium (Top 3)** — The full podium finishers
 
 ---
 
@@ -89,6 +89,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 - **Team performance tier** (1 = strongest → 5 = weakest, based on 2025 standings + 2026 testing)
 - **Weather delta** (qualifying temp vs race temp in °C)
 - **Tyre degradation sensitivity** per team (heat stress score)
+- **Rookie flag** (Arvid Lindblad only — uncertainty penalty applied)
 
 ### Model Architecture
 
@@ -163,7 +164,7 @@ f1-predictions-2026/
 └── LICENSE
 ```
 
-> Each `round_XX.py` file is fully self-contained it loads the data, trains the model, generates predictions, and produces visualisations all in one script.
+> Each `round_XX.py` file is fully self-contained — it loads the data, trains the model, generates predictions, and produces visualisations all in one script.
 
 ---
 
@@ -297,7 +298,7 @@ The script will automatically:
 | Race Day | 17°C | ☁️ Cloudy — 25% rain chance |
 
 ### 🏆 Sprint Race
-George Russell won the Sprint Race ahead of the field — first Sprint win of 2026.
+George Russell won the Sprint Race ahead of the field, his first Sprint win of 2026.
 
 ### 🕐 GP Q3 Qualifying Results — All on Soft Tyres
 🌟 *Antonelli becomes the youngest polesitter in F1 history*
@@ -369,7 +370,7 @@ George Russell won the Sprint Race ahead of the field — first Sprint win of 20
 | Race Day | 23°C | 20% | 71% | 11 km/h |
 
 ### 🔋 FIA Official Statement
-Maximum qualifying ERS energy reduced from **9.0 MJ → 8.0 MJ** — affects teams with higher ERS dependency (Mercedes, McLaren) more than Ferrari and Red Bull Ford.
+Maximum qualifying ERS energy reduced from **9.0 MJ → 8.0 MJ** affects teams with higher ERS dependency (Mercedes, McLaren) more than Ferrari and Red Bull Ford.
 
 ### 🕐 GP Q3 Qualifying Results — All on Soft Tyres
 🌟 *Antonelli takes 2nd consecutive pole — Mercedes dominant again*
@@ -407,7 +408,7 @@ Maximum qualifying ERS energy reduced from **9.0 MJ → 8.0 MJ** — affects tea
 
 > 🔍 Model trained on 2026 AUS+CHN results no 2025 data dependency
 > 💡 Suzuka grid penalty applied overtaking nearly impossible · McLaren reliability risk factored · Mercedes long run pace dominant
-> ⚠️ McLaren double DNS in China noted Piastri P3 only if reliability holds
+> ⚠️ McLaren double DNS in China noted — Piastri P3 only if reliability holds
 
 ### ✅ Actual Race Result
 
@@ -434,6 +435,74 @@ Maximum qualifying ERS energy reduced from **9.0 MJ → 8.0 MJ** — affects tea
 - 📊 Overall: 1/3 podium correct
 - 💡 Silver lining: Predicted all top 4 drivers correctly, just wrong order again
 - 🟠 McLaren reliability held this time Piastri P2, Norris P5
+
+---
+
+## 🗓️ Round 4 — 🇺🇸 Miami Grand Prix
+
+**Race Date: May 3, 2026 — Miami International Autodrome**
+
+### 🌡️ Weather
+| Session | Temp | Conditions | Rain | Humidity | Wind |
+|---------|------|------------|------|----------|------|
+| Friday FP1 + Sprint Quali | 31°C | ☀️ Sunshine | 5% | — | — |
+| Saturday Sprint + Quali | 32°C | ☀️ Sunshine | 25% | — | — |
+| Sunday Race | 26°C | 🌧️ Rain | **80% 🚨** | 81% | 16 km/h |
+
+### 🏆 Sprint Race Result
+| Pos | Driver | Team | Pts |
+|-----|--------|------|-----|
+| 🥇 1 | Lando Norris | McLaren | 8 |
+| 🥈 2 | Oscar Piastri | McLaren | 7 |
+| 🥉 3 | Charles Leclerc | Ferrari | 6 |
+| 4 | George Russell | Mercedes | 5 |
+| 5 | Max Verstappen | Red Bull Ford | 4 |
+| 6 | Kimi Antonelli | Mercedes | 3 ⚠️ +5s penalty |
+| 7 | Lewis Hamilton | Ferrari | 2 |
+| 8 | Pierre Gasly | Alpine | 1 |
+
+> ⚠️ Antonelli dropped from P4 → P6 due to 5 second track limits penalty
+
+### 🕐 GP Q3 Qualifying Results — All on Soft Tyres
+🌟 *Antonelli — 3rd pole in 4 races*
+😱 *Verstappen P2 — Red Bull Ford massive improvement*
+🌟 *Colapinto P8 — Alpine's best result of 2026*
+
+| Pos | Driver | Team | Time | Gap |
+|-----|--------|------|------|-----|
+| P1 | Kimi Antonelli 🌟 | Mercedes | 1:27.798 | — |
+| P2 | Max Verstappen | Red Bull Ford | +0.166s | — |
+| P3 | Charles Leclerc | Ferrari | +0.345s | — |
+| P4 | Lando Norris | McLaren | +0.385s | — |
+| P5 | George Russell | Mercedes | +0.399s | — |
+| P6 | Lewis Hamilton | Ferrari | +0.521s | — |
+| P7 | Oscar Piastri | McLaren | +0.702s | — |
+| P8 | Franco Colapinto | Alpine | +0.964s | — |
+| P9 | Isack Hadjar | Red Bull Ford | +0.991s | — |
+| P10 | Pierre Gasly | Alpine | +1.012s | — |
+
+### 🤖 Model Prediction
+
+| | Driver | Team | Pred Lap (s) |
+|--|--------|------|-------------|
+| 🥇 **Max Verstappen** | Red Bull Ford | 91.519 |
+| 🥈 **Kimi Antonelli** | Mercedes | 91.624 |
+| 🥉 **Lewis Hamilton** | Ferrari | 91.701 |
+| P4 | George Russell | Mercedes | 91.731 |
+| P5 | Charles Leclerc | Ferrari | 92.233 |
+| P6 | Lando Norris | McLaren | 92.436 |
+| P7 | Oscar Piastri | McLaren | 92.695 |
+| P8 | Pierre Gasly | Alpine | 93.187 |
+| P9 | Franco Colapinto | Alpine | 93.215 |
+| P10 | Isack Hadjar | Red Bull Ford | 93.479 |
+
+> 🔍 Model MAE: 0.06 seconds sharpest yet!
+> 🆕 New feature: `PoleWetBonus` activates when rain >60%, gives pole sitter lap time advantage (0.08s at 80% rain)
+> 🌧️ WetPerformanceFactor is the #1 feature this round, 80% rain probability
+> ⚠️ Verstappen vs Antonelli gap: only 0.105s, extremely close call
+
+### ✅ Actual Result
+*To be updated after the race on May 3, 2026*
 
 ---
 
@@ -484,10 +553,10 @@ Maximum qualifying ERS energy reduced from **9.0 MJ → 8.0 MJ** — affects tea
 The 2026 season introduces sweeping rule changes that directly affect model assumptions:
 
 ### 🚗 The Car
-- Cars are **shorter (3400mm vs 3600mm) and narrower** — more nimble with different setup flexibility
+- Cars are **shorter (3400mm vs 3600mm) and narrower**, more nimble with different setup flexibility
 - **Simpler wings** with fewer elements
 - Ground effect tunnels **replaced by flatter floors**
-- Different setup styles allow different driving styles — team-to-team variation is higher than ever
+- Different setup styles allow different driving styles. Team-to-team variation is higher than ever
 - **Safety:** Roll hoop takes 23% more load; more rigorous survival cell testing
 
 ### 💨 Aerodynamics & Overtaking — DRS is Gone
@@ -500,7 +569,7 @@ The 2026 season introduces sweeping rule changes that directly affect model assu
 - Can recharge the battery with **twice as much energy per lap** vs previous regs
 - Recovery happens under braking and lifting off at the end of straights
 - Drivers select recharge modes with their race engineer throughout the race
-- **Battery management is now an essential race strategy variable** — not just a bonus system
+- **Battery management is now an essential race strategy variable** not just a bonus system
 
 > These regulation changes mean early-season predictions carry higher uncertainty. The model will recalibrate as 2026 race data accumulates round by round.
 
