@@ -1,4 +1,4 @@
-# 🏎️ F1 Predictions 2026 — Machine Learning Model
+# 🏎️ F1 Predictions 2026-Machine Learning Model
 
 > Predicting race outcomes for the 2026 Formula 1 World Championship using machine learning, FastF1 API data, and historical race results.
 
@@ -20,26 +20,25 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 |R02  |🇨🇳 Chinese GP          |Shanghai           |Mar 15, 2026  |✅ Antonelli P1 1:32.064|🥇 Russell ❌     |Russell / Leclerc / Hamilton ❌❌✅     |🥇 Antonelli 🥈 Russell 🥉 Hamilton   |
 |R03  |🇯🇵 Japanese GP         |Suzuka             |Mar 29, 2026  |✅ Antonelli P1 1:28.778|🥇 Antonelli ✅   |Antonelli / Russell / Piastri ✅❌❌    |🥇 Antonelli 🥈 Piastri 🥉 Leclerc    |
 |R04  |🇧🇭 Bahrain GP          |Sakhir             |~Apr 12, 2026~|❌ CANCELLED            |—               |—                                    |Cancelled — Middle East situation  |
-|R05  |🇨🇦 Canadian GP         |Montreal           |May 25, 2026  |✅ Russell P1 1:12.578  |🥇 Russell ❌     |Russell / Hamilton / Verstappen ❌✅✅  |🥇 Antonelli 🥈 Hamilton 🥉 Verstappen|
-|R06  |🇺🇸 Miami GP            |Miami              |May 3, 2026   |✅ Antonelli P1 1:27.798|🥇 Verstappen ❌  |Verstappen / Antonelli / Hamilton ❌❌❌|🥇 Antonelli 🥈 Norris 🥉 Piastri     |
-|R07  |🇨🇦 Canadian GP         |Montreal           |May 24, 2026  |—                      |—               |—                                    |—                                  |
-|R08  |🇲🇨 Monaco GP           |Monaco             |Jun 7, 2026   |—                      |—               |—                                    |—                                  |
-|R09  |🇪🇸 Spanish GP          |Barcelona-Catalunya|Jun 14, 2026  |—                      |—               |—                                    |—                                  |
-|R10  |🇦🇹 Austrian GP         |Spielberg          |Jun 28, 2026  |—                      |—               |—                                    |—                                  |
-|R11  |🇬🇧 British GP          |Silverstone        |Jul 5, 2026   |—                      |—               |—                                    |—                                  |
-|R12  |🇧🇪 Belgian GP          |Spa-Francorchamps  |Jul 19, 2026  |—                      |—               |—                                    |—                                  |
-|R13  |🇭🇺 Hungarian GP        |Budapest           |Jul 26, 2026  |—                      |—               |—                                    |—                                  |
-|R14  |🇳🇱 Dutch GP            |Zandvoort          |Aug 23, 2026  |—                      |—               |—                                    |—                                  |
-|R15  |🇮🇹 Italian GP          |Monza              |Sep 6, 2026   |—                      |—               |—                                    |—                                  |
-|R16  |🇪🇸 Spanish GP (Madrid)*|Madrid             |Sep 13, 2026  |—                      |—               |—                                    |—                                  |
-|R17  |🇦🇿 Azerbaijan GP       |Baku               |Sep 26, 2026  |—                      |—               |—                                    |—                                  |
-|R18  |🇸🇬 Singapore GP        |Singapore          |Oct 11, 2026  |—                      |—               |—                                    |—                                  |
-|R19  |🇺🇸 United States GP    |Austin             |Oct 25, 2026  |—                      |—               |—                                    |—                                  |
-|R20  |🇲🇽 Mexico City GP      |Mexico City        |Nov 1, 2026   |—                      |—               |—                                    |—                                  |
-|R21  |🇧🇷 Brazilian GP        |São Paulo          |Nov 8, 2026   |—                      |—               |—                                    |—                                  |
-|R22  |🇺🇸 Las Vegas GP        |Las Vegas          |Nov 21, 2026  |—                      |—               |—                                    |—                                  |
-|R23  |🇶🇦 Qatar GP            |Lusail             |Nov 29, 2026  |—                      |—               |—                                    |—                                  |
-|R24  |🇦🇪 Abu Dhabi GP        |Yas Island         |Dec 6, 2026   |—                      |—               |—                                    |—                                  |
+|R04  |🇺🇸 Miami GP            |Miami              |May 3, 2026   |✅ Antonelli P1 1:27.798|🥇 Verstappen ❌  |Verstappen / Antonelli / Hamilton ❌❌❌|🥇 Antonelli 🥈 Norris 🥉 Piastri     |
+|R05  |🇨🇦 Canadian GP         |Montreal           |May 24, 2026  |✅ Russell P1 1:13.95   |🥇 Russell ❌     |   Russell / Hamilton / Verstappen ❌✅✅|🥇 Antonelli 🥈 Hamilton 🥉 Verstappen|                                 |
+|R06  |🇲🇨 Monaco GP           |Monaco             |Jun 7, 2026   |—                      |—               |—                                    |—                                  |
+|R07  |🇪🇸 Spanish GP          |Barcelona-Catalunya|Jun 14, 2026  |—                      |—               |—                                    |—                                  |
+|R08 |🇦🇹 Austrian GP         |Spielberg          |Jun 28, 2026  |—                      |—               |—                                    |—                                  |
+|R09  |🇬🇧 British GP          |Silverstone        |Jul 5, 2026   |—                      |—               |—                                    |—                                  |
+|R10  |🇧🇪 Belgian GP          |Spa-Francorchamps  |Jul 19, 2026  |—                      |—               |—                                    |—                                  |
+|R11  |🇭🇺 Hungarian GP        |Budapest           |Jul 26, 2026  |—                      |—               |—                                    |—                                  |
+|R12  |🇳🇱 Dutch GP            |Zandvoort          |Aug 23, 2026  |—                      |—               |—                                    |—                                  |
+|R13  |🇮🇹 Italian GP          |Monza              |Sep 6, 2026   |—                      |—               |—                                    |—                                  |
+|R14  |🇪🇸 Spanish GP (Madrid)*|Madrid             |Sep 13, 2026  |—                      |—               |—                                    |—                                  |
+|R15  |🇦🇿 Azerbaijan GP       |Baku               |Sep 26, 2026  |—                      |—               |—                                    |—                                  |
+|R16  |🇸🇬 Singapore GP        |Singapore          |Oct 11, 2026  |—                      |—               |—                                    |—                                  |
+|R17  |🇺🇸 United States GP    |Austin             |Oct 25, 2026  |—                      |—               |—                                    |—                                  |
+|R18  |🇲🇽 Mexico City GP      |Mexico City        |Nov 1, 2026   |—                      |—               |—                                    |—                                  |
+|R19  |🇧🇷 Brazilian GP        |São Paulo          |Nov 8, 2026   |—                      |—               |—                                    |—                                  |
+|R20  |🇺🇸 Las Vegas GP        |Las Vegas          |Nov 21, 2026  |—                      |—               |—                                    |—                                  |
+|R21  |🇶🇦 Qatar GP            |Lusail             |Nov 29, 2026  |—                      |—               |—                                    |—                                  |
+|R22  |🇦🇪 Abu Dhabi GP        |Yas Island         |Dec 6, 2026   |—                      |—               |—                                    |—                                  |
 
 *Subject to FIA circuit homologation
 
