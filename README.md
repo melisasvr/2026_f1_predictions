@@ -24,7 +24,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 |R06  |🇺🇸 Miami GP            |Miami              |May 3, 2026   |✅ Antonelli P1 1:27.798|🥇 Verstappen ❌  |Verstappen / Antonelli / Hamilton ❌❌❌|🥇 Antonelli 🥈 Norris 🥉 Piastri     |
 |R07  |🇨🇦 Canadian GP         |Montreal           |May 24, 2026  |—                      |—               |—                                    |—                                  |
 |R08  |🇲🇨 Monaco GP           |Monaco             |Jun 8, 2026   |✅ Antonelli P1 1:12.051|🥇 Antonelli ✅   |Antonelli / Verstappen / Hamilton ✅❌❌|🥇 Antonelli 🥈 Hamilton 🥉 Hadjar    |
-|R09  |🇪🇸 Spanish GP          |Barcelona-Catalunya|Jun 14, 2026  |—                      |—               |—                                    |—                                  |
+|R09  |🇪🇸 Spanish GP          |Barcelona-Catalunya|Jun 15, 2026  |✅ Russell P1 1:14.679  |🥇 Russell ❌     |Russell / Hamilton / Antonelli ❌✅❌   |🥇 Hamilton 🥈 Russell 🥉 Norris      |
 |R10  |🇦🇹 Austrian GP         |Spielberg          |Jun 28, 2026  |—                      |—               |—                                    |—                                  |
 |R11  |🇬🇧 British GP          |Silverstone        |Jul 5, 2026   |—                      |—               |—                                    |—                                  |
 |R12  |🇧🇪 Belgian GP          |Spa-Francorchamps  |Jul 19, 2026  |—                      |—               |—                                    |—                                  |
@@ -52,7 +52,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 ### Workflow Per Round
 
 ```
-1. Qualifying Session (Friday)
+1. Qualifying Sessions
        ↓
 2. Input Top 10 Qualifying Results
        ↓
@@ -718,6 +718,74 @@ Maximum qualifying ERS energy reduced from **9.0 MJ → 8.0 MJ** — affects tea
 
 -----
 
+## 🗓️ Round 7 — 🇪🇸 Spanish Grand Prix
+
+**Race Date: June 15, 2026 — Circuit de Barcelona-Catalunya**
+
+### 🌡️ Weather
+
+|Session   |Temp|Conditions     |Rain|
+|----------|----|---------------|----|
+|Qualifying|29°C|⛅ Partly Cloudy|~0% |
+|Race Day  |29°C|☀️ Sunny        |5%  |
+
+### 🕐 GP Q3 Qualifying Results
+
+🌟 *Russell ends Antonelli’s pole streak at 5 consecutive poles!*
+
+|Pos|Driver          |Team         |Time    |Gap    |
+|---|----------------|-------------|--------|-------|
+|P1 |George Russell 🌟|Mercedes     |1:14.679|—      |
+|P2 |Lewis Hamilton  |Ferrari      |1:14.743|+0.064s|
+|P3 |Kimi Antonelli  |Mercedes     |1:14.998|+0.319s|
+|P4 |Lando Norris    |McLaren      |1:15.001|+0.322s|
+|P5 |Max Verstappen  |Red Bull Ford|1:15.021|+0.342s|
+|P6 |Isack Hadjar    |Red Bull Ford|1:15.077|+0.398s|
+|P7 |Oscar Piastri   |McLaren      |1:15.090|+0.411s|
+|P8 |Liam Lawson     |Racing Bulls |1:16.542|+1.863s|
+|P9 |Nico Hülkenberg |Audi         |1:16.657|+1.978s|
+|P10|Charles Leclerc |Ferrari      |1:15.281|+0.602s|
+
+### 🤖 Model Prediction
+
+|                    |Driver         |Team         |Pred Lap (s)|
+|--------------------|---------------|-------------|------------|
+|🥇 **George Russell**|Mercedes       |79.797       |            |
+|🥈 **Lewis Hamilton**|Ferrari        |79.834       |            |
+|🥉 **Kimi Antonelli**|Mercedes       |80.232       |            |
+|P4                  |Lando Norris   |McLaren      |80.272      |
+|P5                  |Max Verstappen |Red Bull Ford|80.315      |
+|P6                  |Oscar Piastri  |McLaren      |80.458      |
+|P7                  |Isack Hadjar   |Red Bull Ford|80.467      |
+|P8                  |Charles Leclerc|Ferrari      |80.784      |
+|P9                  |Liam Lawson    |Racing Bulls |82.124      |
+|P10                 |Nico Hülkenberg|Audi         |82.166      |
+
+
+> 🔍 Model MAE: 0.10s · 🆕 New features: BarcelonaGridPenalty, TyreDegScore
+> 🔥 Hot dry 29°C race — tyre management critical feature
+
+### ✅ Actual Race Result
+
+|Pos|Driver        |Team    |Predicted?                       |
+|---|--------------|--------|---------------------------------|
+|🥇 1|Lewis Hamilton|Ferrari |❌ Predicted P2                   |
+|🥈 2|George Russell|Mercedes|✅ Predicted P1 (one position off)|
+|🥉 3|Lando Norris  |McLaren |❌ Predicted P4                   |
+|4  |Kimi Antonelli|Mercedes|⚠️ Predicted P3                   |
+|5+ |Rest of field |—       |—                                |
+
+**Model Accuracy — Round 7:**
+
+- 🥇 Winner correct: ❌ NO — predicted Russell, Hamilton won
+- 🥈 P2 correct: ✅ YES — Russell predicted P1, finished P2 (one position off)
+- 🥉 P3 correct: ❌ NO — Norris P3 surprise, predicted P4
+- 📊 Strict podium: 1/3
+- ✅ Russell + Hamilton both in predicted top 2 — right drivers, swapped order again
+- 💡 *“The data tells a story but the race always writes its own ending”* 🧠🔥
+
+-----
+
 ## 📝 Notes on 2026 Regulations
 
 ### 🆕 Mid-Season Regulation Update — Effective from Miami GP (Round 6)
@@ -775,14 +843,14 @@ The 2026 season introduces sweeping rule changes that directly affect model assu
 - Cars are **shorter (3400mm vs 3600mm) and narrower** — more nimble with different setup flexibility
 - **Simpler wings** with fewer elements
 - Ground effect tunnels **replaced by flatter floors**
-- Different setup styles allow different driving styles — team-to-team variation is higher than ever
+- Different setup styles allow different driving styles team-to-team variation is higher than ever
 - **Safety:** Roll hoop takes 23% more load; more rigorous survival cell testing
 
 ### 💨 Aerodynamics & Overtaking — DRS is Gone
 
-- **Boost Mode** — a manual boost button usable *anywhere* on track (not just fixed DRS zones)
-- **Active Aero** — wings automatically switch between corner mode and straight mode
-- **Overtake Button** — extra electrical energy deployed when within **1 second** of the car ahead
+- **Boost Mode** a manual boost button usable *anywhere* on track (not just fixed DRS zones)
+- **Active Aero** wings automatically switch between corner mode and straight mode
+- **Overtake Button** extra electrical energy deployed when within **1 second** of the car ahead
 - Net effect: overtaking opportunity is no longer circuit-layout dependent, making grid position a weaker predictor of finishing position than in the DRS era
 
 ### ⚡ Energy Recovery System (ERS)
@@ -790,7 +858,7 @@ The 2026 season introduces sweeping rule changes that directly affect model assu
 - Can recharge the battery with **twice as much energy per lap** vs previous regs
 - Recovery happens under braking and lifting off at the end of straights
 - Drivers select recharge modes with their race engineer throughout the race
-- **Battery management is now an essential race strategy variable** — not just a bonus system
+- **Battery management is now an essential race strategy variable** not just a bonus system
 
 > These regulation changes mean early-season predictions carry higher uncertainty. The model will recalibrate as 2026 race data accumulates round by round.
 
