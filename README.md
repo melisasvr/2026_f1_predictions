@@ -1,4 +1,4 @@
-# 🏎️ F1 Predictions 2026 — Machine Learning Model
+# 🏎️ F1 Predictions 2026-Machine Learning Model
 
 > Predicting race outcomes for the 2026 Formula 1 World Championship using machine learning, FastF1 API data, and historical race results.
 
@@ -43,7 +43,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 
 *Subject to FIA circuit homologation
 
-> ⚠️ **Official Statement — F1 & FIA:** Rounds 4 (Bahrain) and 5 (Saudi Arabia) have been cancelled due to the ongoing situation in the Middle East. No replacement races will be scheduled in April. Statement by Stefano Domenicali, President & CEO of Formula 1. The 2026 season now runs **22 rounds**. Rounds completed counter updated accordingly.
+> ⚠️ **Official Statement-F1 & FIA:** Rounds 4 (Bahrain) and 5 (Saudi Arabia) have been cancelled due to the ongoing situation in the Middle East. No replacement races will be scheduled in April. Statement by Stefano Domenicali, President & CEO of Formula 1. The 2026 season now runs **22 rounds**. Rounds completed, counter updated accordingly.
 
 -----
 
