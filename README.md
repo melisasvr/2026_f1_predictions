@@ -21,8 +21,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 |R03  |🇯🇵 Japanese GP         |Suzuka             |Mar 29, 2026  |✅ Antonelli P1 1:28.778|🥇 Antonelli ✅   |Antonelli / Russell / Piastri ✅❌❌    |🥇 Antonelli 🥈 Piastri 🥉 Leclerc    |
 |R04  |🇧🇭 Bahrain GP          |Sakhir             |~Apr 12, 2026~|❌ CANCELLED            |—               |—                                    |Cancelled — Middle East situation  |
 |R05  |🇨🇦 Canadian GP         |Montreal           |May 25, 2026  |✅ Russell P1 1:12.578  |🥇 Russell ❌     |Russell / Hamilton / Verstappen ❌✅✅  |🥇 Antonelli 🥈 Hamilton 🥉 Verstappen|
-|R06  |🇺🇸 Miami GP            |Miami              |May 3, 2026   |✅ Antonelli P1 1:27.798|🥇 Verstappen ❌  |Verstappen / Antonelli / Hamilton ❌❌❌|🥇 Antonelli 🥈 Norris 🥉 Piastri     |
-|R07  |🇨🇦 Canadian GP         |Montreal           |May 24, 2026  |—                      |—               |—                                    |—                                  |
+|R06  |🇺🇸 Miami GP            |Miami              |May 3, 2026   |✅ Antonelli P1 1:27.798|🥇 Verstappen ❌  |Verstappen / Antonelli / Hamilton ❌❌❌|🥇 Antonelli 🥈 Norris 🥉 Piastri     |                                |
 |R08  |🇲🇨 Monaco GP           |Monaco             |Jun 8, 2026   |✅ Antonelli P1 1:12.051|🥇 Antonelli ✅   |Antonelli / Verstappen / Hamilton ✅❌❌|🥇 Antonelli 🥈 Hamilton 🥉 Hadjar    |
 |R09  |🇪🇸 Spanish GP          |Barcelona-Catalunya|Jun 15, 2026  |✅ Russell P1 1:14.679  |🥇 Russell ❌     |Russell / Hamilton / Antonelli ❌✅❌   |🥇 Hamilton 🥈 Russell 🥉 Norris      |
 |R10  |🇦🇹 Austrian GP         |Spielberg          |Jun 28, 2026  |—                      |—               |—                                    |—                                  |
