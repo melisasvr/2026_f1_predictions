@@ -1,4 +1,4 @@
-# 🏎️ F1 Predictions 2026 — Machine Learning Model
+# 🏎️ F1 Predictions 2026-Machine Learning Model
 
 > Predicting race outcomes for the 2026 Formula 1 World Championship using machine learning, FastF1 API data, and historical race results.
 
@@ -24,7 +24,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | R05 | 🇺🇸 Miami GP | Miami | May 3, 2026 | ✅ Antonelli P1 1:27.798 | 🥇 Verstappen ❌ | Verstappen / Antonelli / Hamilton ❌❌❌ | 🥇 Antonelli 🥈 Norris 🥉 Piastri |
 | R06 | 🇲🇨 Monaco GP | Monaco | Jun 8, 2026 | ✅ Antonelli P1 1:12.051 | 🥇 Antonelli ✅ | Antonelli / Verstappen / Hamilton ✅❌❌ | 🥇 Antonelli 🥈 Hamilton 🥉 Hadjar |
 | R07 | 🇪🇸 Spanish GP | Barcelona-Catalunya | Jun 15, 2026 | ✅ Russell P1 1:14.679 | 🥇 Russell ❌ | Russell / Hamilton / Antonelli ❌✅❌ | 🥇 Hamilton 🥈 Russell 🥉 Norris |
-| R08 | 🇦🇹 Austrian GP | Spielberg | Jun 28, 2026 | — | — | — | — |
+| R08 | 🇦🇹 Austrian GP | Spielberg | Jun 28, 2026 |✅ Russell P1 1:06.113|🥇 Russell|Russell / Hamilton / Leclerc| — |
 | R09 | 🇬🇧 British GP | Silverstone | Jul 5, 2026 | — | — | — | — |
 | R10 | 🇧🇪 Belgian GP | Spa-Francorchamps | Jul 19, 2026 | — | — | — | — |
 | R11 | 🇭🇺 Hungarian GP | Budapest | Jul 26, 2026 | — | — | — | — |
@@ -42,7 +42,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 
 *Subject to FIA circuit homologation
 
-> ⚠️ **Official Statement — F1 & FIA:** The Bahrain and Saudi Arabian Grands Prix have been cancelled due to the ongoing situation in the Middle East. No replacement races will be scheduled in April. Statement by Stefano Domenicali, President & CEO of Formula 1. The 2026 season now runs **22 rounds** — Bahrain and Saudi are not counted in the round numbering. Rounds completed counter updated accordingly.
+> ⚠️ **Official Statement F1 & FIA:** The Bahrain and Saudi Arabian Grands Prix have been cancelled due to the ongoing situation in the Middle East. No replacement races will be scheduled in April. Statement by Stefano Domenicali, President & CEO of Formula 1. The 2026 season now runs **22 rounds** — Bahrain and Saudi Arabia are not counted in the round numbering. Rounds completed, counter updated accordingly.
 
 ---
 
@@ -654,7 +654,7 @@ Maximum qualifying ERS energy reduced from **9.0 MJ → 8.0 MJ** — affects tea
 | P9 | Pierre Gasly | Alpine | 77.480 |
 | P10 | Liam Lawson | Racing Bulls | 77.828 |
 
-> 🔍 Model MAE: 0.02 seconds — best ever!
+> 🔍 Model MAE: 0.02 seconds best!
 > 🆕 New features: MonacoGridPenalty (+0.15s/position) + MonacoHistoryScore
 > 🏰 Monaco rule: qualifying order = race order. Pole is everything.
 > ⚠️ Only 0.043s between Antonelli and Verstappen — razor thin!
@@ -745,14 +745,54 @@ Maximum qualifying ERS energy reduced from **9.0 MJ → 8.0 MJ** — affects tea
 - 🥉 P3 correct: ❌ NO — Norris P3 surprise, predicted P4
 - 📊 Strict podium: 1/3
 - ✅ Russell + Hamilton both in predicted top 2 — right drivers, swapped order again
-- 💡 *"The data tells a story but the race always writes its own ending"* 🧠🔥
+- 💡 *"The data tells a story, but the race always writes its own ending"* 🧠🔥
+
+## 🗓️ Round 8 — Austrian Grand Prix
+Race Date: June 29, 2026 — Red Bull Ring, Spielberg
+### 🌡️ Weather
+| Session | Temp | Conditions | Rain |
+|---------|------|------------|------|
+| Qualifying | 33°C | ☀️ Sunny | 20% |
+| Race Day | 33°C | ☀️ Sunny | 20% |
+
+### 🕐 GP Q3 Qualifying Results
+🔥 *Hottest qualifying and race of 2026 — tyre degradation critical!*
+| Pos | Driver | Team | Time | Gap |
+|-----|--------|------|------|-----|
+| P1 | George Russell 🌟 | Mercedes | 1:06.113 | — |
+| P2 | Charles Leclerc | Ferrari | 1:06.349 | +0.236s |
+| P3 | Lewis Hamilton | Ferrari | 1:06.408 | +0.295s |
+| P4 | Kimi Antonelli | Mercedes | 1:06.414 | +0.301s |
+| P5 | Max Verstappen | Red Bull Racing | 1:06.475 | +0.362s |
+| P6 | Lando Norris | McLaren | 1:06.502 | +0.389s |
+| P7 | Oscar Piastri | McLaren | 1:06.511 | +0.398s |
+| P8 | Isack Hadjar | Red Bull Racing | 1:06.632 | +0.519s |
+| P9 | Liam Lawson | Racing Bulls | 1:06.955 | +0.842s |
+| P10 | Arvid Lindblad | Racing Bulls | 1:07.007 | +0.894s |
+
+### 🤖 Model Prediction
+| | Driver | Team | Pred Lap (s) |
+|--|--------|------|-------------|
+| 🥇 **George Russell** | Mercedes | 70.161 |
+| 🥈 **Lewis Hamilton** | Ferrari | 70.542 |
+| 🥉 **Charles Leclerc** | Ferrari | 70.658 |
+| P4 | Max Verstappen | Red Bull Racing | 70.693 |
+| P5 | Kimi Antonelli | Mercedes | 70.723 |
+| P6 | Lando Norris | McLaren | 70.952 |
+| P7 | Oscar Piastri | McLaren | 70.982 |
+| P8 | Isack Hadjar | Red Bull Racing | 71.301 |
+| P9 | Liam Lawson | Racing Bulls | 71.756 |
+| P10 | Arvid Lindblad | Racing Bulls | 71.892 |
+
+> 🔍 Model MAE: 0.03s · 🆕 New features: AustriaGridPenalty, HomeRaceBoost, CircuitScore
+> 🔥 Hot dry 33°C race — tyre degradation critical feature
 
 ---
 
 ## 📝 Notes on 2026 Regulations
 
 ### 🆕 Mid-Season Regulation Update — Effective from Miami GP (Round 6)
-*Confirmed by FIA following analysis of Australia, China and Japan*
+*Confirmed by FIA following analysis of Australia, China, and Japan*
 
 #### ⚡ Qualifying Changes
 | Change | Before | After |
