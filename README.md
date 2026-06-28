@@ -24,7 +24,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | R05 | 🇺🇸 Miami GP | Miami | May 3, 2026 | ✅ Antonelli P1 1:27.798 | 🥇 Verstappen ❌ | Verstappen / Antonelli / Hamilton ❌❌❌ | 🥇 Antonelli 🥈 Norris 🥉 Piastri |
 | R06 | 🇲🇨 Monaco GP | Monaco | Jun 8, 2026 | ✅ Antonelli P1 1:12.051 | 🥇 Antonelli ✅ | Antonelli / Verstappen / Hamilton ✅❌❌ | 🥇 Antonelli 🥈 Hamilton 🥉 Hadjar |
 | R07 | 🇪🇸 Spanish GP | Barcelona-Catalunya | Jun 15, 2026 | ✅ Russell P1 1:14.679 | 🥇 Russell ❌ | Russell / Hamilton / Antonelli ❌✅❌ | 🥇 Hamilton 🥈 Russell 🥉 Norris |
-| R08 | 🇦🇹 Austrian GP | Spielberg | Jun 28, 2026 |✅ Russell P1 1:06.113|🥇 Russell|Russell / Hamilton / Leclerc| — |
+| R08 | 🇦🇹 Austrian GP | Spielberg | Jun 28, 2026 |✅ Russell P1 1:06.113|🥇 Russell|Russell✅ / Hamilton❌ / Leclerc❌| 🥇Russell,🥈Verstappen, 🥉Antonelli|
 | R09 | 🇬🇧 British GP | Silverstone | Jul 5, 2026 | — | — | — | — |
 | R10 | 🇧🇪 Belgian GP | Spa-Francorchamps | Jul 19, 2026 | — | — | — | — |
 | R11 | 🇭🇺 Hungarian GP | Budapest | Jul 26, 2026 | — | — | — | — |
@@ -747,8 +747,8 @@ Maximum qualifying ERS energy reduced from **9.0 MJ → 8.0 MJ** — affects tea
 - ✅ Russell + Hamilton both in predicted top 2 — right drivers, swapped order again
 - 💡 *"The data tells a story, but the race always writes its own ending"* 🧠🔥
 
-## 🗓️ Round 8 — Austrian Grand Prix
-Race Date: June 29, 2026 — Red Bull Ring, Spielberg
+## 🗓️ Round 8 — 🇦🇹 Austrian Grand Prix
+Race Date: June 29, 2026 — Red Bull Ring, Spielberg 
 ### 🌡️ Weather
 | Session | Temp | Conditions | Rain |
 |---------|------|------------|------|
@@ -756,7 +756,9 @@ Race Date: June 29, 2026 — Red Bull Ring, Spielberg
 | Race Day | 33°C | ☀️ Sunny | 20% |
 
 ### 🕐 GP Q3 Qualifying Results
+🌟 Russell pole — 2nd consecutive!
 🔥 *Hottest qualifying and race of 2026 — tyre degradation critical!*
+
 | Pos | Driver | Team | Time | Gap |
 |-----|--------|------|------|-----|
 | P1 | George Russell 🌟 | Mercedes | 1:06.113 | — |
@@ -784,8 +786,22 @@ Race Date: June 29, 2026 — Red Bull Ring, Spielberg
 | P9 | Liam Lawson | Racing Bulls | 71.756 |
 | P10 | Arvid Lindblad | Racing Bulls | 71.892 |
 
-> 🔍 Model MAE: 0.03s · 🆕 New features: AustriaGridPenalty, HomeRaceBoost, CircuitScore
-> 🔥 Hot dry 33°C race — tyre degradation critical feature
+✅ Actual Race Result
+|Pos|Driver        |Team         |Gap        |Predicted?    |
+|---|--------------|-------------|-----------|--------------|
+|🥇 1|George Russell|Mercedes     |1:26:37.979|✅ Correct!    |
+|🥈 2|Max Verstappen|Red Bull Ford|+1.611s    |❌ Predicted P5|
+|🥉 3|Kimi Antonelli|Mercedes     |+1.986s    |⚠️ Predicted P4|
+|4  |Oscar Piastri |McLaren      |+21.809s   |—             |
+|5  |Lewis Hamilton|Ferrari      |+26.393s   |—             |
+Model Accuracy — Round 8:
+	•	🥇 Winner correct: ✅ YES — Russell pole to win!
+	•	🥈 P2 correct: ❌ NO — Verstappen P2 from P5 — home race magic
+	•	🥉 P3 correct: ❌ NO — Antonelli P3, predicted P4 — one position off
+	•	📊 Strict podium: 1/3
+	•	✅ Russell correct + Antonelli in top 4 — right drivers identified
+	•	🔵 HomeRaceBoost for Verstappen directionally correct — he gained 3 places!
+
 
 ---
 
