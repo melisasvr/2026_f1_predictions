@@ -25,7 +25,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | R06 | 🇲🇨 Monaco GP | Monaco | Jun 8, 2026 | ✅ Antonelli P1 1:12.051 | 🥇 Antonelli ✅ | Antonelli / Verstappen / Hamilton ✅❌❌ | 🥇 Antonelli 🥈 Hamilton 🥉 Hadjar |
 | R07 | 🇪🇸 Spanish GP | Barcelona-Catalunya | Jun 15, 2026 | ✅ Russell P1 1:14.679 | 🥇 Russell ❌ | Russell / Hamilton / Antonelli ❌✅❌ | 🥇 Hamilton 🥈 Russell 🥉 Norris |
 | R08 | 🇦🇹 Austrian GP | Spielberg | Jun 28, 2026 |✅ Russell P1 1:06.113|🥇 Russell|Russell✅ / Hamilton❌ / Leclerc❌| 🥇Russell,🥈Verstappen, 🥉Antonelli|
-| R09 | 🇬🇧 British GP | Silverstone | Jul 5, 2026 | — | — | — | — |
+| R09 | 🇬🇧 British GP | Silverstone | Jul 5, 2026 | Antonelli P1 1:28.111 |🥇 Antonelli|🥈 Hamilton|🥉Leclerc|
 | R10 | 🇧🇪 Belgian GP | Spa-Francorchamps | Jul 19, 2026 | — | — | — | — |
 | R11 | 🇭🇺 Hungarian GP | Budapest | Jul 26, 2026 | — | — | — | — |
 | R12 | 🇳🇱 Dutch GP | Zandvoort | Aug 23, 2026 | — | — | — | — |
@@ -42,7 +42,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 
 *Subject to FIA circuit homologation
 
-> ⚠️ **Official Statement F1 & FIA:** The Bahrain and Saudi Arabian Grands Prix have been cancelled due to the ongoing situation in the Middle East. No replacement races will be scheduled in April. Statement by Stefano Domenicali, President & CEO of Formula 1. The 2026 season now runs **22 rounds** — Bahrain and Saudi Arabia are not counted in the round numbering. Rounds completed, counter updated accordingly.
+> ⚠️ **Official Statement F1 & FIA:** The Bahrain and Saudi Arabian Grands Prix have been cancelled due to the ongoing situation in the Middle East. No replacement races will be scheduled in April. Statement by Stefano Domenicali, President & CEO of Formula 1. The 2026 season now runs **22 rounds** — Bahrain and Saudi Arabia are not counted in the round numbering. Rounds completed; counter updated accordingly.
 
 ---
 
@@ -654,7 +654,7 @@ Maximum qualifying ERS energy reduced from **9.0 MJ → 8.0 MJ** — affects tea
 | P9 | Pierre Gasly | Alpine | 77.480 |
 | P10 | Liam Lawson | Racing Bulls | 77.828 |
 
-> 🔍 Model MAE: 0.02 seconds best!
+> 🔍 Model MAE: 0.02 seconds is best!
 > 🆕 New features: MonacoGridPenalty (+0.15s/position) + MonacoHistoryScore
 > 🏰 Monaco rule: qualifying order = race order. Pole is everything.
 > ⚠️ Only 0.043s between Antonelli and Verstappen — razor thin!
@@ -675,13 +675,13 @@ Maximum qualifying ERS energy reduced from **9.0 MJ → 8.0 MJ** — affects tea
 | 10 | Sergio Pérez | Cadillac | +39.153s | — |
 
 **Model Accuracy — Round 6:**
-- 🥇 Winner correct: ✅ YES — Antonelli predicted P1, finished P1
+- 🥇 Winner correct: ✅ YES, Antonelli predicted P1, finished P1
 - 🥈 P2 correct: ✅ Antonelli + Hamilton both correctly predicted in top 3 — only order differed
-- 🥉 P3 correct: ❌ Hadjar surprise P3 — not predicted (Verstappen DNF)
+- 🥉 P3 correct: ❌ Hadjar surprise P3 not predicted (Verstappen DNF)
 - 📊 Strict podium: 1/3 · Fair assessment: 2/3 correct drivers identified ✅
-- ✅ Antonelli P1 exact ✅ Hamilton predicted P3 finished P2 — one position off
-- 😱 Verstappen DNF — removed from race result entirely, unpredictable
-- 🌟 Hadjar P3 — best result of 2026 for Red Bull Ford's junior driver
+- ✅ Antonelli P1 exact ✅ Hamilton predicted P3 finished P2 one position off
+- 😱 Verstappen DNF removed from the race result entirely, unpredictable
+- 🌟 Hadjar P3 is the best result of 2026 for Red Bull Ford's junior driver
 
 ---
 
@@ -740,11 +740,11 @@ Maximum qualifying ERS energy reduced from **9.0 MJ → 8.0 MJ** — affects tea
 | 5+ | Rest of field | — | — |
 
 **Model Accuracy — Round 7:**
-- 🥇 Winner correct: ❌ NO — predicted Russell, Hamilton won
-- 🥈 P2 correct: ✅ YES — Russell predicted P1, finished P2 (one position off)
-- 🥉 P3 correct: ❌ NO — Norris P3 surprise, predicted P4
+- 🥇 Winner correct: ❌ NO predicted Russell, Hamilton won
+- 🥈 P2 correct: ✅ YES  Russell predicted P1, finished P2 (one position off)
+- 🥉 P3 correct: ❌ NO  Norris P3 surprise, predicted P4
 - 📊 Strict podium: 1/3
-- ✅ Russell + Hamilton both in predicted top 2 — right drivers, swapped order again
+- ✅ Russell + Hamilton both in predicted top 2 right drivers, swapped order again
 - 💡 *"The data tells a story, but the race always writes its own ending"* 🧠🔥
 
 ## 🗓️ Round 8 — 🇦🇹 Austrian Grand Prix
@@ -757,7 +757,7 @@ Race Date: June 29, 2026 — Red Bull Ring, Spielberg
 
 ### 🕐 GP Q3 Qualifying Results
 🌟 Russell pole — 2nd consecutive!
-🔥 *Hottest qualifying and race of 2026 — tyre degradation critical!*
+🔥 *Hottest qualifying and race of 2026: tyre degradation critical!*
 
 | Pos | Driver | Team | Time | Gap |
 |-----|--------|------|------|-----|
@@ -795,12 +795,74 @@ Race Date: June 29, 2026 — Red Bull Ring, Spielberg
 |4  |Oscar Piastri |McLaren      |+21.809s   |—             |
 |5  |Lewis Hamilton|Ferrari      |+26.393s   |—             |
 Model Accuracy — Round 8:
-	•	🥇 Winner correct: ✅ YES — Russell pole to win!
-	•	🥈 P2 correct: ❌ NO — Verstappen P2 from P5 — home race magic
-	•	🥉 P3 correct: ❌ NO — Antonelli P3, predicted P4 — one position off
+	•	🥇 Winner correct: ✅ YES, Russell pole to win!
+	•	🥈 P2 correct: ❌ NO Verstappen P2 from P5 home race magic
+	•	🥉 P3 correct: ❌ NO Antonelli P3, predicted P4 one position off
 	•	📊 Strict podium: 1/3
-	•	✅ Russell correct + Antonelli in top 4 — right drivers identified
-	•	🔵 HomeRaceBoost for Verstappen directionally correct — he gained 3 places!
+	•	✅ Russell correct + Antonelli in top 4 right drivers identified
+	•	🔵 HomeRaceBoost for Verstappen was directionally correct; he gained 3 places!
+
+## 🗓️ Round 9 — 🇬🇧 British Grand Prix
+
+Race Date: July 5, 2026-Silverstone Circuit
+
+### 🌡️ Weather
+| Session | Temp | Conditions | Rain |
+|---------|------|------------|------|
+|Sprint | 25°C | ⛅ Partly Cloudy | ~0% |
+|Sprint + GP Qualifying | 25°C | ⛅ Partly Cloudy | ~0% |
+| Race Day | 26°C |☁️ Cloudy| 15% |
+
+### 🏆 Sprint Race Result
+| Pos | Driver | Team| 
+|-----|--------|------|
+| P1 | Kimi Antonelli | Mercedes|
+| P2 | Lewis Hamilton | Ferrari |
+| P3 | Lando Norris | McLaren | 
+| P4 | George Russell | Mercedes |
+| P5 | Charles Leclerc | Ferrari| 
+| P6 | Max Verstappen |Red Bull Racing | 
+| P7 | Oscar Piastri | McLaren | 1:06.511 | +0.398s |
+| P8 | Liam Lawson | Racing Bulls |
+| P9 | Isack Hadjar | Red Bull Racing |
+| P10 | Arvid Lindblad | Racing Bulls | 
+
+### 🕐 GP Q3 Qualifying Results
+- 🌟 Antonelli's 5th pole in 9 races! Sprint winner + pole!
+- 🏠 Hamilton P3 at his home race, Silverstone crowd electric
+
+| Pos | Driver | Team | Time | Gap |
+|-----|--------|------|------|-----|
+| P1 | Kimi Antonelli 🌟 | Mercedes | 1:28.11 | — |
+| P2 | Charles Leclerc | Ferrari | +0.175s | — |
+| P3 | Lewis Hamilton | Ferrari | +0.347s | — |
+| P4 | George Russell | Mercedes | +0.370s | — |
+| P5 | Isack Hadjar | Red Bull Racing | +0.635s| — |
+| P6 | Lando Norris |McLaren | +0.766s | — |
+| P7 | Max Verstappen |Red Bull Racing |+0.782s| — |
+| P8 | Oscar Piastri | McLaren | +0.921s | — |
+| P9 | Arvid Lindblad| Racing Bulls |+1.194s| — |
+| P10 | Liam Lawson | Racing Bulls |+1.605s| — |
+
+### 🤖 Model Prediction
+| | Driver | Team | Pred Lap (s) |
+|--|--------|------|-------------|
+| 🥇 **Kimi Antonelli** | Mercedes | 93.899 |
+| 🥈 **Lewis Hamilton** | Ferrari | 94.142 |
+| 🥉 **Charles Leclerc** | Ferrari | 94.312 |
+| P4 | George Rusell | Mercedes | 94.313 |
+| P5 | Isack Hadjar | Red Bull Racing  | 94.852 |
+| P6 | Lando Norris | McLaren | 94.888|
+| P7 | Max Verstappen | Red Bull Ford  | 94.902 |
+| P8 | Oscar Piastri | McLaren | 95.171 |
+| P9 | Arvid Lindblad | Racing Bulls | 95.625 |
+| P10 | Liam Lawson | Racing Bulls | 96.075 |
+
+>🔍 Model MAE: 0.06s · Sprint winner: Antonelli · 8 rounds CircuitScore data
+>🏠 HomeRaceBoost: Hamilton (1.5x) + Norris (1.0x)
+>🔋 7MJ ERS limit · ⚡ +150kW boost cap
+>✅ Actual Result
+- To be updated after the race on July 5, 2026	
 
 
 ---
