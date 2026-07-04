@@ -861,7 +861,7 @@ Race Date: July 5, 2026-Silverstone Circuit
 >🔍 Model MAE: 0.06s · Sprint winner: Antonelli · 8 rounds CircuitScore data
 >🏠 HomeRaceBoost: Hamilton (1.5x) + Norris (1.0x)
 >🔋 7MJ ERS limit · ⚡ +150kW boost cap
->✅ Actual Result
+✅ Actual Result
 - To be updated after the race on July 5, 2026	
 
 
