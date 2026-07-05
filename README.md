@@ -25,7 +25,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | R06 | 🇲🇨 Monaco GP | Monaco | Jun 8, 2026 | ✅ Antonelli P1 1:12.051 | 🥇 Antonelli ✅ | Antonelli / Verstappen / Hamilton ✅❌❌ | 🥇 Antonelli 🥈 Hamilton 🥉 Hadjar |
 | R07 | 🇪🇸 Spanish GP | Barcelona-Catalunya | Jun 15, 2026 | ✅ Russell P1 1:14.679 | 🥇 Russell ❌ | Russell / Hamilton / Antonelli ❌✅❌ | 🥇 Hamilton 🥈 Russell 🥉 Norris |
 | R08 | 🇦🇹 Austrian GP | Spielberg | Jun 28, 2026 |✅ Russell P1 1:06.113|🥇 Russell|Russell✅ / Hamilton❌ / Leclerc❌| 🥇Russell,🥈Verstappen, 🥉Antonelli|
-| R09 | 🇬🇧 British GP | Silverstone | Jul 5, 2026 | Antonelli P1 1:28.111 |🥇 Antonelli|🥈 Hamilton|🥉Leclerc|
+| R09 | 🇬🇧 British GP | Silverstone | Jul 5, 2026 | Antonelli P1 1:28.111 |🥇 Antonelli ❌ |Antonelli / Hamilton / Leclerc ❌✅✅|🥇Leclerc 🥈Rusell 🥉Hamilton |
 | R10 | 🇧🇪 Belgian GP | Spa-Francorchamps | Jul 19, 2026 | — | — | — | — |
 | R11 | 🇭🇺 Hungarian GP | Budapest | Jul 26, 2026 | — | — | — | — |
 | R12 | 🇳🇱 Dutch GP | Zandvoort | Aug 23, 2026 | — | — | — | — |
@@ -861,8 +861,29 @@ Race Date: July 5, 2026-Silverstone Circuit
 >🔍 Model MAE: 0.06s · Sprint winner: Antonelli · 8 rounds CircuitScore data
 >🏠 HomeRaceBoost: Hamilton (1.5x) + Norris (1.0x)
 >🔋 7MJ ERS limit · ⚡ +150kW boost cap
-✅ Actual Result
-- To be updated after the race on July 5, 2026	
+
+### ✅ Actual Race Result
+| Pos | Driver | Team | Gap | Predicted? |
+|-----|--------|------|-----|-----------|
+| 🥇 1 | Charles Leclerc | Ferrari | LEADER | ✅ In predicted podium (P3) |
+| 🥈 2 | George Russell | Mercedes | +0.427s | ⚠️ Predicted P4 one off |
+| 🥉 3 | Lewis Hamilton | Ferrari | +0.772s | ✅ In predicted podium (P2) |
+| 4 | Lando Norris | McLaren | +1.149s | — |
+| 5 | Isack Hadjar | Red Bull Ford | +1.598s | — |
+| 6 | Liam Lawson | Racing Bulls | +2.023s | — |
+| 7 | Arvid Lindblad | Racing Bulls | +2.214s | — |
+| 8 | Gabriel Bortoleto | Audi | +2.413s | — |
+| 9 | Franco Colapinto | Alpine | +3.229s | — |
+| 10 | Pierre Gasly | Alpine | +3.445s | — |
+| P16 | Kimi Antonelli | Mercedes | DNF — car failure | Predicted P1 |
+
+**Model Accuracy — Round 9:**
+- 🥇 Winner correct: ❌ NO Antonelli DNF (car failure) unpredictable
+- ✅ Leclerc + Hamilton BOTH correctly identified in top 3 right drivers, wrong order
+- ✅ All 3 predicted drivers finished in the top 3 (excl. Antonelli DNF)
+- 📊 Strict podium: 0/3 · Fair assessment: 2/3 correct drivers ✅✅
+- 💡 Lesson: Russell is also British; HomeRaceBoost should include him from R10!
+- 😱 Antonelli P16 car failure from pole 2nd DNF of season (Canada also DNF)
 
 
 ---
