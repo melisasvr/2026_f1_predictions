@@ -26,7 +26,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | R07 | 🇪🇸 Spanish GP | Barcelona-Catalunya | Jun 15, 2026 | ✅ Russell P1 1:14.679 | 🥇 Russell ❌ | Russell / Hamilton / Antonelli ❌✅❌ | 🥇 Hamilton 🥈 Russell 🥉 Norris |
 | R08 | 🇦🇹 Austrian GP | Spielberg | Jun 28, 2026 |✅ Russell P1 1:06.113|🥇 Russell|Russell✅ / Hamilton❌ / Leclerc❌| 🥇Russell,🥈Verstappen, 🥉Antonelli|
 | R09 | 🇬🇧 British GP | Silverstone | Jul 5, 2026 | Antonelli P1 1:28.111 |🥇 Antonelli ❌ |Antonelli / Hamilton / Leclerc ❌✅✅|🥇Leclerc 🥈Rusell 🥉Hamilton |
-| R10 | 🇧🇪 Belgian GP | Spa-Francorchamps | Jul 19, 2026 | — | — | — | — |
+| R10 | 🇧🇪 Belgian GP | Spa-Francorchamps | Jul 19, 2026 |Antonelli P1 1:24:42.479 |🥇 Antonelli ✅ |Antonelli, Verstappen, Russell ✅✅❌|🥇Antonelli, 🥈Leclerc, 🥉Verstappen  |
 | R11 | 🇭🇺 Hungarian GP | Budapest | Jul 26, 2026 | — | — | — | — |
 | R12 | 🇳🇱 Dutch GP | Zandvoort | Aug 23, 2026 | — | — | — | — |
 | R13 | 🇮🇹 Italian GP | Monza | Sep 6, 2026 | — | — | — | — |
@@ -884,7 +884,70 @@ Race Date: July 5, 2026-Silverstone Circuit
 - 📊 Strict podium: 0/3 · Fair assessment: 2/3 correct drivers ✅✅
 - 💡 Lesson: Russell is also British; HomeRaceBoost should include him from R10!
 - 😱 Antonelli P16 car failure from pole 2nd DNF of season (Canada also DNF)
+---
 
+## 🗓️ Round 10-🇧🇪 Belgian Grand Prix
+ 
+**Race Date: July 19, 2026-Spa-Francorchamps**
+ 
+### 🌡️ Weather
+| Session | Temp | Conditions | Rain | Wind | Humidity |
+|---------|------|------------|------|------|----------|
+| Friday FP | 25°C | 🌧️ Rainy | 60% | 5 km/h | 79% |
+| Saturday Qualifying | 23°C | ☁️ Cloudy | 30% | 16 km/h | 78% |
+| Sunday Race | 20°C | ⛅ Sunny/Cloudy | 20% | 18 km/h | 70% |
+ 
+### 🕐 GP Q3 Qualifying Results
+🌟 *Antonelli 7th pole in 10 races! Unstoppable!*
+ 
+| Pos | Driver | Team | Time | Gap |
+|-----|--------|------|------|-----|
+| P1 | Kimi Antonelli 🌟 | Mercedes | 1:44.361 | — |
+| P2 | Max Verstappen | Red Bull Ford | 1:44.678 | +0.317s |
+| P3 | Lando Norris | McLaren | 1:44.801 | +0.440s |
+| P4 | George Russell | Mercedes | 1:44.869 | +0.508s |
+| P5 | Charles Leclerc | Ferrari | 1:44.893 | +0.532s |
+| P6 | Lewis Hamilton | Ferrari | 1:44.895 | +0.534s |
+| P7 | Oscar Piastri | McLaren | 1:45.016 | +0.655s |
+| P8 | Arvid Lindblad | Racing Bulls | 1:45.143 | +0.782s |
+| P9 | Gabriel Bortoleto | Audi | 1:45.628 | +1.267s |
+| P10 | Isack Hadjar | Red Bull Ford | 1:45.823 | +1.462s |
+ 
+### 🤖 Model Prediction
+ 
+| | Driver | Team | Pred Lap (s) |
+|--|--------|------|-------------|
+| 🥇 **Kimi Antonelli** | Mercedes | 111.216 |
+| 🥈 **Max Verstappen** | Red Bull Ford | 111.478 |
+| 🥉 **George Russell** | Mercedes | 111.748 |
+| P4 | Lewis Hamilton | Ferrari | 111.793 |
+| P5 | Lando Norris | McLaren | 111.834 |
+| P6 | Charles Leclerc | Ferrari | 111.980 |
+ 
+> 🔍 New features: ColdTyreScore (20°C coldest race), SpaWetHistory
+> 🔋 ERS 7MJ most impactful on longest circuit of calendar
+ 
+### ✅ Actual Race Result
+ 
+| Pos | Driver | Team | Gap | Predicted? |
+|-----|--------|------|-----|-----------|
+| 🥇 1 | Kimi Antonelli | Mercedes | 1:24:42.479 | ✅ Correct! |
+| 🥈 2 | Charles Leclerc | Ferrari | +1.952s | ⚠️ Predicted P6 |
+| 🥉 3 | Max Verstappen | Red Bull Ford | +11.586s | ✅ Predicted P2 |
+| 4 | Lewis Hamilton | Ferrari | +17.245s | — |
+| 5 | Oscar Piastri | McLaren | +18.988s | — |
+| 6 | Isack Hadjar | Red Bull Ford | +23.307s | — |
+| 7 | Lando Norris | McLaren | +24.014s | — |
+| 8 | Gabriel Bortoleto | Audi | +49.140s | — |
+| 9 | Arvid Lindblad | Racing Bulls | +50.406s | — |
+| 10 | Franco Colapinto | Alpine | +76.037s | — |
+ 
+**Model Accuracy — Round 10:**
+- 🥇 Winner correct: ✅ YES Antonelli wins again! 6 wins in 10 races
+- 🥈 P2 correct: ❌ NO Leclerc P2, predicted P6 big jump!
+- 🥉 P3 correct: ✅ YES Verstappen predicted P2, finished P3 correct driver!
+- 📊 Strict: 1/3 · Fair: Antonelli ✅ Verstappen ✅ 2 correct drivers
+- 🌟 Antonelli: 10 races, 6 wins; one of the greatest debut seasons in F1 history
 
 ---
 
