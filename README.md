@@ -27,7 +27,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | R08 | 🇦🇹 Austrian GP | Spielberg | Jun 28, 2026 |✅ Russell P1 1:06.113|🥇 Russell|Russell✅ / Hamilton❌ / Leclerc❌| 🥇Russell,🥈Verstappen, 🥉Antonelli|
 | R09 | 🇬🇧 British GP | Silverstone | Jul 5, 2026 | Antonelli P1 1:28.111 |🥇 Antonelli ❌ |Antonelli / Hamilton / Leclerc ❌✅✅|🥇Leclerc 🥈Rusell 🥉Hamilton |
 | R10 | 🇧🇪 Belgian GP | Spa-Francorchamps | Jul 19, 2026 |Antonelli P1 1:24:42.479 |🥇 Antonelli ✅ |Antonelli, Verstappen, Russell ✅✅❌|🥇Antonelli, 🥈Leclerc, 🥉Verstappen  |
-| R11 | 🇭🇺 Hungarian GP | Budapest | Jul 26, 2026 | — | — | — | — |
+| R11 | 🇭🇺 Hungarian GP | Budapest | Jul 26, 2026 | Norris P1: 1:17.207 |🥇 Norris |Norris / Hamilton / Leclerc |— |
 | R12 | 🇳🇱 Dutch GP | Zandvoort | Aug 23, 2026 | — | — | — | — |
 | R13 | 🇮🇹 Italian GP | Monza | Sep 6, 2026 | — | — | — | — |
 | R14 | 🇪🇸 Spanish GP (Madrid)* | Madrid | Sep 13, 2026 | — | — | — | — |
@@ -950,6 +950,49 @@ Race Date: July 5, 2026-Silverstone Circuit
 - 🌟 Antonelli: 10 races, 6 wins; one of the greatest debut seasons in F1 history
 
 ---
+## 🗓️ Round 11-🇭🇺 2026 Hungarian Grand Prix 
+**Race Date: July 26, 2026-Hungaroring**
+
+### 🌡️ Weather
+| Session | Temp | Conditions | Rain | Wind | Humidity |
+|---------|------|------------|------|------|----------|
+| Friday FP | 25°C |⛅ Sunshine/Cloudy | 5% | 8 km/h | 29% |
+| Saturday Qualifying |29°C |☀️ Sunshine| 5% | 8 km/h | 29% |
+| Sunday Race |	30°C | ⛅ Sunshine/Cloudy | 20% | 19km/h | 38% |
+
+
+### 🕐 GP Q3 Qualifying Results
+ 
+| Pos | Driver | Team | Time | Gap |
+|-----|--------|------|------|-----|
+| P1 | 	Lando Norris 🌟 | McLaren | 1:17.207 | — |
+| P2 | 	Lewis Hamilton | Ferrari | 1:17.219 | +0.012s |
+| P3 |  Charles Leclerc | Ferrari | 1:17.445 | +0.238s |
+| P4 | 	Kimi Antonelli | Mercedes | 1:17.479 | 	+0.272s |
+| P5 | Oscar Piastri | McLaren | 1:17.684 | +0.477s |
+| P6 | 	Max Verstappen | Red Bull Ford | 1:17.725 | +0.518s |
+| P7 | George Russell | Mercedes|1:17.760 | —|
+| P8 | 	Isack Hadjar | Red Bull Ford | 1:17.856  | +0.649s |
+| P9 | Arvid Lindblad | Racing Bulls | 1:18.281 | +1.074s |
+| P10 | Nico Hülkenberg| Audi | 1:18.686 |+1.479s |
+
+
+ ### 🤖 Model Prediction
+ 
+| | Driver | Team | Pred Lap (s) |
+|--|--------|------|-------------|
+| 🥇 **Lando Norris** | McLearn | 82.282 |
+| 🥈 **Lewis Hamilton** | Ferrari | 82.429 |
+| 🥉 **Charles Leclerc** | Ferrari| 82.683 |
+| P4 | Kimi Antonelli | Mercedes | 82.818 |
+| P5 | Oscar Piastri | McLaren | 83.024 |
+| P6 | Max Verstappen |Red Bull Racing | 83.135 |
+ 
+> 🔋 ERS 7MJ most impactful on longest circuit of calendar
+> 🟠  Pole: Norris Antonelli streak ends at 7!
+> 🔴  Ferrari P2+P3 Hamilton only 0.012s off pole!
+
+
 
 ## 📝 Notes on 2026 Regulations
 
