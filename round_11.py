@@ -18,7 +18,7 @@
             + Norris pole — Antonelli streak broken at 7!
             + Hungary2025Score — 2025 race result at Budapest
             + McLaren 1-2 in 2025 Hungary — strong signal
-            + Ferrari P2+P3 — Hamilton razor close to Norris
+            + Ferrari P2+P5 — Hamilton penalized to P5!
             + Russell no time set in Q3 — starts P7
             + HungaryGridPenalty — very hard to overtake
             + 10 rounds of 2026 CircuitScore data
@@ -58,7 +58,7 @@ print(f"🌧️  Rain: {int(RAIN_PROBABILITY*100)}% — essentially dry")
 # ══════════════════════════════════════════════════════════
 # 2. 2026 Q3 QUALIFYING DATA
 #    Norris POLE — Antonelli streak ends at 7! 🟠
-#    Ferrari P2+P3 — Hamilton only 0.012s behind!
+#    Hamilton penalized to P5 — Leclerc promoted to P2! 🔴
 #    Russell P7 — no time set (deleted lap)
 # ══════════════════════════════════════════════════════════
 POLE_TIME = 77.207  # Norris 1:17.207
@@ -76,7 +76,7 @@ qualifying_2026 = pd.DataFrame({
         "Arvid Lindblad",
         "Nico Hulkenberg",
     ],
-    "GridPosition": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "GridPosition": [1, 5, 2, 3, 4, 6, 7, 8, 9, 10], # UPDATED: Hamilton +3 grid penalty
     "QualifyingTime (s)": [
         77.207,   # 1:17.207 — Norris POLE 🌟
         77.219,   # +0.012s  — Hamilton
@@ -435,7 +435,7 @@ print(f"  🔥  30°C — hot race, tyre management key")
 print(f"  🌧️  Rain: {int(RAIN_PROBABILITY*100)}% — essentially dry")
 print(f"  🔋  ERS: 7MJ  |  ⚡ Boost cap: +150kW")
 print(f"  🟠  Pole: Norris — Antonelli streak ends at 7!")
-print(f"  🔴  Ferrari P2+P3 — Hamilton only 0.012s off pole!\n")
+print(f"  🔴  Hamilton drops to P5 (3-place grid penalty)!\n")
 
 # ══════════════════════════════════════════════════════════
 # 20. VISUALISATIONS
@@ -615,7 +615,7 @@ fig.text(
     f"🌧️ Rain: {int(RAIN_PROBABILITY*100)}%  |  "
     f"🔋 ERS: 7MJ  |  "
     f"🟠 Pole: Norris (streak broken!)  |  "
-    f"🔴 HAM only 0.012s off pole",
+    f"🔴 HAM dropped to P5 due to impeding penalty",
     ha="center", fontsize=7.5, color="#888888", fontfamily=FONT
 )
 
