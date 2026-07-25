@@ -982,14 +982,14 @@ Race Date: July 5, 2026-Silverstone Circuit
 | | Driver | Team | Pred Lap (s) |
 |--|--------|------|-------------|
 | 🥇 **Lando Norris** | McLearn | 82.282 |
-| 🥈 **Lewis Hamilton** | Ferrari | 82.429 |
-| 🥉 **Charles Leclerc** | Ferrari| 82.683 |
-| P4 | Kimi Antonelli | Mercedes | 82.818 |
-| P5 | Oscar Piastri | McLaren | 83.024 |
+| 🥈 **Charles Leclerc** | Ferrari | 82.625 |
+| 🥉 **Charles Leclerc** | Ferrari| 82.689 |
+| P4 | Kimi Antonelli | Mercedes | 82.760 |
+| P5 | Oscar Piastri | McLaren | 82.966 |
 | P6 | Max Verstappen |Red Bull Racing | 83.135 |
  
-> 🔋 ERS 7MJ most impactful on longest circuit of calendar
-> 🟠  Pole: Norris Antonelli streak ends at 7!
+> 🔋 ERS 7MJ most impactful on the longest circuit of calendar
+> 🟠  Pole: Norris-Antonelli streak ends at 7!
 > 🔴  Ferrari P2+P3 Hamilton only 0.012s off pole!
 
 
