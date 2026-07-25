@@ -950,7 +950,7 @@ Race Date: July 5, 2026-Silverstone Circuit
 - 🌟 Antonelli: 10 races, 6 wins; one of the greatest debut seasons in F1 history
 
 ---
-## 🗓️ Round 11-🇭🇺 2026 Hungarian Grand Prix 
+## 🗓️ Round 11- 🇭🇺 2026 Hungarian Grand Prix 
 **Race Date: July 26, 2026-Hungaroring**
 
 ### 🌡️ Weather
@@ -962,6 +962,8 @@ Race Date: July 5, 2026-Silverstone Circuit
 
 
 ### 🕐 GP Q3 Qualifying Results
+🟠 *Norris POLE Antonelli's 7-race pole streak ends!*
+🔴 *Hamilton only 0.012s off pole razor thin!*
  
 | Pos | Driver | Team | Time | Gap |
 |-----|--------|------|------|-----|
@@ -976,7 +978,30 @@ Race Date: July 5, 2026-Silverstone Circuit
 | P9 | Arvid Lindblad | Racing Bulls | 1:18.281 | +1.074s |
 | P10 | Nico Hülkenberg| Audi | 1:18.686 |+1.479s |
 
+### ⚠️ Post-Qualifying Penalties — Final Starting Grid
 
+| Penalty | Driver | Reason | Grid Change |
+|---------|--------|--------|-------------|
+| ⬇️ -3 places | Lewis Hamilton | Impeding Oscar Piastri in qualifying | P2 → P3 |
+| ⬇️ -3 places | Kimi Antonelli | Failed to slow under yellow flags in Q3 | P4 → P7 |
+
+
+**Final Starting Grid:**
+| Pos | Driver | Team |
+|-----|--------|------|
+| P1 | Lando Norris | McLaren |
+| P2 | Charles Leclerc | Ferrari |
+| P3 | Lewis Hamilton | Ferrari |
+| P4 | Oscar Piastri | McLaren |
+| P5 | Max Verstappen | Red Bull Ford |
+| P6 | Isack Hadjar | Red Bull Ford |
+| P7 | Kimi Antonelli | Mercedes ⬇️ |
+| P8 | George Russell | Mercedes |
+| P9 | Arvid Lindblad | Racing Bulls |
+| P10 | Nico Hülkenberg | Audi |
+
+> ⚠️ Note: Model prediction uses post-Hamilton penalty grid (Leclerc P2, Hamilton P3)
+> Antonelli P7 penalty noted but not applied to code mentioned for context only
  ### 🤖 Model Prediction
  
 | | Driver | Team | Pred Lap (s) |
@@ -987,10 +1012,8 @@ Race Date: July 5, 2026-Silverstone Circuit
 | P4 | Kimi Antonelli | Mercedes | 82.760 |
 | P5 | Oscar Piastri | McLaren | 82.966 |
 | P6 | Max Verstappen |Red Bull Racing | 83.135 |
- 
-> 🔋 ERS 7MJ most impactful on the longest circuit of calendar
-> 🟠  Pole: Norris-Antonelli streak ends at 7!
-> 🔴  Ferrari P2+P3 Hamilton only 0.012s off pole!
+> 🔍 New feature: Hungary2025Score (Norris won, Piastri P2, Russell P3 in 2025)
+> 🏁 HungaryGridPenalty: 0.13s/pos 2nd hardest to overtake after Monaco
 
 
 
