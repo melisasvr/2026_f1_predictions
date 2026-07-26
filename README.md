@@ -26,23 +26,25 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | R07 | 🇪🇸 Spanish GP | Barcelona-Catalunya | Jun 15, 2026 | ✅ Russell P1 1:14.679 | 🥇 Russell ❌ | Russell / Hamilton / Antonelli ❌✅❌ | 🥇 Hamilton 🥈 Russell 🥉 Norris |
 | R08 | 🇦🇹 Austrian GP | Spielberg | Jun 28, 2026 |✅ Russell P1 1:06.113|🥇 Russell|Russell✅ / Hamilton❌ / Leclerc❌| 🥇Russell,🥈Verstappen, 🥉Antonelli|
 | R09 | 🇬🇧 British GP | Silverstone | Jul 5, 2026 | Antonelli P1 1:28.111 |🥇 Antonelli ❌ |Antonelli / Hamilton / Leclerc ❌✅✅|🥇Leclerc 🥈Rusell 🥉Hamilton |
-| R10 | 🇧🇪 Belgian GP | Spa-Francorchamps | Jul 19, 2026 |Antonelli P1 1:24:42.479 |🥇 Antonelli ✅ |Antonelli, Verstappen, Russell ✅✅❌|🥇Antonelli, 🥈Leclerc, 🥉Verstappen  |
-| R11 | 🇭🇺 Hungarian GP | Budapest | Jul 26, 2026 | Norris P1: 1:17.207 |🥇 Norris |Norris / Hamilton / Leclerc |— |
+| R10 | 🇧🇪 Belgian GP | Spa-Francorchamps | Jul 19, 2026 |✅ Antonelli P1 1:24:42.479 |🥇 Antonelli ✅ |Antonelli, Verstappen, Russell ✅✅❌|🥇Antonelli, 🥈Leclerc, 🥉Verstappen  |
+| R11 | 🇭🇺 Hungarian GP | Budapest | Jul 26, 2026 |✅ Norris P1: 1:17.207 |🥇 Norris |Norris / Hamilton / Leclerc ✅ ❌❌|🥇Norris 🥈Verstappen 🥉Antonelli |
 | R12 | 🇳🇱 Dutch GP | Zandvoort | Aug 23, 2026 | — | — | — | — |
 | R13 | 🇮🇹 Italian GP | Monza | Sep 6, 2026 | — | — | — | — |
 | R14 | 🇪🇸 Spanish GP (Madrid)* | Madrid | Sep 13, 2026 | — | — | — | — |
 | R15 | 🇦🇿 Azerbaijan GP | Baku | Sep 26, 2026 | — | — | — | — |
-| R16 | 🇸🇬 Singapore GP | Singapore | Oct 11, 2026 | — | — | — | — |
-| R17 | 🇺🇸 United States GP | Austin | Oct 25, 2026 | — | — | — | — |
-| R18 | 🇲🇽 Mexico City GP | Mexico City | Nov 1, 2026 | — | — | — | — |
-| R19 | 🇧🇷 Brazilian GP | São Paulo | Nov 8, 2026 | — | — | — | — |
-| R20 | 🇺🇸 Las Vegas GP | Las Vegas | Nov 21, 2026 | — | — | — | — |
-| R21 | 🇶🇦 Qatar GP | Lusail | Nov 29, 2026 | — | — | — | — |
-| R22 | 🇦🇪 Abu Dhabi GP | Yas Island | Dec 6, 2026 | — | — | — | — |
+| R16 | 🇲🇾 Bahrain GP (Malaysia)| Sepang | Oct 2-4, 2026 | — | — | — | — |
+| R17 | 🇸🇬 Singapore GP | Singapore | Oct 11, 2026 | — | — | — | — |
+| R18 | 🇺🇸 United States GP | Austin | Oct 25, 2026 | — | — | — | — |
+| R19 | 🇲🇽 Mexico City GP | Mexico City | Nov 1, 2026 | — | — | — | — |
+| R20 | 🇧🇷 Brazilian GP | São Paulo | Nov 8, 2026 | — | — | — | — |
+| R21 | 🇺🇸 Las Vegas GP | Las Vegas | Nov 21, 2026 | — | — | — | — |
+| R22 | 🇶🇦 Qatar GP | Lusail | Nov 29, 2026 | — | — | — | — |
+| R23 | 🇦🇪 Abu Dhabi GP | Yas Island | Dec 6, 2026 | — | — | — | — |
 
 *Subject to FIA circuit homologation
 
 > ⚠️ **Official Statement F1 & FIA:** The Bahrain and Saudi Arabian Grands Prix have been cancelled due to the ongoing situation in the Middle East. No replacement races will be scheduled in April. Statement by Stefano Domenicali, President & CEO of Formula 1. The 2026 season now runs **22 rounds**. Bahrain and Saudi Arabia are not counted in the round numbering. Rounds completed; counter updated accordingly.
+> ⚠️ **Official Statement F1 & FIA:** Malaysia to host Bahrain GP at Sepang-Oct 2-4, 2026
 
 ---
 
@@ -64,8 +66,8 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 
 ### Prediction Targets
 
-- 🥇 **Race Winner** — Who crosses the line first
-- 🏆 **Podium (Top 3)** — The full podium finishers
+- 🥇 **Race Winner** Who crosses the line first
+- 🏆 **Podium (Top 3)** The full podium finishers
 
 ---
 
@@ -202,10 +204,10 @@ pyarrow>=15.0.0
 
 ## 🔮 Making a Round Prediction
 
-Each round has its own self-contained script. Once qualifying results are in, update the qualifying data at the top of the script and run:
+- Each round has its own self-contained script. Once qualifying results are in, update the qualifying data at the top of the script and run:
 
 ```bash
-# Example — Round 1 Australian GP
+# Example Round 1 Australian GP
 python round_01.py
 ```
 
@@ -794,13 +796,15 @@ Race Date: June 29, 2026 — Red Bull Ring, Spielberg
 |🥉 3|Kimi Antonelli|Mercedes     |+1.986s    |⚠️ Predicted P4|
 |4  |Oscar Piastri |McLaren      |+21.809s   |—             |
 |5  |Lewis Hamilton|Ferrari      |+26.393s   |—             |
+
 Model Accuracy — Round 8:
-	•	🥇 Winner correct: ✅ YES, Russell pole to win!
-	•	🥈 P2 correct: ❌ NO Verstappen P2 from P5 home race magic
-	•	🥉 P3 correct: ❌ NO Antonelli P3, predicted P4 one position off
-	•	📊 Strict podium: 1/3
-	•	✅ Russell correct + Antonelli in top 4 right drivers identified
-	•	🔵 HomeRaceBoost for Verstappen was directionally correct; he gained 3 places!
+- 🥇 Winner correct: ✅ YES, Russell pole to win!
+- 🥈 P2 correct: ❌ NO Verstappen P2 from P5 home race magic
+- 🥉 P3 correct: ❌ NO Antonelli P3, predicted P4 one position off
+- 📊 Strict podium: 1/3
+- ✅ Russell correct + Antonelli in top 4; right drivers identified
+- 🔵 HomeRaceBoost for Verstappen was directionally correct; he gained 3 places!
+
 
 ## 🗓️ Round 9 — 🇬🇧 British Grand Prix
 
@@ -1002,8 +1006,8 @@ Race Date: July 5, 2026-Silverstone Circuit
 
 > ⚠️ Note: Model prediction uses post-Hamilton penalty grid (Leclerc P2, Hamilton P3)
 > Antonelli P7 penalty noted but not applied to code mentioned for context only
- ### 🤖 Model Prediction
  
+ ### 🤖 Model Prediction
 | | Driver | Team | Pred Lap (s) |
 |--|--------|------|-------------|
 | 🥇 **Lando Norris** | McLearn | 82.282 |
@@ -1015,7 +1019,36 @@ Race Date: July 5, 2026-Silverstone Circuit
 > 🔍 New feature: Hungary2025Score (Norris won, Piastri P2, Russell P3 in 2025)
 > 🏁 HungaryGridPenalty: 0.13s/pos 2nd hardest to overtake after Monaco
 
+### ✅ Actual Race Result
 
+| Pos | Driver | Team | Gap |
+|-----|--------|------|-----|
+| 🥇 1 | Lando Norris | McLaren | LEADER |
+| 🥈 2 | Max Verstappen | Red Bull Ford | +15.080s |
+| 🥉 3 | Kimi Antonelli | Mercedes | +18.728s |
+| 4 | Charles Leclerc | Ferrari | +23.840s |
+| 5 | Lewis Hamilton | Ferrari | +24.540s |
+| 6 | Isack Hadjar | Red Bull Ford | +55.488s |
+| 7 | George Russell | Mercedes | +57.503s |
+| 8 | Liam Lawson | Racing Bulls | +1 Lap |
+| 9 | Nico Hülkenberg | Audi | +1 Lap |
+| 10 | Arvid Lindblad | Racing Bulls | +1 Lap |
+| 11 | Gabriel Bortoleto | Audi | +1 Lap |
+| 12 | Pierre Gasly | Alpine | +1 Lap |
+| 13 | Lance Stroll | Aston Martin | +1 Lap |
+| 14 | Fernando Alonso | Aston Martin | +1 Lap |
+| 15 | Franco Colapinto | Alpine | +1 Lap |
+
+**Model Accuracy — Round 11:**
+- 🥇 Winner correct: ✅ YES Norris pole to win!
+- 🥈 P2 correct: ❌ NO predicted Hamilton, Verstappen took P2
+- 🥉 P3 correct: ❌ NO predicted Leclerc, Antonelli charged from P7 to P3!
+- 📊 Strict: 1/3
+- 🌟 Antonelli P3 from P7 grid penalty didn't stop him, incredible race craft
+- 🔵 Verstappen P2 strong at Hungary despite difficult Red Bull season
+- 🏖️ Summer break after Hungary model resumes after break!"""
+
+---
 
 ## 📝 Notes on 2026 Regulations
 
