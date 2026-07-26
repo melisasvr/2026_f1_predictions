@@ -42,7 +42,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 
 *Subject to FIA circuit homologation
 
-> ⚠️ **Official Statement F1 & FIA:** The Bahrain and Saudi Arabian Grands Prix have been cancelled due to the ongoing situation in the Middle East. No replacement races will be scheduled in April. Statement by Stefano Domenicali, President & CEO of Formula 1. The 2026 season now runs **22 rounds** — Bahrain and Saudi Arabia are not counted in the round numbering. Rounds completed; counter updated accordingly.
+> ⚠️ **Official Statement F1 & FIA:** The Bahrain and Saudi Arabian Grands Prix have been cancelled due to the ongoing situation in the Middle East. No replacement races will be scheduled in April. Statement by Stefano Domenicali, President & CEO of Formula 1. The 2026 season now runs **22 rounds**. Bahrain and Saudi Arabia are not counted in the round numbering. Rounds completed; counter updated accordingly.
 
 ---
 
@@ -962,7 +962,7 @@ Race Date: July 5, 2026-Silverstone Circuit
 
 
 ### 🕐 GP Q3 Qualifying Results
-🟠 *Norris POLE Antonelli's 7-race pole streak ends!*
+🟠 *Norris POLE; Antonelli's 7-race pole streak ends!*
 🔴 *Hamilton only 0.012s off pole razor thin!*
  
 | Pos | Driver | Team | Time | Gap |
@@ -1009,9 +1009,9 @@ Race Date: July 5, 2026-Silverstone Circuit
 | 🥇 **Lando Norris** | McLearn | 82.282 |
 | 🥈 **Charles Leclerc** | Ferrari | 82.625 |
 | 🥉 **Charles Leclerc** | Ferrari| 82.689 |
-| P4 | Kimi Antonelli | Mercedes | 82.760 |
-| P5 | Oscar Piastri | McLaren | 82.966 |
-| P6 | Max Verstappen |Red Bull Racing | 83.135 |
+| P4 Kimi Antonelli| Mercedes | Mercedes | 82.760 |
+| P5 Oscar Piastri | McLaren | McLaren | 82.966 |
+| P6 Max Verstappen | Red Bull Racing |Red Bull Racing | 83.135 |
 > 🔍 New feature: Hungary2025Score (Norris won, Piastri P2, Russell P3 in 2025)
 > 🏁 HungaryGridPenalty: 0.13s/pos 2nd hardest to overtake after Monaco
 
