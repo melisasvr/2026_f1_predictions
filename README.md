@@ -27,8 +27,8 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | R08 | 🇦🇹 Austrian GP | Spielberg | Jun 28, 2026 |✅ Russell P1 1:06.113|🥇 Russell|Russell✅ / Hamilton❌ / Leclerc❌| 🥇Russell,🥈Verstappen, 🥉Antonelli|
 | R09 | 🇬🇧 British GP | Silverstone | Jul 5, 2026 | Antonelli P1 1:28.111 |🥇 Antonelli ❌ |Antonelli / Hamilton / Leclerc ❌✅✅|🥇Leclerc 🥈Rusell 🥉Hamilton |
 | R10 | 🇧🇪 Belgian GP | Spa-Francorchamps | Jul 19, 2026 |✅ Antonelli P1 1:24:42.479 |🥇 Antonelli ✅ |Antonelli, Verstappen, Russell ✅✅❌|🥇Antonelli, 🥈Leclerc, 🥉Verstappen  |
-| R11 | 🇭🇺 Hungarian GP | Budapest | Jul 26, 2026 |✅ Norris P1: 1:17.207 |🥇 Norris |Norris / Hamilton / Leclerc ✅ ❌❌|🥇Norris 🥈Verstappen 🥉Antonelli |
-| R12 | 🇳🇱 Dutch GP | Zandvoort | Aug 23, 2026 | — | — | — | — |
+| R11 | 🇭🇺 Hungarian GP | Budapest | Jul 26, 2026 |✅ Norris P1: 1:17.207 |1:11.265 |Norris / Hamilton / Leclerc ✅ ❌❌|🥇Norris 🥈Verstappen 🥉Antonelli |
+| R12 | 🇳🇱 Dutch GP | Zandvoort | Aug 23, 2026 | Norris P1: 1:11.163|🥇 Russell | Rusell / Norris / Antonelli| — |
 | R13 | 🇮🇹 Italian GP | Monza | Sep 6, 2026 | — | — | — | — |
 | R14 | 🇪🇸 Spanish GP (Madrid)* | Madrid | Sep 13, 2026 | — | — | — | — |
 | R15 | 🇦🇿 Azerbaijan GP | Baku | Sep 26, 2026 | — | — | — | — |
@@ -1049,6 +1049,61 @@ Race Date: July 5, 2026-Silverstone Circuit
 - 🏖️ Summer break after Hungary model resumes after break!"""
 
 ---
+## 🗓️ Round 12 — 🇳🇱 2026 Dutch Grand Prix
+**Race Date: August 23, 2026 — Circuit Zandvoort**
+
+### 🌡️ Weather
+| Session | Temp | Conditions | Rain | Wind | Humidity |
+|---------|------|------------|------|------|----------|
+| Friday FP & Sprint Quali | 19°C | 🌧️ Wet/Drizzle | 65% | 22 km/h | 78% |
+| Saturday Qualifying | 20°C | 🌦️ Wet/Sunshine (Mixed) | 34% | 25 km/h | 65% |
+| Sunday Race | 20°C | ⛅ Sunshine/Cloudy | 14% | 19 km/h | 58% |
+
+### 🕐 GP Q3 Qualifying Results
+🟠 *Lando Norris secures pole in a dramatic wet-shuffled finale!*  
+🔵 *George Russell and Kimi Antonelli lock out strong paces for Mercedes right behind.*
+
+| Pos | Driver | Team | Time | Gap |
+|-----|--------|------|------|-----|
+| P1 | Lando Norris 🌟 | McLaren | 1:11.163 | — |
+| P2 | George Russell | Mercedes | 1:11.265 | +0.102s |
+| P3 | Kimi Antonelli | Mercedes | 1:11.296 | +0.133s |
+| P4 | Oscar Piastri | McLaren | 1:11.305 | +0.142s |
+| P5 | Lewis Hamilton | Ferrari | 1:11.494 | +0.331s |
+| P6 | Charles Leclerc | Ferrari | 1:11.558 | +0.395s |
+| P7 | Max Verstappen | Red Bull Racing | 1:11.618 | +0.455s |
+| P8 | Liam Lawson | Red Bull Racing | 1:11.733 | +0.570s |
+| P9 | Gabriel Bortoleto | Audi | 1:12.079 | +0.916s |
+| P10 | Arvid Lindblad | Racing Bulls | 1:12.185 | +1.022s |
+
+### 🏁 Starting Grid
+| Pos | Driver | Team |
+|-----|--------|------|
+| P1 | Lando Norris | McLaren |
+| P2 | George Russell | Mercedes |
+| P3 | Kimi Antonelli | Mercedes |
+| P4 | Oscar Piastri | McLaren |
+| P5 | Lewis Hamilton | Ferrari |
+| P6 | Charles Leclerc | Ferrari |
+| P7 | Max Verstappen | Red Bull Racing |
+| P8 | Liam Lawson | Red Bull Racing |
+| P9 | Gabriel Bortoleto | Audi |
+| P10 | Arvid Lindblad | Racing Bulls |
+
+> 🏖️ Zandvoort Characteristics: Famous banked corners (Hugenholtz and final corner), tight layout making overtaking exceptionally difficult, and heavy coastal winds off the North Sea testing ERS deployment (7MJ limit).  
+> 🍊 Max Verstappen Home Race Boost: Model applies a heavy 2.0x home multiplier for the Orange Army effect!
+
+### 🤖 Model Prediction
+| Pos | Driver | Team | Pred Lap Time (s) |
+|-----|--------|------|-------------------|
+| 🥇 **P1** | George Russell | Mercedes | 74.5 |
+| 🥈 **P2** | Lando Norris | McLaren | 74.8 |
+| 🥉 **P3** | Kimi Antonelli | Mercedes | 75.1 |
+| P4 | Oscar Piastri | McLaren | 75.4 |
+| P5 | Lewis Hamilton | Ferrari | 75.8 |
+| P6 | Max Verstappen | Red Bull Racing | 76.2 |
+
+> 🔍 Model Feature Importance: Gap from Pole and Qualifying Pace dominate feature weights (0.177 & 0.158), heavily favoring front-row starters given Zandvoort's low overtaking delta.
 
 ## 📝 Notes on 2026 Regulations
 
