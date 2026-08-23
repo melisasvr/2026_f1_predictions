@@ -28,7 +28,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | R09 | 🇬🇧 British GP | Silverstone | Jul 5, 2026 | Antonelli P1 1:28.111 |🥇 Antonelli ❌ |Antonelli / Hamilton / Leclerc ❌✅✅|🥇Leclerc 🥈Rusell 🥉Hamilton |
 | R10 | 🇧🇪 Belgian GP | Spa-Francorchamps | Jul 19, 2026 |✅ Antonelli P1 1:24:42.479 |🥇 Antonelli ✅ |Antonelli, Verstappen, Russell ✅✅❌|🥇Antonelli, 🥈Leclerc, 🥉Verstappen  |
 | R11 | 🇭🇺 Hungarian GP | Budapest | Jul 26, 2026 |✅ Norris P1: 1:17.207 |1:11.265 |Norris / Hamilton / Leclerc ✅ ❌❌|🥇Norris 🥈Verstappen 🥉Antonelli |
-| R12 | 🇳🇱 Dutch GP | Zandvoort | Aug 23, 2026 | Norris P1: 1:11.163|🥇 Russell ❌ 🥇 Norris | Russell / Norris / Antonelli ✅✅✅| 🥇Norris / 🥈Antonelli /🥉 Russell |
+| R12 | 🇳🇱 Dutch GP | Zandvoort | Aug 23, 2026 | Norris P1: 1:11.163| 🥇 Norris ✅  | Russell / Norris / Antonelli ✅✅✅| 🥇Norris / 🥈Antonelli /🥉 Russell |
 | R13 | 🇮🇹 Italian GP | Monza | Sep 6, 2026 | — | — | — | — |
 | R14 | 🇪🇸 Spanish GP (Madrid)* | Madrid | Sep 13, 2026 | — | — | — | — |
 | R15 | 🇦🇿 Azerbaijan GP | Baku | Sep 26, 2026 | — | — | — | — |
@@ -1122,9 +1122,12 @@ Race Date: July 5, 2026-Silverstone Circuit
 | 10 | Pierre Gasly | Alpine | +1 L |
 
 **Model Accuracy — Round 12:**
-- 🥇 Winner correct: ✅ YES Lando Norris took the victory!
-- 🥈 P2 & P3 correct podium lock: ✅ YES We nailed the exact podium drivers (Norris, Antonelli, Russell)—just a slight shuffle in order!
-- 📊 Model performance: Spot-on podium prediction for McLaren and Mercedes!
+**Model Accuracy — Round 12: 🎉 BEST ROUND YET!**
+- 🥇 Winner correct: ✅ YES — Norris pole to win!
+- 🥈 P2 correct: ✅ Antonelli predicted P3, finished P2 — correct driver!
+- 🥉 P3 correct: ✅ Russell predicted P2, finished P3 — correct driver!
+- 📊 ALL 3 PODIUM DRIVERS CORRECTLY IDENTIFIED! Just order swapped between P2/P3
+
 ---
 
 ## 📝 Notes on 2026 Regulations
