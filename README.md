@@ -28,7 +28,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | R09 | 🇬🇧 British GP | Silverstone | Jul 5, 2026 | Antonelli P1 1:28.111 |🥇 Antonelli ❌ |Antonelli / Hamilton / Leclerc ❌✅✅|🥇Leclerc 🥈Rusell 🥉Hamilton |
 | R10 | 🇧🇪 Belgian GP | Spa-Francorchamps | Jul 19, 2026 |✅ Antonelli P1 1:24:42.479 |🥇 Antonelli ✅ |Antonelli, Verstappen, Russell ✅✅❌|🥇Antonelli, 🥈Leclerc, 🥉Verstappen  |
 | R11 | 🇭🇺 Hungarian GP | Budapest | Jul 26, 2026 |✅ Norris P1: 1:17.207 |1:11.265 |Norris / Hamilton / Leclerc ✅ ❌❌|🥇Norris 🥈Verstappen 🥉Antonelli |
-| R12 | 🇳🇱 Dutch GP | Zandvoort | Aug 23, 2026 | Norris P1: 1:11.163|🥇 Russell | Rusell / Norris / Antonelli| — |
+| R12 | 🇳🇱 Dutch GP | Zandvoort | Aug 23, 2026 | Norris P1: 1:11.163|🥇 Russell ❌ 🥇 Norris | Russell / Norris / Antonelli ✅✅✅| 🥇Norris / 🥈Antonelli /🥉 Russell |
 | R13 | 🇮🇹 Italian GP | Monza | Sep 6, 2026 | — | — | — | — |
 | R14 | 🇪🇸 Spanish GP (Madrid)* | Madrid | Sep 13, 2026 | — | — | — | — |
 | R15 | 🇦🇿 Azerbaijan GP | Baku | Sep 26, 2026 | — | — | — | — |
@@ -1049,6 +1049,7 @@ Race Date: July 5, 2026-Silverstone Circuit
 - 🏖️ Summer break after Hungary model resumes after break!"""
 
 ---
+
 ## 🗓️ Round 12 — 🇳🇱 2026 Dutch Grand Prix
 **Race Date: August 23, 2026 — Circuit Zandvoort**
 
@@ -1104,6 +1105,27 @@ Race Date: July 5, 2026-Silverstone Circuit
 | P6 | Max Verstappen | Red Bull Racing | 76.2 |
 
 > 🔍 Model Feature Importance: Gap from Pole and Qualifying Pace dominate feature weights (0.177 & 0.158), heavily favoring front-row starters given Zandvoort's low overtaking delta.
+
+### ✅ Actual Race Result
+
+| Pos | Driver | Team | Gap |
+|-----|--------|------|-----|
+| 🥇 1 | Lando Norris | McLaren | LEADER |
+| 🥈 2 | Kimi Antonelli | Mercedes | +11.536s |
+| 🥉 3 | George Russell | Mercedes | +15.906s |
+| 4 | Lewis Hamilton | Ferrari | +16.755s |
+| 5 | Charles Leclerc | Ferrari | +17.258s |
+| 6 | Oscar Piastri | McLaren | +32.332s |
+| 7 | Liam Lawson | Racing Bulls | +79.915s |
+| 8 | Nico Hülkenberg | Audi | +1 L |
+| 9 | Fernando Alonso | Aston Martin | +1 L |
+| 10 | Pierre Gasly | Alpine | +1 L |
+
+**Model Accuracy — Round 12:**
+- 🥇 Winner correct: ✅ YES Lando Norris took the victory!
+- 🥈 P2 & P3 correct podium lock: ✅ YES We nailed the exact podium drivers (Norris, Antonelli, Russell)—just a slight shuffle in order!
+- 📊 Model performance: Spot-on podium prediction for McLaren and Mercedes!
+---
 
 ## 📝 Notes on 2026 Regulations
 
