@@ -29,7 +29,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | R10 | 🇧🇪 Belgian GP | Spa-Francorchamps | Jul 19, 2026 |✅ Antonelli P1 1:24:42.479 |🥇 Antonelli ✅ |Antonelli, Verstappen, Russell ✅✅❌|🥇Antonelli, 🥈Leclerc, 🥉Verstappen  |
 | R11 | 🇭🇺 Hungarian GP | Budapest | Jul 26, 2026 |✅ Norris P1: 1:17.207 |1:11.265 |Norris / Hamilton / Leclerc ✅ ❌❌|🥇Norris 🥈Verstappen 🥉Antonelli |
 | R12 | 🇳🇱 Dutch GP | Zandvoort | Aug 23, 2026 | Norris P1: 1:11.163| 🥇 Norris ✅  | Russell / Norris / Antonelli ✅✅✅| 🥇Norris / 🥈Antonelli /🥉 Russell |
-| R13 | 🇮🇹 Italian GP | Monza | Sep 6, 2026 |✅ Gasly P1 1:21.786  |🥇 Leclerc ❌| Leclerc / Hamilton / Gasly ❌❌❌ | 🥇 Antonelli 🥈 Russell 🥉 Verstappen |
+| R13 | 🇮🇹 Italian GP | Monza | Sep 6, 2026 |✅ Gasly P1 1:21.786  |🥇  Gasly ❌| Gasly / Russell / Leclerc ❌✅❌ | 🥇 Antonelli 🥈 Russell 🥉 Verstappen |
 | R14 | 🇪🇸 Spanish GP (Madrid)* | Madrid | Sep 13, 2026 | — | — | — | — |
 | R15 | 🇦🇿 Azerbaijan GP | Baku | Sep 26, 2026 | — | — | — | — |
 | R16 | 🇲🇾 Bahrain GP (Malaysia)| Sepang | Oct 2-4, 2026 | — | — | — | — |
@@ -1130,6 +1130,71 @@ Race Date: July 5, 2026-Silverstone Circuit
 
 ---
 
+## 🗓 Round 13 — 🇮🇹 Italian Grand Prix
+
+**Race Date: September 6, 2026 — Autodromo Nazionale Monza**
+
+### 🌡 Weather
+| Session | Temp | Conditions | Rain |
+|---------|------|------------|------|
+| Friday FP | 30°C | ☀ Sunny | 0% |
+| Saturday Qualifying | 31°C | ☀ Sunny | 0% |
+| Sunday Race | 32°C | ☀ Sunny | 0% |
+
+### 🕐 GP Q3 Qualifying Results
+😱 *GASLY SHOCK POLE — Alpine's first pole of 2026!*
+🔴 *Top 10 covered by just 0.500s — tightest qualifying of season!*
+
+| Pos | Driver | Team | Time | Gap |
+|-----|--------|------|------|-----|
+| P1 | Pierre Gasly 😱 | Alpine | 1:21.786 | — |
+| P2 | George Russell | Mercedes | +0.060s | — |
+| P3 | Oscar Piastri | McLaren | +0.180s | — |
+| P4 | Charles Leclerc | Ferrari | +0.218s | — |
+| P5 | Lewis Hamilton | Ferrari | +0.225s | — |
+| P6 | Max Verstappen | Red Bull Ford | +0.284s | — |
+| P7 | Kimi Antonelli | Mercedes | +0.307s | — |
+| P8 | Franco Colapinto | Alpine | +0.434s | — |
+| P9 | Lando Norris | McLaren | +0.470s | — |
+| P10 | Arvid Lindblad | Racing Bulls | +0.500s | — |
+
+### 🤖 Model Prediction
+| | Driver | Team | Pred Lap (s) |
+|--|--------|------|-------------|
+| 🥇 **Pierre Gasly** | Alpine | 85.060 |
+| 🥈 **George Russell** | Mercedes | 85.167 |
+| 🥉 **Charles Leclerc** | Ferrari | 85.287 |
+| P4 | Oscar Piastri | McLaren | 85.300 |
+| P5 | Lewis Hamilton | Ferrari | 85.353 |
+| P6 | Max Verstappen | Red Bull Ford | 85.475 |
+| P7 | Kimi Antonelli | Mercedes | 85.480 |
+| P8 | Franco Colapinto | Alpine | 85.708 |
+| P9 | Lando Norris | McLaren | 85.719 |
+| P10 | Arvid Lindblad | Racing Bulls | 85.830 |
+
+> 🆕 New features: MonzaSlipstreamBoost, HomeRaceBoost (Leclerc+Hamilton+Antonelli)
+> ⚡ ERS dependency most critical feature at fastest circuit on calendar."""
+
+### 🏁 **Actual Race Results**
+| Pos | Actual Driver | Team | Race Gap | Pit Strategy |
+| :---: | :--- | :--- | :---: | :---: |
+| 🥇 **P1** | **Kimi Antonelli** | Mercedes | **WINNER** 🏆 | 2 Stops (M) |
+| 🥈 **P2** | **George Russell** | Mercedes | +3.857s | 1 Stop (H) |
+| 🥉 **P3** | **Max Verstappen** | Red Bull Racing | +14.718s | 2 Stops (H) |
+| **P4** | Lando Norris | McLaren | +19.056s | 1 Stop (H) |
+| **P5** | Oscar Piastri | McLaren | +19.253s | 1 Stop (H) |
+| **P6** | Lewis Hamilton | Ferrari | +24.655s | 1 Stop (M) |
+| **P7** | Pierre Gasly | Alpine | +27.351s | 1 Stop (H) |
+| **P8** | Arvid Lindblad | Racing Bulls | +45.136s | 1 Stop (H) |
+| **P9** | Franco Colapinto | Alpine | +47.353s | 1 Stop (H) |
+| **P10** | Yuki Tsunoda | RB | +58.187s | 1 Stop (M) |
+
+> 🥇 Winner correct: ❌ NO — predicted Gasly, Antonelli won from P7 
+> 🥈 P2 correct: ✅ YES — Russell predicted P2, finished P2!
+> 🥉 P3 Charles Leclerc ❌ NO — predicted Leclerc, Max won 
+
+
+
 ## 📝 Notes on 2026 Regulations
 
 ### 🆕 Mid-Season Regulation Update — Effective from Miami GP (Round 6)
@@ -1171,75 +1236,6 @@ Race Date: July 5, 2026-Silverstone Circuit
 | Alpine | 🟡 Medium | 🟡 Neutral |
 
 > ⚠️ These changes are subject to FIA World Motor Sport Council e-vote before implementation at Miami.
-
----
-
-## 🗓 Round 13 — 🇮🇹 Italian Grand Prix
-
-**Race Date: September 6, 2026 — Autodromo Nazionale Monza**
-
-### 🌡 Weather
-| Session | Temp | Conditions | Rain |
-|---------|------|------------|------|
-| Friday FP | 30°C | ☀ Sunny | 0% |
-| Saturday Qualifying | 31°C | ☀ Sunny | 0% |
-| Sunday Race | 32°C | ☀ Sunny | 0% |
-
-### 🕐 GP Q3 Qualifying Results
-😱 *GASLY SHOCK POLE — Alpine's first pole of 2026!*
-🔴 *Top 10 covered by just 0.500s — tightest qualifying of season!*
-
-| Pos | Driver | Team | Time | Gap |
-|-----|--------|------|------|-----|
-| P1 | Pierre Gasly 😱 | Alpine | 1:21.786 | — |
-| P2 | George Russell | Mercedes | +0.060s | — |
-| P3 | Oscar Piastri | McLaren | +0.180s | — |
-| P4 | Charles Leclerc | Ferrari | +0.218s | — |
-| P5 | Lewis Hamilton | Ferrari | +0.225s | — |
-| P6 | Max Verstappen | Red Bull Ford | +0.284s | — |
-| P7 | Kimi Antonelli | Mercedes | +0.307s | — |
-| P8 | Franco Colapinto | Alpine | +0.434s | — |
-| P9 | Lando Norris | McLaren | +0.470s | — |
-| P10 | Arvid Lindblad | Racing Bulls | +0.500s | — |
-
-### 🤖 Model Prediction
-
-| | Driver | Team | Pred Lap (s) |
-|--|--------|------|-------------|
-| 🥇 **Charles Leclerc** | Ferrari | 1:25.074 |
-| 🥈 **Lewis Hamilton** | Ferrari | 1:25.116 |
-| 🥉 **Pierre Gasly** | Alpine | 1:25.127 |
-| P4 | Oscar Piastri | McLaren | — |
-| P5 | George Russell | Mercedes | — |
-| P6 | Max Verstappen | Red Bull Ford | — |
-| P7 | Kimi Antonelli | Mercedes | — |
-
-> 🆕 New features: MonzaSlipstreamBoost, HomeRaceBoost (Leclerc+Hamilton+Antonelli)
-> ⚡ ERS dependency most critical feature at fastest circuit on calendar
-
-### ✅ Actual Race Result
-
-| Pos | Driver | Team | Gap | Predicted? |
-|-----|--------|------|-----|-----------|
-| 🥇 1 | Kimi Antonelli | Mercedes | LEADER | ❌ Predicted P7 |
-| 🥈 2 | George Russell | Mercedes | +3.857s | ❌ Predicted P5 |
-| 🥉 3 | Max Verstappen | Red Bull Ford | +14.718s | ❌ Predicted P6 |
-| 4 | Lando Norris | McLaren | +19.056s | — |
-| 5 | Oscar Piastri | McLaren | +19.253s | — |
-| 6 | Lewis Hamilton | Ferrari | +24.655s | — |
-| 7 | Pierre Gasly | Alpine | +27.351s | — |
-| 8 | Arvid Lindblad | Racing Bulls | +45.136s | — |
-| 9 | Franco Colapinto | Alpine | +47.353s | — |
-| 10 | Yuki Tsunoda | Racing Bulls | +58.187s | — |
-
-**Model Accuracy — Round 13:**
-- 🥇 Winner correct: ❌ NO — predicted Leclerc, Antonelli won from P7 🇮🇹
-- 🥈 P2 correct: ❌ NO — Russell P2, predicted P5
-- 🥉 P3 correct: ❌ NO — Verstappen P3, predicted P6
-- 📊 Strict: 0/3
-- 🌟 Antonelli wins at HOME from P7 incredible drive, 7th win of season
-- 🍊 Strategy masterclass undercut worked perfectly at Monza
-- 💡 Model correctly identified Verstappen and Russell would be competitive
 
 ---
 
