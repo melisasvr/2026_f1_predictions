@@ -30,7 +30,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | R11 | 🇭🇺 Hungarian GP | Budapest | Jul 26, 2026 |✅ Norris P1: 1:17.207 |1:11.265 |Norris / Hamilton / Leclerc ✅ ❌❌|🥇Norris 🥈Verstappen 🥉Antonelli |
 | R12 | 🇳🇱 Dutch GP | Zandvoort | Aug 23, 2026 | Norris P1: 1:11.163| 🥇 Norris ✅  | Russell / Norris / Antonelli ✅✅✅| 🥇Norris / 🥈Antonelli /🥉 Russell |
 | R13 | 🇮🇹 Italian GP | Monza | Sep 6, 2026 |✅ Gasly P1 1:21.786  |🥇  Gasly ❌| Gasly / Russell / Leclerc ❌✅❌ | 🥇 Antonelli 🥈 Russell 🥉 Verstappen |
-| R14 | 🇪🇸 Spanish GP (Madrid)* | Madrid | Sep 13, 2026 |✅ Norris P1 1:31.824|🥇 Norris|Norris / Antonelli / Verstappen| — |
+| R14 | 🇪🇸 Spanish GP (Madrid)* | Madrid | Sep 13, 2026 |✅ Norris P1 1:31.824|🥇 Norris❌|Norris / Antonelli / Verstappen ✅✅✅|🥇 Antonelli 🥈 Verstappen 🥉 Norris|
 | R15 | 🇦🇿 Azerbaijan GP | Baku | Sep 26, 2026 | — | — | — | — |
 | R16 | 🇲🇾 Bahrain GP (Malaysia)| Sepang | Oct 2-4, 2026 | — | — | — | — |
 | R17 | 🇸🇬 Singapore GP | Singapore | Oct 11, 2026 | — | — | — | — |
@@ -1237,6 +1237,33 @@ Race Date: July 5, 2026-Silverstone Circuit
 | P8 | Liam Lawson | Red Bull Ford | 99.098 |
 | P9 | Franco Colapinto | Alpine | 99.847 |
 | P10 | Arvid Lindblad | Racing Bulls | 99.974 |
+
+### ✅ Actual Race Result
+
+| Pos | Driver | Team | Gap | Predicted? |
+|-----|--------|------|-----|-----------|
+| 🥇 1 | Kimi Antonelli | Mercedes | LEADER | ✅ Predicted P2 |
+| 🥈 2 | Max Verstappen | Red Bull Ford | +4.351s | ✅ Predicted P3 |
+| 🥉 3 | Lando Norris | McLaren | +5.089s | ✅ Predicted P1 |
+| 4 | Charles Leclerc | Ferrari | +29.116s | — |
+| 5 | George Russell | Mercedes | +29.829s | — |
+| 6 | Liam Lawson | Red Bull Ford | +86.746s | — |
+| 7 | Franco Colapinto | Alpine | +94.281s | — |
+| 8 | Oscar Piastri | McLaren | +95.839s | — |
+| 9 | Arvid Lindblad | Racing Bulls | +1 Lap | — |
+| 10 | Nico Hülkenberg | Audi | +1 Lap | — |
+| 11 | Esteban Ocon | Haas | +1 Lap | — |
+
+**Model Accuracy — Round 14: 🎉 ALL 3 PODIUM DRIVERS CORRECT!**
+- 🥇 Winner: ❌ Predicted Norris — Antonelli won
+- 🥈 P2: ✅ Verstappen predicted P3 — finished P2
+- 🥉 P3: ✅ Norris predicted P1 — finished P3
+- 📊 All 3 podium drivers correctly identified — only the order differed!
+- 🌟 Antonelli 8th win of 2026 — championship lead extending
+- 🔵 Verstappen P2 — Red Bull Ford genuinely competitive now
+- 🆕 History made — first ever F1 race at Circuit de Madrid!
+
+  
 
 > ⚠️ Brand new circuit; no historical F1 data available
 > 📊 Model relies entirely on 13 rounds of the 2026 season form
