@@ -30,7 +30,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | R11 | 🇭🇺 Hungarian GP | Budapest | Jul 26, 2026 |✅ Norris P1: 1:17.207 |1:11.265 |Norris / Hamilton / Leclerc ✅ ❌❌|🥇Norris 🥈Verstappen 🥉Antonelli |
 | R12 | 🇳🇱 Dutch GP | Zandvoort | Aug 23, 2026 | Norris P1: 1:11.163| 🥇 Norris ✅  | Russell / Norris / Antonelli ✅✅✅| 🥇Norris / 🥈Antonelli /🥉 Russell |
 | R13 | 🇮🇹 Italian GP | Monza | Sep 6, 2026 |✅ Gasly P1 1:21.786  |🥇  Gasly ❌| Gasly / Russell / Leclerc ❌✅❌ | 🥇 Antonelli 🥈 Russell 🥉 Verstappen |
-| R14 | 🇪🇸 Spanish GP (Madrid)* | Madrid | Sep 13, 2026 | — | — | — | — |
+| R14 | 🇪🇸 Spanish GP (Madrid)* | Madrid | Sep 13, 2026 |✅ Norris P1 1:31.824|🥇 Norris|Norris / Antonelli / Verstappen| — |
 | R15 | 🇦🇿 Azerbaijan GP | Baku | Sep 26, 2026 | — | — | — | — |
 | R16 | 🇲🇾 Bahrain GP (Malaysia)| Sepang | Oct 2-4, 2026 | — | — | — | — |
 | R17 | 🇸🇬 Singapore GP | Singapore | Oct 11, 2026 | — | — | — | — |
@@ -1173,7 +1173,7 @@ Race Date: July 5, 2026-Silverstone Circuit
 | P10 | Arvid Lindblad | Racing Bulls | 85.830 |
 
 > 🆕 New features: MonzaSlipstreamBoost, HomeRaceBoost (Leclerc+Hamilton+Antonelli)
-> ⚡ ERS dependency most critical feature at fastest circuit on calendar."""
+> ⚡ ERS dependency is the most critical feature at the fastest circuit on the calendar."""
 
 ### 🏁 **Actual Race Results**
 | Pos | Actual Driver | Team | Race Gap | Pit Strategy |
@@ -1192,6 +1192,58 @@ Race Date: July 5, 2026-Silverstone Circuit
 > 🥇 Winner correct: ❌ NO — predicted Gasly, Antonelli won from P7 
 > 🥈 P2 correct: ✅ YES — Russell predicted P2, finished P2!
 > 🥉 P3 Charles Leclerc ❌ NO — predicted Leclerc, Max won 
+
+---
+## 🗓️ Round 14 — 🇪🇸 Madrid Grand Prix
+
+**Race Date: September 13, 2026 — Circuit de Madrid**
+*🆕 First-ever Formula 1 race at this brand new circuit!*
+
+### 🌡️ Weather
+| Session | Temp | Conditions | Rain | Wind | Humidity |
+|---------|------|------------|------|------|----------|
+| Friday FP | 30°C | ☀️ Sunny | 0% | 3 km/h | 13% |
+| Saturday Qualifying | 31°C | ☀️ Sunny | 0% | 6 km/h | 41% |
+| Sunday Race | 31°C | ☀️ Sunny | 0% | 6 km/h | 46% |
+
+### 🕐 GP Q3 Qualifying Results
+🟠 *Norris pole; McLaren fastest at brand new Madrid circuit!*
+⬛ *Antonelli only 0.011s behind razor-thin margin!*
+
+| Pos | Driver | Team | Time | Gap |
+|-----|--------|------|------|-----|
+| P1 | Lando Norris 🌟 | McLaren | 1:31.824 | — |
+| P2 | Kimi Antonelli | Mercedes | 1:31.835 | +0.011s |
+| P3 | Max Verstappen | Red Bull Ford | 1:31.964 | +0.140s |
+| P4 | Lewis Hamilton | Ferrari | 1:32.013 | +0.189s |
+| P5 | Charles Leclerc | Ferrari | 1:32.019 | +0.195s |
+| P6 | George Russell | Mercedes | 1:32.149 | +0.325s |
+| P7 | Oscar Piastri | McLaren | 1:32.294 | +0.470s |
+| P8 | Liam Lawson | Red Bull Ford | 1:32.316 | +0.492s |
+| P9 | Franco Colapinto | Alpine | 1:32.903 | +1.079s |
+| P10 | Arvid Lindblad | Racing Bulls | 1:33.041 | +1.217s |
+
+### 🤖 Model Prediction
+
+| | Driver | Team | Pred Lap (s) |
+|--|--------|------|-------------|
+| 🥇 **Lando Norris** | McLaren | 98.282 |
+| 🥈 **Kimi Antonelli** | Mercedes | 98.351 |
+| 🥉 **Max Verstappen** | Red Bull Ford | 98.521 |
+| P4 | Lewis Hamilton | Ferrari | 98.624 |
+| P5 | Charles Leclerc | Ferrari | 98.670 |
+| P6 | George Russell | Mercedes | 98.839 |
+| P7 | Oscar Piastri | McLaren | 99.025 |
+| P8 | Liam Lawson | Red Bull Ford | 99.098 |
+| P9 | Franco Colapinto | Alpine | 99.847 |
+| P10 | Arvid Lindblad | Racing Bulls | 99.974 |
+
+> ⚠️ Brand new circuit; no historical F1 data available
+> 📊 Model relies entirely on 13 rounds of the 2026 season form
+> 🆕 First-ever F1 qualifying at Circuit de Madrid lap times will set records. 
+
+### ✅ Actual Result
+*To be updated after the race on September 13, 2026*
 
 
 
