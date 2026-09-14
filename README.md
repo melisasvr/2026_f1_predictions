@@ -1258,13 +1258,13 @@ Race Date: July 5, 2026-Silverstone Circuit
 - 🥇 Winner: ❌ Predicted Norris — Antonelli won
 - 🥈 P2: ✅ Verstappen predicted P3 — finished P2
 - 🥉 P3: ✅ Norris predicted P1 — finished P3
-- 📊 All 3 podium drivers correctly identified — only the order differed!
+- 📊 All 3 podium drivers correctly identified only the order differed!
 - 🌟 Antonelli 8th win of 2026 championship lead extending
 - 🔵 Verstappen P2 Red Bull Ford genuinely competitive now
 - 🆕 History made first ever F1 race at Circuit de Madrid!
-> ⚠️ Brand new circuit; no historical F1 data available
-> 📊 Model relies entirely on 13 rounds of the 2026 season form
-> 🆕 First-ever F1 qualifying at Circuit de Madrid lap times will set records. 
+- ⚠️ Brand new circuit; no historical F1 data available
+- 📊 Model relies entirely on 13 rounds of the 2026 season form
+- 🆕 First-ever F1 qualifying at Circuit de Madrid lap times will set records. 
 
 ---
 
