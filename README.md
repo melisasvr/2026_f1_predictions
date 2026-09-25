@@ -31,7 +31,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | R12 | 🇳🇱 Dutch GP | Zandvoort | Aug 23, 2026 | Norris P1: 1:11.163| 🥇 Norris ✅  | Russell / Norris / Antonelli ✅✅✅| 🥇Norris / 🥈Antonelli /🥉 Russell |
 | R13 | 🇮🇹 Italian GP | Monza | Sep 6, 2026 |✅ Gasly P1 1:21.786  |🥇  Gasly ❌| Gasly / Russell / Leclerc ❌✅❌ | 🥇 Antonelli 🥈 Russell 🥉 Verstappen |
 | R14 | 🇪🇸 Spanish GP (Madrid)* | Madrid | Sep 13, 2026 |✅ Norris P1 1:31.824|🥇 Norris❌|Norris / Antonelli / Verstappen ✅✅✅|🥇 Antonelli 🥈 Verstappen 🥉 Norris|
-| R15 | 🇦🇿 Azerbaijan GP | Baku | Sep 26, 2026 | — | — | — | — |
+| R15 | 🇦🇿 Azerbaijan GP | Baku | Sep 26, 2026 |✅ Russell P1 1:42.526|🥇 Russell|Russell / Leclerc / Piastri|TBD|
 | R16 | 🇲🇾 Bahrain GP (Malaysia)| Sepang | Oct 2-4, 2026 | — | — | — | — |
 | R17 | 🇸🇬 Singapore GP | Singapore | Oct 11, 2026 | — | — | — | — |
 | R18 | 🇺🇸 United States GP | Austin | Oct 25, 2026 | — | — | — | — |
@@ -1189,7 +1189,7 @@ Race Date: July 5, 2026-Silverstone Circuit
 | **P9** | Franco Colapinto | Alpine | +47.353s | 1 Stop (H) |
 | **P10** | Yuki Tsunoda | RB | +58.187s | 1 Stop (M) |
 
-> 🥇 Winner correct: ❌ NO — predicted Gasly, Antonelli won from P7 
+> 🥇 Winner correct: ❌ NO — predicted Gasly; Antonelli won from P7 
 > 🥈 P2 correct: ✅ YES — Russell predicted P2, finished P2!
 > 🥉 P3 Charles Leclerc ❌ NO — predicted Leclerc, Max won 
 
@@ -1258,17 +1258,60 @@ Race Date: July 5, 2026-Silverstone Circuit
 - 🥇 Winner: ❌ Predicted Norris — Antonelli won
 - 🥈 P2: ✅ Verstappen predicted P3 — finished P2
 - 🥉 P3: ✅ Norris predicted P1 — finished P3
-- 📊 All 3 podium drivers correctly identified only the order differed!
+- 📊 All 3 podium drivers correctly identified; only the order differed!
 - 🌟 Antonelli 8th win of 2026 championship lead extending
-- 🔵 Verstappen P2 Red Bull Ford genuinely competitive now
+- 🔵 Verstappen P2; Red Bull Ford genuinely competitive now
 - 🆕 History made first ever F1 race at Circuit de Madrid!
 - ⚠️ Brand new circuit; no historical F1 data available
 - 📊 Model relies entirely on 13 rounds of the 2026 season form
 - 🆕 First-ever F1 qualifying at Circuit de Madrid lap times will set records. 
 
 ---
+## 🗓️ Round 15 — 🇦🇿 Azerbaijan Grand Prix
 
+**Race Date: September 26, 2026 — Baku City Circuit**
 
+### 🌡️ Weather
+| Session | Temp | Conditions | Rain | Wind | Humidity |
+|---------|------|------------|------|------|----------|
+| Friday FP | 22°C | ⛅ Sunny/Cloudy | 0% | 15 km/h | 48% |
+| Friday Qualifying | 23°C | ☀️ Sunny | 0% | 20 km/h | 45% |
+| Saturday Race | 24°C | ☀️ Sunny | 0% | 12 km/h | 42% |
+
+### 🕐 GP Q3 Qualifying Results
+🌟 *Russell takes pole in strong Baku winds; 3rd pole of 2026!*  
+😱 *Antonelli eliminated in Q2; massive shock exit of the weekend!*  
+🌟 *Sainz P9 Williams' best Q3 appearance of the season!*
+
+| Pos | Driver | Team | Time | Gap |
+|-----|--------|------|------|-----|
+| P1 | George Russell 🌟 | Mercedes | 1:42.526 | — |
+| P2 | Charles Leclerc | Ferrari | 1:43.363 | +0.837s |
+| P3 | Oscar Piastri | McLaren | 1:43.364 | +0.838s |
+| P4 | Isack Hadjar | Red Bull Racing | 1:43.500 | +0.974s |
+| P5 | Lando Norris | McLaren | 1:43.672 | +1.146s |
+| P6 | Lewis Hamilton | Ferrari | 1:43.858 | +1.332s |
+| P7 | Pierre Gasly | Alpine | 1:44.047 | +1.521s |
+| P8 | Max Verstappen | Red Bull Racing | 1:44.081 | +1.555s |
+| P9 | Carlos Sainz | Williams | 1:44.566 | +2.040s |
+| P10 | Franco Colapinto | Alpine | 1:44.963 | +2.437s |
+
+### 🤖 Model Prediction
+
+| | Driver | Team | Pred Lap (s) |
+|--|--------|------|-------------|
+| 🥇 **George Russell** | Mercedes | 108.660 |
+| 🥈 **Charles Leclerc** | Ferrari | 109.432 |
+| 🥉 **Oscar Piastri** | McLaren | 109.607 |
+| P4 | Isack Hadjar | Red Bull Racing | 109.774 |
+| P5 | Lando Norris | McLaren | 109.995 |
+| P6 | Lewis Hamilton | Ferrari | 110.219 |
+| P7 | Pierre Gasly | Alpine | 110.468 |
+| P8 | Max Verstappen | Red Bull Racing | 110.512 |
+| P9 | Carlos Sainz | Williams | 111.385 |
+| P10 | Franco Colapinto | Alpine | 111.535 |
+
+---
 
 ## 📝 Notes on 2026 Regulations
 
