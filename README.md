@@ -31,7 +31,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | R12 | 🇳🇱 Dutch GP | Zandvoort | Aug 23, 2026 | Norris P1: 1:11.163| 🥇 Norris ✅  | Russell / Norris / Antonelli ✅✅✅| 🥇Norris / 🥈Antonelli /🥉 Russell |
 | R13 | 🇮🇹 Italian GP | Monza | Sep 6, 2026 |✅ Gasly P1 1:21.786  |🥇  Gasly ❌| Gasly / Russell / Leclerc ❌✅❌ | 🥇 Antonelli 🥈 Russell 🥉 Verstappen |
 | R14 | 🇪🇸 Spanish GP (Madrid)* | Madrid | Sep 13, 2026 |✅ Norris P1 1:31.824|🥇 Norris❌|Norris / Antonelli / Verstappen ✅✅✅|🥇 Antonelli 🥈 Verstappen 🥉 Norris|
-| R15 | 🇦🇿 Azerbaijan GP | Baku | Sep 26, 2026 |✅ Russell P1 1:42.526|🥇 Russell|Russell / Leclerc / Piastri|TBD|
+| R15 | 🇦🇿 Azerbaijan GP | Baku | Sep 26, 2026 |✅ Russell P1 1:42.526|🥇 Russell ✅|Russell / Leclerc / Piastri ✅❌❌|Russell / Verstappen / Hadjar|
 | R16 | 🇲🇾 Bahrain GP (Malaysia)| Sepang | Oct 2-4, 2026 | — | — | — | — |
 | R17 | 🇸🇬 Singapore GP | Singapore | Oct 11, 2026 | — | — | — | — |
 | R18 | 🇺🇸 United States GP | Austin | Oct 25, 2026 | — | — | — | — |
@@ -1310,6 +1310,32 @@ Race Date: July 5, 2026-Silverstone Circuit
 | P8 | Max Verstappen | Red Bull Racing | 110.512 |
 | P9 | Carlos Sainz | Williams | 111.385 |
 | P10 | Franco Colapinto | Alpine | 111.535 |
+
+
+### ✅ Actual Race Result
+
+| Pos | Driver | Team | Gap | Predicted? |
+|-----|--------|------|-----|-----------|
+| 🥇 1 | George Russell | Mercedes | LEADER | ✅ Correct! |
+| 🥈 2 | Max Verstappen | Red Bull Ford | +0.196s | ❌ Predicted P8 |
+| 🥉 3 | Isack Hadjar | Red Bull Ford | +10.704s | ⚠ Predicted P4 one off! |
+| 4 | Charles Leclerc | Ferrari | +14.136s | — |
+| 5 | Kimi Antonelli | Mercedes | +14.512s | — |
+| 6 | Lewis Hamilton | Ferrari | +22.382s | — |
+| 7 | Arvid Lindblad | Racing Bulls | +31.159s | — |
+| 8 | Esteban Ocon | Haas | +31.189s | — |
+| 9 | Oliver Bearman | Haas | +31.929s | — |
+| 10 | Carlos Sainz | Williams | +32.416s | — |
+
+**Model Accuracy — Round 15:**
+- 🥇 Winner correct: ✅ YES — Russell pole to win!
+- 🥈 P2 correct: ❌ NO — Verstappen P2 from P8 — incredible drive!
+- 🥉 P3 correct: ❌ NO — Hadjar P3 — best result of 2026!
+- 📊 Strict: 1/3
+- ✅ Hadjar predicted P4 only one position off P3!
+- 🔵 Red Bull Ford 1-2 (VER+HAD) strongest team result of 2026 season
+- 😱 Antonelli recovers to P5 from outside top 10 grid
+
 
 ---
 
