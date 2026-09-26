@@ -31,7 +31,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | R12 | 🇳🇱 Dutch GP | Zandvoort | Aug 23, 2026 | Norris P1: 1:11.163| 🥇 Norris ✅  | Russell / Norris / Antonelli ✅✅✅| 🥇Norris / 🥈Antonelli /🥉 Russell |
 | R13 | 🇮🇹 Italian GP | Monza | Sep 6, 2026 |✅ Gasly P1 1:21.786  |🥇  Gasly ❌| Gasly / Russell / Leclerc ❌✅❌ | 🥇 Antonelli 🥈 Russell 🥉 Verstappen |
 | R14 | 🇪🇸 Spanish GP (Madrid)* | Madrid | Sep 13, 2026 |✅ Norris P1 1:31.824|🥇 Norris❌|Norris / Antonelli / Verstappen ✅✅✅|🥇 Antonelli 🥈 Verstappen 🥉 Norris|
-| R15 | 🇦🇿 Azerbaijan GP | Baku | Sep 26, 2026 |✅ Russell P1 1:42.526|🥇 Russell ✅|Russell / Leclerc / Piastri ✅❌❌|Russell / Verstappen / Hadjar|
+| R15 | 🇦🇿 Azerbaijan GP | Baku | Sep 26, 2026 |✅ Russell P1 1:42.526|🥇 Russell ✅|Russell / Leclerc / Piastri ✅❌❌|🥇Russell /🥈Verstappen /🥉Hadjar|
 | R16 | 🇲🇾 Bahrain GP (Malaysia)| Sepang | Oct 2-4, 2026 | — | — | — | — |
 | R17 | 🇸🇬 Singapore GP | Singapore | Oct 11, 2026 | — | — | — | — |
 | R18 | 🇺🇸 United States GP | Austin | Oct 25, 2026 | — | — | — | — |
