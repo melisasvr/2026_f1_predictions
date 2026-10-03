@@ -32,7 +32,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | R13 | 🇮🇹 Italian GP | Monza | Sep 6, 2026 |✅ Gasly P1 1:21.786  |🥇  Gasly ❌| Gasly / Russell / Leclerc ❌✅❌ | 🥇 Antonelli 🥈 Russell 🥉 Verstappen |
 | R14 | 🇪🇸 Spanish GP (Madrid)* | Madrid | Sep 13, 2026 |✅ Norris P1 1:31.824|🥇 Norris❌|Norris / Antonelli / Verstappen ✅✅✅|🥇 Antonelli 🥈 Verstappen 🥉 Norris|
 | R15 | 🇦🇿 Azerbaijan GP | Baku | Sep 26, 2026 |✅ Russell P1 1:42.526|🥇 Russell ✅|Russell / Leclerc / Piastri ✅❌❌|🥇Russell /🥈Verstappen /🥉Hadjar|
-| R16 | 🇲🇾 Bahrain GP (Malaysia)| Sepang | Oct 2-4, 2026 | — | — | — | — |
+| R16 | 🇲🇾 Bahrain GP (Malaysia)| Sepang | Oct 2-4, 2026 |✅ Verstappen P1 1:35.130|🥇Verstappen✅|Verstappen / Hamilton / Antonelli|TBD|
 | R17 | 🇸🇬 Singapore GP | Singapore | Oct 11, 2026 | — | — | — | — |
 | R18 | 🇺🇸 United States GP | Austin | Oct 25, 2026 | — | — | — | — |
 | R19 | 🇲🇽 Mexico City GP | Mexico City | Nov 1, 2026 | — | — | — | — |
@@ -1336,9 +1336,71 @@ Race Date: July 5, 2026-Silverstone Circuit
 - 🔵 Red Bull Ford 1-2 (VER+HAD) strongest team result of 2026 season
 - 😱 Antonelli recovers to P5 from outside top 10 grid
 
-
 ---
 
+## 🗓️ Round 16 — 🇲🇾 Bahrain Grand Prix *(Malaysia)*
+
+**Race Date: October 04, 2026 — Sepang International Circuit**
+
+### 🌡️ Weather
+
+| Session | Temp | Conditions | Rain | Wind | Humidity |
+|---------|------|------------|------|------|----------|
+| Qualifying | 32°C | ☁️ Cloudy | 30% |6 km/h| 75% |
+| Race | 32°C | ⛅ Partly Cloudy | 30% |8 km/h| 75% |
+
+### 🕐 GP Qualifying Results
+
+🔵 *Max Verstappen takes pole position for Red Bull Ford!*  
+🌟 *Red Bull Racing locks out the front row with a dominant qualifying performance!*  
+😱 *Gabriel Bortoleto reaches the top ten in challenging tropical conditions!*  
+🔥 *The most extreme tropical conditions of the 2026 season are expected!*  
+🏁 *Historic: the Bahrain Grand Prix is held at Sepang, Malaysia!*
+
+| Pos | Driver | Team | Time | Gap |
+|-----|--------|------|------|-----|
+| P1 | Max Verstappen 🔵 | Red Bull Racing | 1:35.130 | — |
+| P2 | Lewis Hamilton | Ferrari | 1:35.428 | +0.298s |
+| P3 | Isack Hadjar | Red Bull Racing | 1:35.558 | +0.428s |
+| P4 | Kimi Antonelli | Mercedes | 1:35.631 | +0.501s |
+| P5 | Charles Leclerc | Ferrari | 1:35.666 | +0.536s |
+| P6 | Lando Norris | McLaren | 1:35.757 | +0.627s |
+| P7 | Oscar Piastri | McLaren | 1:35.762 | +0.632s |
+| P8 | George Russell | Mercedes | 1:35.871 | +0.741s |
+| P9 | Pierre Gasly | Alpine | 1:37.210 | +2.080s |
+| P10 | Gabriel Bortoleto | Audi | 1:37.673 | +2.543s |
+
+### 🤖 Model Prediction
+
+| | Driver | Team | Pred Lap (s) |
+|--|--------|------|-------------|
+| 🥇 **Max Verstappen** | Red Bull Racing | 101.820 |
+| 🥈 **Lewis Hamilton** | Ferrari | 102.127 |
+| 🥉 **Kimi Antonelli** | Mercedes | 102.625 |
+| P4 | Charles Leclerc | Ferrari | 102.751 |
+| P5 | Isack Hadjar | Red Bull Racing | 102.774 |
+| P6 | George Russell | Mercedes | 102.817 |
+| P7 | Lando Norris | McLaren | 102.928 |
+| P8 | Oscar Piastri | McLaren | 102.931 |
+| P9 | Pierre Gasly | Alpine | 104.347 |
+| P10 | Gabriel Bortoleto | Audi | 105.299 |
+
+### 📊 Model Performance
+- **Test-set MAE:** 0.17 seconds.
+- **Predicted pole:** Max Verstappen.
+- **Predicted race winner:** Max Verstappen.
+- **Predicted fastest driver:** Max Verstappen, with a predicted lap of 101.820 seconds.
+- **Predicted podium:** Max Verstappen, Lewis Hamilton, and Kimi Antonelli.
+
+### 🔥 Race Weekend Notes
+- 🌡️ Race temperature: **32°C**.
+- 💧 Humidity: **75%**.
+- 🌧️ Rain probability: **30%**, with tropical showers possible.
+- 🔵 Max Verstappen starts from pole position.
+- 🏎️ Red Bull Racing qualifies with a strong 1–3 result.
+- 🌟 The event is presented as the first Bahrain Grand Prix held at Sepang, Malaysia.
+
+---
 ## 📝 Notes on 2026 Regulations
 
 ### 🆕 Mid-Season Regulation Update — Effective from Miami GP (Round 6)
