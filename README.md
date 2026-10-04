@@ -32,7 +32,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | R13 | 🇮🇹 Italian GP | Monza | Sep 6, 2026 |✅ Gasly P1 1:21.786  |🥇  Gasly ❌| Gasly / Russell / Leclerc ❌✅❌ | 🥇 Antonelli 🥈 Russell 🥉 Verstappen |
 | R14 | 🇪🇸 Spanish GP (Madrid)* | Madrid | Sep 13, 2026 |✅ Norris P1 1:31.824|🥇 Norris❌|Norris / Antonelli / Verstappen ✅✅✅|🥇 Antonelli 🥈 Verstappen 🥉 Norris|
 | R15 | 🇦🇿 Azerbaijan GP | Baku | Sep 26, 2026 |✅ Russell P1 1:42.526|🥇 Russell ✅|Russell / Leclerc / Piastri ✅❌❌|🥇Russell /🥈Verstappen /🥉Hadjar|
-| R16 | 🇲🇾 Bahrain GP (Malaysia)| Sepang | Oct 2-4, 2026 |✅ Verstappen P1 1:35.130|🥇Verstappen✅|Verstappen / Hamilton / Antonelli|TBD|
+| R16 | 🇲🇾 Bahrain GP (Malaysia)| Sepang | Oct 2-4, 2026 |✅ Verstappen P1 1:35.130|🥇Verstappen✅|Verstappen / Hamilton / Antonelli|🥇Verstappen / 🥈Antonelli / 🥉 Hamilton |
 | R17 | 🇸🇬 Singapore GP | Singapore | Oct 11, 2026 | — | — | — | — |
 | R18 | 🇺🇸 United States GP | Austin | Oct 25, 2026 | — | — | — | — |
 | R19 | 🇲🇽 Mexico City GP | Mexico City | Nov 1, 2026 | — | — | — | — |
@@ -1393,12 +1393,31 @@ Race Date: July 5, 2026-Silverstone Circuit
 - **Predicted podium:** Max Verstappen, Lewis Hamilton, and Kimi Antonelli.
 
 ### 🔥 Race Weekend Notes
-- 🌡️ Race temperature: **32°C**.
-- 💧 Humidity: **75%**.
-- 🌧️ Rain probability: **30%**, with tropical showers possible.
-- 🔵 Max Verstappen starts from pole position.
-- 🏎️ Red Bull Racing qualifies with a strong 1–3 result.
-- 🌟 The event is presented as the first Bahrain Grand Prix held at Sepang, Malaysia.
+> 🔍 Model MAE: 0.17s · 🆕 TropicalHeatScore feature added
+> 🔥 32°C + 75% humidity most extreme conditions of the 2026 season
+
+### ✅ Actual Race Result
+
+| Pos | Driver | Team | Gap | Predicted? |
+|-----|--------|------|-----|-----------|
+| 🥇 1 | Max Verstappen | Red Bull Racing | LEADER | ✅ Correct! |
+| 🥈 2 | Kimi Antonelli | Mercedes | +2.307s | ✅ Predicted P3 |
+| 🥉 3 | Lewis Hamilton | Ferrari | +4.919s | ✅ Predicted P2 |
+| 4 | Charles Leclerc | Ferrari | +7.258s | — |
+| 5 | Isack Hadjar | Red Bull Racing | +8.571s | — |
+| 6 | Oscar Piastri | McLaren | +9.454s | — |
+| 7 | Liam Lawson | Racing Bulls | +12.753s | — |
+| 8 | Fernando Alonso | Aston Martin | +13.372s | — |
+| 9 | Lando Norris | McLaren | +13.993s | — |
+| 10 | Arvid Lindblad | Racing Bulls | +15.928s | — |
+
+**Model Accuracy — Round 16: 🎉 ALL 3 PODIUM DRIVERS CORRECT!**
+- 🥇 Winner correct: ✅ YES — Verstappen pole to win!
+- 🥈 P2 correct: ✅ Antonelli predicted P3, finished P2 correct driver!
+- 🥉 P3 correct: ✅ Hamilton predicted P2, finished P3 correct driver!
+- 📊 ALL 3 podium drivers correctly identified P2/P3 only order swapped
+- 🔵 Verstappen's best win of 2026 Red Bull Racing resurgence at Sepang
+- 🌟 3rd time this season all 3 podium drivers correct (R12, R14, R16)!
 
 ---
 ## 📝 Notes on 2026 Regulations
