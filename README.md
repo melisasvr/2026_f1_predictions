@@ -33,7 +33,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | R14 | 🇪🇸 Spanish GP (Madrid)* | Madrid | Sep 13, 2026 |✅ Norris P1 1:31.824|🥇 Norris❌|Norris / Antonelli / Verstappen ✅✅✅|🥇 Antonelli 🥈 Verstappen 🥉 Norris|
 | R15 | 🇦🇿 Azerbaijan GP | Baku | Sep 26, 2026 |✅ Russell P1 1:42.526|🥇 Russell ✅|Russell / Leclerc / Piastri ✅❌❌|🥇Russell /🥈Verstappen /🥉Hadjar|
 | R16 | 🇲🇾 Bahrain GP (Malaysia)| Sepang | Oct 2-4, 2026 |✅ Verstappen P1 1:35.130|🥇Verstappen✅|Verstappen / Hamilton / Antonelli|🥇Verstappen / 🥈Antonelli / 🥉 Hamilton |
-| R17 | 🇸🇬 Singapore GP | Singapore | Oct 11, 2026 | — | — | — | — |
+| R17 | 🇸🇬 Singapore GP | Singapore | Oct 11, 2026 |✅ Verstappen P1 1:31.373|🥇Verstappen✅||Verstappen / Hamilton / Leclerc| — |
 | R18 | 🇺🇸 United States GP | Austin | Oct 25, 2026 | — | — | — | — |
 | R19 | 🇲🇽 Mexico City GP | Mexico City | Nov 1, 2026 | — | — | — | — |
 | R20 | 🇧🇷 Brazilian GP | São Paulo | Nov 8, 2026 | — | — | — | — |
@@ -1420,6 +1420,66 @@ Race Date: July 5, 2026-Silverstone Circuit
 - 🌟 3rd time this season all 3 podium drivers correct (R12, R14, R16)!
 
 ---
+## 🗓️ Round 17 — 🇸🇬 Singapore Grand Prix
+
+**Race Date: October 11, 2026 — Marina Bay Street Circuit**
+
+### 🌡️ Weather
+
+| Session | Temp | Conditions | Rain | Wind | Humidity |
+|---------|------|------------|------|------|----------|
+| Qualifying | 31°C | ☁️ Cloudy | 30% | 10 km/h | 74% |
+| Race | 31°C | ⛅ Partly Cloudy | 30% | 10 km/h | 74% |
+
+### 🕐 GP Qualifying Results
+
+- 🔵 *Max Verstappen takes pole position for Red Bull Racing!*  
+- 🏎️ *Ferrari secures a strong P2 and P3 start for the race!*  
+- ⚡ *Arvid Lindblad makes an impressive top-ten appearance in Singapore!*  
+- 🔥 *High humidity and tight street circuit demand test overall driver endurance!*  
+- 🏁 *Max Verstappen doubles up with both Sprint and Pole wins!*
+
+| Pos | Driver | Team | Time | Gap |
+|-----|--------|------|------|-----|
+| P1 | Max Verstappen 🔵 | Red Bull Racing | 1:31.373 | — |
+| P2 | Charles Leclerc | Ferrari | 1:31.427 | +0.054s |
+| P3 | Lewis Hamilton | Ferrari | 1:31.496 | +0.123s |
+| P4 | Kimi Antonelli | Mercedes | 1:31.562 | +0.189s |
+| P5 | Lando Norris | McLaren | 1:31.712 | +0.339s |
+| P6 | George Russell | Mercedes | 1:31.747 | +0.374s |
+| P7 | Oscar Piastri | McLaren | 1:31.860 | +0.487s |
+| P8 | Pierre Gasly | Alpine | 1:32.225 | +0.852s |
+| P9 | Liam Lawson | Racing Bulls | 1:32.369 | +0.996s |
+| P10 | Arvid Lindblad | Racing Bulls | 1:32.781 | +1.408s |
+
+### 🤖 Model Prediction
+
+| | Driver | Team | Pred Lap (s) |
+|--|--------|------|-------------|
+| 🥇 **Max Verstappen** | Red Bull Racing | 99.572 |
+| 🥈 **Lewis Hamilton** | Ferrari | 99.632 |
+| 🥉 **Charles Leclerc** | Ferrari | 99.854 |
+| P4 | Kimi Antonelli | Mercedes | 99.962 |
+| P5 | George Russell | Mercedes | 99.985 |
+| P6 | Lando Norris | McLaren | 100.236 |
+| P7 | Oscar Piastri | McLaren | 100.370 |
+| P8 | Pierre Gasly | Alpine | 100.876 |
+| P9 | Liam Lawson | Racing Bulls | 101.185 |
+| P10 | Arvid Lindblad | Racing Bulls | 101.669 |
+
+### 📊 Model Performance
+- **Test-set MAE:** 0.05 seconds.
+- **Predicted pole:** Max Verstappen.
+- **Predicted race winner:** Max Verstappen.
+- **Predicted fastest driver:** Max Verstappen, with a predicted lap of 99.572 seconds.
+- **Predicted podium:** Max Verstappen, Lewis Hamilton, and Charles Leclerc.
+
+### 🔥 Race Weekend Notes
+> 🔍 Model MAE: 0.05s · 🆕 Integrated SafetyCarSkill & TropicalHeatScore features  
+> 🏎️ Sprint winner: Max Verstappen | Pole: Max Verstappen | No grid penalties applied
+
+---
+
 ## 📝 Notes on 2026 Regulations
 
 ### 🆕 Mid-Season Regulation Update — Effective from Miami GP (Round 6)
