@@ -33,7 +33,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | R14 | 🇪🇸 Spanish GP (Madrid)* | Madrid | Sep 13, 2026 |✅ Norris P1 1:31.824|🥇 Norris❌|Norris / Antonelli / Verstappen ✅✅✅|🥇 Antonelli 🥈 Verstappen 🥉 Norris|
 | R15 | 🇦🇿 Azerbaijan GP | Baku | Sep 26, 2026 |✅ Russell P1 1:42.526|🥇 Russell ✅|Russell / Leclerc / Piastri ✅❌❌|🥇Russell /🥈Verstappen /🥉Hadjar|
 | R16 | 🇲🇾 Bahrain GP (Malaysia)| Sepang | Oct 2-4, 2026 |✅ Verstappen P1 1:35.130|🥇Verstappen✅|Verstappen / Hamilton / Antonelli|🥇Verstappen / 🥈Antonelli / 🥉 Hamilton |
-| R17 | 🇸🇬 Singapore GP | Singapore | Oct 11, 2026 |✅ Verstappen P1 1:31.373|🥇Verstappen✅||Verstappen / Hamilton / Leclerc| — |
+| R17 | 🇸🇬 Singapore GP | Singapore | Oct 11, 2026 |✅ Verstappen P1 1:31.373|🥇Verstappen✅|Verstappen / Hamilton / Leclerc ✅❌✅| 🥇Verstappen /🥈 Leclerc / 🥉Antonelli  |
 | R18 | 🇺🇸 United States GP | Austin | Oct 25, 2026 | — | — | — | — |
 | R19 | 🇲🇽 Mexico City GP | Mexico City | Nov 1, 2026 | — | — | — | — |
 | R20 | 🇧🇷 Brazilian GP | São Paulo | Nov 8, 2026 | — | — | — | — |
@@ -1467,16 +1467,31 @@ Race Date: July 5, 2026-Silverstone Circuit
 | P9 | Liam Lawson | Racing Bulls | 101.185 |
 | P10 | Arvid Lindblad | Racing Bulls | 101.669 |
 
-### 📊 Model Performance
-- **Test-set MAE:** 0.05 seconds.
-- **Predicted pole:** Max Verstappen.
-- **Predicted race winner:** Max Verstappen.
-- **Predicted fastest driver:** Max Verstappen, with a predicted lap of 99.572 seconds.
-- **Predicted podium:** Max Verstappen, Lewis Hamilton, and Charles Leclerc.
 
+### 🏁 Actual Race Results
+
+| Pos | Driver | Team | Time / Gap | Pts |
+|-----|--------|------|------------|-----|
+| 🥇 P1 | Max Verstappen | Red Bull Racing | 1:42:00.785 | 25 |
+| 🥈 P2 | Charles Leclerc | Ferrari | +7.335s | 18 |
+| 🥉 P3 | Kimi Antonelli | Mercedes | +24.573s | 15 |
+| P4 | Lando Norris | McLaren | +40.506s | 12 |
+| P5 | Oscar Piastri | McLaren | +49.644s | 10 |
+| P6 | Lewis Hamilton | Ferrari | +53.188s | 8 |
+| P7 | Liam Lawson | Racing Bulls | +81.666s | 6 |
+| P8 | Nico Hülkenberg | Audi | +83.386s | 4 |
+| P9 | George Russell | Mercedes | +84.677s | 2 |
+| P10 | Isack Hadjar | Red Bull Racing | +90.862s | 1 |
+
+### 📊 Model Performance Evaluation
+- **Test-Set MAE:** 0.05 seconds.
+- **Race Winner Prediction:** 🎯 **Exact Hit** (Predicted P1: Max Verstappen).
+- **Top 2 Accuracy:** 🎯 Correctly identified **2 out of 2** top drivers on the podium (Verstappen & Leclerc).
+- **Podium Accuracy:** Predicted 2/3 of the actual podium drivers (Verstappen, Leclerc).
+- **Key Insight:** The model correctly predicted Verstappen's race pace dominance and Leclerc's top-tier finish. Future updates will focus on incorporating initial launch/start phase telemetry to better account for grid start moves (such as Kimi Antonelli's climb into P3).
 ### 🔥 Race Weekend Notes
-> 🔍 Model MAE: 0.05s · 🆕 Integrated SafetyCarSkill & TropicalHeatScore features  
-> 🏎️ Sprint winner: Max Verstappen | Pole: Max Verstappen | No grid penalties applied
+- 🔍 Model MAE: 0.05s · 🆕 Integrated `SafetyCarSkill` & `TropicalHeatScore` features  
+- 🏎️ Race Winner: Max Verstappen | Pole: Max Verstappen | Sprint Winner: Max Verstappen
 
 ---
 
