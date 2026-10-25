@@ -1494,6 +1494,51 @@ Race Date: July 5, 2026-Silverstone Circuit
 - 🏎️ Race Winner: Max Verstappen | Pole: Max Verstappen | Sprint Winner: Max Verstappen
 
 ---
+## 🗓️ Round 18 — 🇺🇸 United States Grand Prix
+
+**Race Date: October 25, 2026 — Circuit of the Americas, Austin**
+
+### 🌡️ Weather
+
+| Session | Temp | Conditions | Rain | Wind | Humidity |
+|---------|------|------------|------|------|----------|
+| Qualifying | 29°C | ☀️ Clear | 20% | 13 km/h | 61% |
+| Race | 28°C | ☀️ Clear | 20% | 13 km/h | 61% |
+
+### 🕐 GP Qualifying Results
+
+- 🔵 *Kimi Antonelli takes pole position for Mercedes with a stunning 1:34.035!*  
+- 🏎️ *Max Verstappen and Isack Hadjar lock out the second row for Red Bull Racing!*  
+- ⚡ *Ferrari shows strong race pace potential with Leclerc and Hamilton in the top 5!*  
+
+| Pos | Driver | Team | Time | Gap |
+|-----|--------|------|------|-----|
+| P1 | Kimi Antonelli 🔵 | Mercedes | 1:34.035 | — |
+| P2 | Max Verstappen | Red Bull Racing | 1:34.214 | +0.179s |
+| P3 | Isack Hadjar | Red Bull Racing | 1:34.250 | +0.215s |
+| P4 | Charles Leclerc | Ferrari | 1:34.267 | +0.232s |
+| P5 | Lewis Hamilton | Ferrari | 1:34.311 | +0.276s |
+| P6 | George Russell | Mercedes | 1:34.476 | +0.441s |
+| P7 | Oscar Piastri | McLaren | 1:34.803 | +0.768s |
+| P8 | Lando Norris | McLaren | 1:35.049 | +1.014s |
+| P9 | Arvid Lindblad | Racing Bulls | 1:36.049 | +2.014s |
+| P10 | Liam Lawson | Racing Bulls | 1:36.349 | +2.314s |
+
+### 🤖 Model Prediction
+
+| | Driver | Team | Pred Lap (s) |
+|--|--------|------|-------------|
+| 🥇 **Max Verstappen** | Red Bull Racing | 100.095 |
+| 🥈 **Kimi Antonelli** | Mercedes | 100.100 |
+| 🥉 **Lewis Hamilton** | Ferrari | 100.233 |
+| P4 | Charles Leclerc | Ferrari | 100.386 |
+| P5 | George Russell | Mercedes | 100.449 |
+| P6 | Isack Hadjar | Red Bull Racing | 100.488 |
+| P7 | Oscar Piastri | McLaren | 100.969 |
+| P8 | Lando Norris | McLaren | 101.251 |
+| P9 | Arvid Lindblad | Racing Bulls | 102.057 |
+| P10 | Liam Lawson | Racing Bulls | 102.728 |
+
 
 ## 📝 Notes on 2026 Regulations
 
