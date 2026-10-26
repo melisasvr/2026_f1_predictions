@@ -34,18 +34,20 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | R15 | 🇦🇿 Azerbaijan GP | Baku | Sep 26, 2026 |✅ Russell P1 1:42.526|🥇 Russell ✅|Russell / Leclerc / Piastri ✅❌❌|🥇Russell /🥈Verstappen /🥉Hadjar|
 | R16 | 🇲🇾 Bahrain GP (Malaysia)| Sepang | Oct 2-4, 2026 |✅ Verstappen P1 1:35.130|🥇Verstappen✅|Verstappen / Hamilton / Antonelli|🥇Verstappen / 🥈Antonelli / 🥉 Hamilton |
 | R17 | 🇸🇬 Singapore GP | Singapore | Oct 11, 2026 |✅ Verstappen P1 1:31.373|🥇Verstappen✅|Verstappen / Hamilton / Leclerc ✅❌✅| 🥇Verstappen /🥈 Leclerc / 🥉Antonelli  |
-| R18 | 🇺🇸 United States GP | Austin | Oct 25, 2026 |✅ Antonelli P1 1:34.035|🥇Verstappen |Verstappen / Hamilton / Antonelli| — |
+| R18 | 🇺🇸 United States GP | Austin | Oct 25, 2026 |✅ Antonelli P1 1:34.035|🥇Verstappen ❌ |Verstappen / Hamilton / Antonelli✅✅❌|🥇 Antonelli 🥈 Leclerc 🥉 Verstappen|
 | R19 | 🇲🇽 Mexico City GP | Mexico City | Nov 1, 2026 | — | — | — | — |
 | R20 | 🇧🇷 Brazilian GP | São Paulo | Nov 8, 2026 | — | — | — | — |
 | R21 | 🇺🇸 Las Vegas GP | Las Vegas | Nov 21, 2026 | — | — | — | — |
 | R22 | 🇶🇦 Qatar GP | Lusail | Nov 29, 2026 | — | — | — | — |
 | R23 | 🇦🇪 Abu Dhabi GP | Yas Island | Dec 6, 2026 | — | — | — | — |
 
-*Subject to FIA circuit homologation
-
-> ⚠️ **Official Statement F1 & FIA:** The Bahrain and Saudi Arabian Grands Prix have been cancelled due to the ongoing situation in the Middle East. No replacement races will be scheduled in April. Statement by Stefano Domenicali, President & CEO of Formula 1. The 2026 season now runs **22 rounds**. Bahrain and Saudi Arabia are not counted in the round numbering. Rounds completed; counter updated accordingly.
-> ⚠️ **Official Statement F1 & FIA:** Malaysia to host Bahrain GP at Sepang-Oct 2-4, 2026
-
+- Subject to FIA circuit homologation
+```
+- ⚠️ Official Statement F1 & FIA: The Bahrain and Saudi Arabian Grands Prix have been cancelled due to the ongoing situation in the Middle East.
+-  No replacement races will be scheduled in April. Statement by Stefano Domenicali, President & CEO of Formula 1.
+-  The 2026 season now runs 22 rounds. Bahrain and Saudi Arabia are not counted in the round numbering. Rounds completed; counter updated accordingly.
+- ⚠️ Official Statement F1 & FIA: Malaysia to host Bahrain GP at Sepang, Oct 2-4, 2026
+```
 ---
 
 ## 📋 How It Works
@@ -1525,7 +1527,6 @@ Race Date: July 5, 2026-Silverstone Circuit
 | P10 | Liam Lawson | Racing Bulls | 1:36.349 | +2.314s |
 
 ### 🤖 Model Prediction
-
 | | Driver | Team | Pred Lap (s) |
 |--|--------|------|-------------|
 | 🥇 **Max Verstappen** | Red Bull Racing | 100.095 |
@@ -1538,6 +1539,26 @@ Race Date: July 5, 2026-Silverstone Circuit
 | P8 | Lando Norris | McLaren | 101.251 |
 | P9 | Arvid Lindblad | Racing Bulls | 102.057 |
 | P10 | Liam Lawson | Racing Bulls | 102.728 |
+
+### ✅ Actual Race Result
+| Pos | Driver | Team | Gap | Predicted? |
+|-----|--------|------|-----|-----------|
+| 🥇 1 | Kimi Antonelli | Mercedes | LEADER | ⚠️ Predicted P2 |
+| 🥈 2 | Charles Leclerc | Ferrari | +13.078s | ❌ Not in predicted podium (started P4) |
+| 🥉 3 | Max Verstappen | Red Bull Ford | +17.485s | ⚠️ Predicted P1 |
+| 4 | Lewis Hamilton | Ferrari | +18.515s | ❌ Predicted P3 |
+| 5 | Lando Norris | McLaren | +30.521s | — |
+| 6 | Isack Hadjar | Red Bull Ford | +34.373s | — |
+| 7 | Oscar Piastri | McLaren | +52.674s | — |
+| 8 | George Russell | Mercedes | +54.303s | — |
+| 9 | Liam Lawson | Racing Bulls | +79.183s | — |
+| 10 | Pierre Gasly | Alpine | +87.516s | — |
+ 
+**Model Accuracy-Round 18:**
+- 🥇 Winner: ❌ Predicted Verstappen; Antonelli won (the model had them 0.005s apart)
+- 📊 Exact podium positions: 0/3
+- ✅ Podium drivers identified: 2/3 (Antonelli, Verstappen) Hamilton finished P4
+- 🔴 Leclerc P2 from P4 on the grid was the surprise
 
 
 ## 📝 Notes on 2026 Regulations
