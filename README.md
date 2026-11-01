@@ -35,7 +35,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | R16 | 🇲🇾 Bahrain GP (Malaysia)| Sepang | Oct 2-4, 2026 |✅ Verstappen P1 1:35.130|🥇Verstappen✅|Verstappen / Hamilton / Antonelli|🥇Verstappen / 🥈Antonelli / 🥉 Hamilton |
 | R17 | 🇸🇬 Singapore GP | Singapore | Oct 11, 2026 |✅ Verstappen P1 1:31.373|🥇Verstappen✅|Verstappen / Hamilton / Leclerc ✅❌✅| 🥇Verstappen /🥈 Leclerc / 🥉Antonelli  |
 | R18 | 🇺🇸 United States GP | Austin | Oct 25, 2026 |✅ Antonelli P1 1:34.035|🥇Verstappen ❌ |Verstappen / Hamilton / Antonelli✅✅❌|🥇 Antonelli 🥈 Leclerc 🥉 Verstappen|
-| R19 | 🇲🇽 Mexico City GP | Mexico City | Nov 1, 2026 | — | — | — | — |
+| R19 | 🇲🇽 Mexico City GP | Mexico City | Nov 1, 2026 |✅ Hamilton P1 1:16.514|🥇Hamilton|Hamilton / Russell / Leclerc|TBD|
 | R20 | 🇧🇷 Brazilian GP | São Paulo | Nov 8, 2026 | — | — | — | — |
 | R21 | 🇺🇸 Las Vegas GP | Las Vegas | Nov 21, 2026 | — | — | — | — |
 | R22 | 🇶🇦 Qatar GP | Lusail | Nov 29, 2026 | — | — | — | — |
@@ -1559,6 +1559,58 @@ Race Date: July 5, 2026-Silverstone Circuit
 - 📊 Exact podium positions: 0/3
 - ✅ Podium drivers identified: 2/3 (Antonelli, Verstappen) Hamilton finished P4
 - 🔴 Leclerc P2 from P4 on the grid was the surprise
+
+---
+
+## 🗓️ Round 19 — 🇲🇽 Mexico City Grand Prix
+
+**Race Date: November 1, 2026 — Autódromo Hermanos Rodríguez, Mexico City**
+
+### 🌡️ Weather
+
+| Session | Temp | Conditions | Rain | Wind | Humidity |
+|---------|------|------------|------|------|----------|
+| Qualifying | 27°C | ☀️ Clear | <5% | 10 km/h | 49% |
+| Race | 26°C | ☀️ Clear | <5% | 10 km/h | 49% |
+
+### 🕐 GP Qualifying Results
+
+- 🔴 *Lewis Hamilton secures pole position for Ferrari with a lap of 1:16.514!*  
+- 🏁 *George Russell lines up alongside on the front row just +0.009s behind!*  
+- ⚡ *Ferrari and Mercedes lock out the top 3 with Leclerc starting in P3!*  
+
+| Pos | Driver | Team | Time | Gap |
+|-----|--------|------|------|-----|
+| P1 | Lewis Hamilton 🔴 | Ferrari | 1:16.514 | — |
+| P2 | George Russell | Mercedes | 1:16.523 | +0.009s |
+| P3 | Charles Leclerc | Ferrari | 1:16.633 | +0.119s |
+| P4 | Max Verstappen | Red Bull Racing | 1:16.692 | +0.178s |
+| P5 | Kimi Antonelli | Mercedes | 1:16.707 | +0.193s |
+| P6 | Lando Norris | McLaren | 1:16.824 | +0.310s |
+| P7 | Isack Hadjar | Red Bull Racing | 1:16.900 | +0.386s |
+| P8 | Liam Lawson | Racing Bulls | 1:17.029 | +0.515s |
+| P9 | Arvid Lindblad | Racing Bulls | 1:17.117 | +0.603s |
+| P10 | Pierre Gasly | Alpine | 1:17.153 | +0.639s |
+
+### 🤖 Model Prediction
+
+| | Driver | Team | Pred Lap (s) |
+|--|--------|------|-------------|
+| 🥇 **Lewis Hamilton** | Ferrari | 81.731 |
+| 🥈 **George Russell** | Mercedes | 81.753 |
+| 🥉 **Charles Leclerc** | Ferrari | 81.908 |
+| P4 | Max Verstappen | Red Bull Racing | 81.931 |
+| P5 | Kimi Antonelli | Mercedes | 81.976 |
+| P6 | Lando Norris | McLaren | 82.112 |
+| P7 | Isack Hadjar | Red Bull Racing | 82.223 |
+| P8 | Liam Lawson | Racing Bulls | 82.376 |
+| P9 | Arvid Lindblad | Racing Bulls | 82.411 |
+| P10 | Pierre Gasly | Alpine | 82.497 |
+
+
+
+
+
 
 
 ## 📝 Notes on 2026 Regulations
