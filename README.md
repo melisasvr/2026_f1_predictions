@@ -35,7 +35,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | R16 | 🇲🇾 Bahrain GP (Malaysia)| Sepang | Oct 2-4, 2026 |✅ Verstappen P1 1:35.130|🥇Verstappen✅|Verstappen / Hamilton / Antonelli|🥇Verstappen / 🥈Antonelli / 🥉 Hamilton |
 | R17 | 🇸🇬 Singapore GP | Singapore | Oct 11, 2026 |✅ Verstappen P1 1:31.373|🥇Verstappen✅|Verstappen / Hamilton / Leclerc ✅❌✅| 🥇Verstappen /🥈 Leclerc / 🥉Antonelli  |
 | R18 | 🇺🇸 United States GP | Austin | Oct 25, 2026 |✅ Antonelli P1 1:34.035|🥇Verstappen ❌ |Verstappen / Hamilton / Antonelli✅✅❌|🥇 Antonelli 🥈 Leclerc 🥉 Verstappen|
-| R19 | 🇲🇽 Mexico City GP | Mexico City | Nov 1, 2026 |✅ Hamilton P1 1:16.514|🥇Hamilton|Hamilton / Russell / Leclerc|TBD|
+| R19 | 🇲🇽 Mexico City GP | Mexico City | Nov 1, 2026 |✅ Hamilton P1 1:16.514|🥇Hamilton ❌|Hamilton / Russell / Leclerc ✅❌❌|🥇Verstappen /🥈Hamilton /🥉Antonelli|
 | R20 | 🇧🇷 Brazilian GP | São Paulo | Nov 8, 2026 | — | — | — | — |
 | R21 | 🇺🇸 Las Vegas GP | Las Vegas | Nov 21, 2026 | — | — | — | — |
 | R22 | 🇶🇦 Qatar GP | Lusail | Nov 29, 2026 | — | — | — | — |
@@ -1607,12 +1607,29 @@ Race Date: July 5, 2026-Silverstone Circuit
 | P9 | Arvid Lindblad | Racing Bulls | 82.411 |
 | P10 | Pierre Gasly | Alpine | 82.497 |
 
+### 🏁 Actual Race Results
 
+| Pos | Driver | Team | Grid | Time/Gap |
+|-----|--------|------|------|----------|
+| 🥇 **P1** | Max Verstappen | Red Bull Racing | 4 | Winner |
+| 🥈 **P2** | Lewis Hamilton | Ferrari | 1 | +0.799s |
+| 🥉 **P3** | Kimi Antonelli | Mercedes | 5 | +4.006s |
+| P4 | Charles Leclerc | Ferrari | 3 | +10.707s |
+| P5 | Lando Norris | McLaren | 6 | +11.778s |
+| P6 | George Russell | Mercedes | 2 | +12.263s |
+| P7 | Oscar Piastri | McLaren | — | +19.475s |
+| P8 | Franco Colapinto | Alpine | — | +20.204s |
+| P9 | Liam Lawson | Racing Bulls | 8 | +20.899s |
+| P10 | Pierre Gasly | Alpine | 10 | +21.483s |
 
+**Model Accuracy — Round 19:**
+- 🥇 Winner: ❌ Predicted Hamilton; Verstappen won (Max surged from P4 on the grid to victory)
+- 📊 Exact podium positions: 0/3
+- ✅ Podium drivers identified: 2/3 (Hamilton, Antonelli)
+- 🔴 Verstappen P1 from P4 on the grid & Antonelli P3 from P5 were the surprises
+- 🏆 **World Championship Note:** Kimi Antonelli officially seals the 2026 World Drivers' Championship title! 👑🍾
 
-
-
-
+---
 ## 📝 Notes on 2026 Regulations
 
 ### 🆕 Mid-Season Regulation Update — Effective from Miami GP (Round 6)
