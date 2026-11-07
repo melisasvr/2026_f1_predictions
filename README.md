@@ -36,7 +36,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | R17 | 🇸🇬 Singapore GP | Singapore | Oct 11, 2026 |✅ Verstappen P1 1:31.373|🥇Verstappen✅|Verstappen / Hamilton / Leclerc ✅❌✅| 🥇Verstappen /🥈 Leclerc / 🥉Antonelli  |
 | R18 | 🇺🇸 United States GP | Austin | Oct 25, 2026 |✅ Antonelli P1 1:34.035|🥇Verstappen ❌ |Verstappen / Hamilton / Antonelli✅✅❌|🥇 Antonelli 🥈 Leclerc 🥉 Verstappen|
 | R19 | 🇲🇽 Mexico City GP | Mexico City | Nov 1, 2026 |✅ Hamilton P1 1:16.514|🥇Hamilton ❌|Hamilton / Russell / Leclerc ✅❌❌|🥇Verstappen /🥈Hamilton /🥉Antonelli|
-| R20 | 🇧🇷 Brazilian GP | São Paulo | Nov 8, 2026 | — | — | — | — |
+| R20 | 🇧🇷 Brazilian GP | São Paulo | Nov 8, 2026 |✅ Norris P1 1:27.47- |🥇Russell|Russell / Norris / Antonelli |TBD|
 | R21 | 🇺🇸 Las Vegas GP | Las Vegas | Nov 21, 2026 | — | — | — | — |
 | R22 | 🇶🇦 Qatar GP | Lusail | Nov 29, 2026 | — | — | — | — |
 | R23 | 🇦🇪 Abu Dhabi GP | Yas Island | Dec 6, 2026 | — | — | — | — |
