@@ -36,7 +36,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | R17 | 🇸🇬 Singapore GP | Singapore | Oct 11, 2026 |✅ Verstappen P1 1:31.373|🥇Verstappen✅|Verstappen / Hamilton / Leclerc ✅❌✅| 🥇Verstappen /🥈 Leclerc / 🥉Antonelli  |
 | R18 | 🇺🇸 United States GP | Austin | Oct 25, 2026 |✅ Antonelli P1 1:34.035|🥇Verstappen ❌ |Verstappen / Hamilton / Antonelli✅✅❌|🥇 Antonelli 🥈 Leclerc 🥉 Verstappen|
 | R19 | 🇲🇽 Mexico City GP | Mexico City | Nov 1, 2026 |✅ Hamilton P1 1:16.514|🥇Hamilton ❌|Hamilton / Russell / Leclerc ✅❌❌|🥇Verstappen /🥈Hamilton /🥉Antonelli|
-| R20 | 🇧🇷 Brazilian GP | São Paulo | Nov 8, 2026 |✅ Norris P1 1:27.47- |🥇Russell|Russell / Norris / Antonelli |TBD|
+| R20 | 🇧🇷 Brazilian GP | São Paulo | Nov 8, 2026 |✅ Norris P1 1:27.47- |🥇Russell ❌|Russell / Norris / Antonelli ❌✅❌ |🥇Norris / 🥈Verstappen /🥉 Hadjar |
 | R21 | 🇺🇸 Las Vegas GP | Las Vegas | Nov 21, 2026 | — | — | — | — |
 | R22 | 🇶🇦 Qatar GP | Lusail | Nov 29, 2026 | — | — | — | — |
 | R23 | 🇦🇪 Abu Dhabi GP | Yas Island | Dec 6, 2026 | — | — | — | — |
@@ -1694,7 +1694,28 @@ Race Date: July 5, 2026-Silverstone Circuit
 -  That is much larger than the 0.10s penalty and the 0.204s qualifying gap. Treat the P1/P2 order as a wet-rating effect rather than a pace advantage.
  
 ### ✅ Actual Race Result
-*To be updated after the race on November 8, 2026*
+
+| Pos | Driver | Team | Time / Gap | Predicted? |
+|-----|--------|------|-----------|-----------|
+| 🥇 1 | Lando Norris | McLaren | 1:35:23.504 | ⚠ Predicted P2 |
+| 🥈 2 | Max Verstappen | Red Bull Ford | +14.602s | — Not modelled (back of grid, not in Q3 top 10) |
+| 🥉 3 | Isack Hadjar | Red Bull Ford | +24.485s | ❌ Predicted P7 |
+| 4 | George Russell | Mercedes | +33.991s | ❌ Predicted P1 |
+| 5 | Kimi Antonelli | Mercedes | +36.017s | ❌ Predicted P3 |
+| 6 | Oscar Piastri | McLaren | +56.475s | — Not modelled (not in Q3 top 10) |
+| 7 | Charles Leclerc | Ferrari | +73.586s | ❌ Predicted P4 |
+| 8 | Liam Lawson | Racing Bulls | +75.402s | ❌ Predicted P5 |
+| 9 | Lewis Hamilton | Ferrari | +1 Lap | — Not modelled (−10 places) |
+| 10 | Nico Hülkenberg | Audi | +1 Lap | ❌ Predicted P6 |
+
+**Model Accuracy — Round 20:**
+- 🥇 Winner: ❌ Predicted Russell — Norris won (the model had him P2)
+- 📊 Exact podium positions: 0/3
+- ✅ Podium drivers identified: 1/3 (Norris)
+- 🔵 Verstappen went from the back of the grid to P2, and Hadjar took P3 for a Red Bull 2-3. Verstappen could not be predicted because he had no Q3 time.
+- Russell was predicted P1 and finished P4. That P1 came from the wet bonus rather than pace (flagged in the prediction section).
+- Antonelli P3 → P5 and Leclerc P4 → P7 (his 10-place penalty cost him).
+- Piastri (P6), Verstappen (P2) and Hamilton (P9) finished in the points but were not modelled.
 
 ---
 ## 📝 Notes on 2026 Regulations
