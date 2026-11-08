@@ -27,7 +27,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | R08 | 🇦🇹 Austrian GP | Spielberg | Jun 28, 2026 |✅ Russell P1 1:06.113|🥇 Russell|Russell✅ / Hamilton❌ / Leclerc❌| 🥇Russell,🥈Verstappen, 🥉Antonelli|
 | R09 | 🇬🇧 British GP | Silverstone | Jul 5, 2026 | Antonelli P1 1:28.111 |🥇 Antonelli ❌ |Antonelli / Hamilton / Leclerc ❌✅✅|🥇Leclerc 🥈Rusell 🥉Hamilton |
 | R10 | 🇧🇪 Belgian GP | Spa-Francorchamps | Jul 19, 2026 |✅ Antonelli P1 1:24:42.479 |🥇 Antonelli ✅ |Antonelli, Verstappen, Russell ✅✅❌|🥇Antonelli, 🥈Leclerc, 🥉Verstappen  |
-| R11 | 🇭🇺 Hungarian GP | Budapest | Jul 26, 2026 |✅ Norris P1: 1:17.207 |1:11.265 |Norris / Hamilton / Leclerc ✅ ❌❌|🥇Norris 🥈Verstappen 🥉Antonelli |
+| R11 | 🇭🇺 Hungarian GP | Budapest | Jul 26, 2026 |✅ Norris P1: 1:17.207 |🥇 Norris ✅|Norris / Hamilton / Leclerc ✅ ❌❌|🥇Norris 🥈Verstappen 🥉Antonelli |
 | R12 | 🇳🇱 Dutch GP | Zandvoort | Aug 23, 2026 | Norris P1: 1:11.163| 🥇 Norris ✅  | Russell / Norris / Antonelli ✅✅✅| 🥇Norris / 🥈Antonelli /🥉 Russell |
 | R13 | 🇮🇹 Italian GP | Monza | Sep 6, 2026 |✅ Gasly P1 1:21.786  |🥇  Gasly ❌| Gasly / Russell / Leclerc ❌✅❌ | 🥇 Antonelli 🥈 Russell 🥉 Verstappen |
 | R14 | 🇪🇸 Spanish GP (Madrid)* | Madrid | Sep 13, 2026 |✅ Norris P1 1:31.824|🥇 Norris❌|Norris / Antonelli / Verstappen ✅✅✅|🥇 Antonelli 🥈 Verstappen 🥉 Norris|
@@ -1628,6 +1628,73 @@ Race Date: July 5, 2026-Silverstone Circuit
 - ✅ Podium drivers identified: 2/3 (Hamilton, Antonelli)
 - 🔴 Verstappen P1 from P4 on the grid & Antonelli P3 from P5 were the surprises
 - 🏆 **World Championship Note:** Kimi Antonelli officially seals the 2026 World Drivers' Championship title! 👑🍾
+
+---
+## 🗓️ Round 20 — 🇧🇷 São Paulo Grand Prix
+ 
+**Race Date: November 8, 2026 — Autódromo José Carlos Pace (Interlagos)**
+ 
+### 🌡️ Weather
+| Session | Temp | Conditions | Rain | Wind | Humidity |
+|---------|------|------------|------|------|----------|
+| FP1 + FP2 (Fri) | 24°C | ☁️ Overcast | 10% | 11 km/h | 83% |
+| FP3 + Qualifying (Sat) | 28°C | 🌦️ Light showers | 90% | 18 km/h | 74% |
+| Race (Sun) | 16°C | ☁️ Overcast | 35% | 19 km/h | 91% |
+ 
+> 🌡️ The race is 12°C colder than qualifying, the biggest swing of the season.
+ 
+### 🕐 GP Qualifying Results (wet session, intermediate tyres)
+🌟 *Norris takes pole in the wet; Lawson P5 and Hülkenberg P6 are the surprises*
+ 
+| Pos | Driver | Team | Time / Gap |
+|-----|--------|------|-----------|
+| P1 | Lando Norris 🌟 | McLaren | 1:27.470 |
+| P2 | George Russell | Mercedes | +0.204s |
+| P3 | Kimi Antonelli | Mercedes | +0.625s |
+| P4 | Charles Leclerc | Ferrari | +0.819s |
+| P5 | Liam Lawson | Racing Bulls | +0.851s |
+| P6 | Nico Hülkenberg | Audi | +1.198s |
+| P7 | Isack Hadjar | Red Bull Ford | +1.293s |
+| P8 | Oliver Bearman | Haas | +2.361s |
+| P9 | Fernando Alonso | Aston Martin | +2.841s |
+| P10 | Alexander Albon | Williams | +2.986s |
+ 
+### ⚠️ Grid Penalties
+ 
+| Driver | Team | Penalty | Reason |
+|--------|------|---------|--------|
+| Max Verstappen | Red Bull Racing | Back of the grid | Engine component change |
+| Sergio Pérez | Cadillac | Back of the grid | Penalty announced |
+| Lewis Hamilton | Ferrari | 10 places | Engine component change |
+| Charles Leclerc | Ferrari | 10 places | Engine component change |
+| George Russell | Mercedes | 5 places | New ICE |
+ 
+-  Verstappen, Hamilton and Pérez were not in the Q3 top 10, so the model has no qualifying time for them, and they are **not in the prediction**.
+- Russell (−5) and Leclerc (−10) are applied as a small adjustment of +0.02s per place lost on the predicted lap (+0.10s and +0.20s).
+- There is still no per-position grid penalty feature.
+ 
+### 🤖 Model Prediction
+*Normal weekend (no Sprint). No rookie penalty. Gradient Boosting + XGBoost average.*
+ 
+| | Driver | Team | Pred Lap (s) |
+|--|--------|------|-------------|
+| 🥇 | George Russell * | Mercedes | 92.655 |
+| 🥈 | Lando Norris | McLaren | 92.787 |
+| 🥉 | Kimi Antonelli | Mercedes | 93.323 |
+| P4 | Charles Leclerc * | Ferrari | 93.800 |
+| P5 | Liam Lawson | Racing Bulls | 93.829 |
+| P6 | Nico Hülkenberg | Audi | 94.070 |
+| P7 | Isack Hadjar | Red Bull Ford | 94.316 |
+| P8 | Fernando Alonso | Aston Martin | 95.383 |
+| P9 | Oliver Bearman | Haas | 95.453 |
+| P10 | Alexander Albon | Williams | 96.047 |
+  
+-  🔍 Model MAE: 0.148s (Gradient Boosting 0.070s, XGBoost 0.363s). The test set is only 2 drivers, so these numbers are noisy.
+-  ⚠️ Russell is predicted P1 despite his 5-place penalty because the wet bonus at 35% rain is worth about 1.19s for him versus about 0.84s for Norris.
+-  That is much larger than the 0.10s penalty and the 0.204s qualifying gap. Treat the P1/P2 order as a wet-rating effect rather than a pace advantage.
+ 
+### ✅ Actual Race Result
+*To be updated after the race on November 8, 2026*
 
 ---
 ## 📝 Notes on 2026 Regulations
