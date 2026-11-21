@@ -1,6 +1,6 @@
 """
 ============================================================
- F1 PREDICTIONS 2026 — ROUND 20: SAO PAULO GP
+ F1 PREDICTIONS 2026 — ROUND 20: BRAZIL GP
  Autodromo Jose Carlos Pace (Interlagos) | Race Date: November 8, 2026
 ============================================================
  Models   : Gradient Boosting Regressor + XGBoost (averaged)
