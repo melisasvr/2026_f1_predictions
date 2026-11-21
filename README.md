@@ -37,7 +37,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | R18 | 🇺🇸 United States GP | Austin | Oct 25, 2026 |✅ Antonelli P1 1:34.035|🥇Verstappen ❌ |Verstappen / Hamilton / Antonelli✅✅❌|🥇 Antonelli 🥈 Leclerc 🥉 Verstappen|
 | R19 | 🇲🇽 Mexico City GP | Mexico City | Nov 1, 2026 |✅ Hamilton P1 1:16.514|🥇Hamilton ❌|Hamilton / Russell / Leclerc ✅❌❌|🥇Verstappen /🥈Hamilton /🥉Antonelli|
 | R20 | 🇧🇷 Brazilian GP | São Paulo | Nov 8, 2026 |✅ Norris P1 1:27.47- |🥇Russell ❌|Russell / Norris / Antonelli ❌✅❌ |🥇Norris / 🥈Verstappen /🥉 Hadjar |
-| R21 | 🇺🇸 Las Vegas GP | Las Vegas | Nov 21, 2026 | — | — | — | — |
+| R21 | 🇺🇸 Las Vegas GP | Las Vegas | Nov 21, 2026 |✅ Verstappen P1 1:34.151|🥇 Antonelli|Antonelli / Verstappen / Russell | — |
 | R22 | 🇶🇦 Qatar GP | Lusail | Nov 29, 2026 | — | — | — | — |
 | R23 | 🇦🇪 Abu Dhabi GP | Yas Island | Dec 6, 2026 | — | — | — | — |
 
@@ -1718,6 +1718,68 @@ Race Date: July 5, 2026-Silverstone Circuit
 - Piastri (P6), Verstappen (P2) and Hamilton (P9) finished in the points but were not modelled.
 
 ---
+## 🗓️ Round 21 — 🇺🇸 Las Vegas Grand Prix
+
+**Race Date: November 21, 2026 — Las Vegas Strip Circuit**
+
+### 🌡️ Weather
+| Session | Temp | Conditions | Rain | Wind | Humidity |
+|---------|------|------------|------|------|----------|
+| Qualifying | 9°C | 🌙 Clear / Chilly | — | — | — |
+| Race | 14°C | ☁️ Dry / Cool | 10% | 6 km/h | 48% |
+
+> 🌡️ The race is 5°C warmer than qualifying, easing tire warm-up under the desert night sky.
+
+### 🕐 GP Qualifying Results (before grid penalties)
+🌟 *Antonelli sets the fastest time (1:33.893) before his 5-place penalty; Lindblad P5 and Colapinto P9 impress*
+
+| Pos | Driver | Team | Time / Gap |
+|-----|--------|------|-----------|
+| P1 | Kimi Antonelli 🌟 | Mercedes | 1:33.893 |
+| P2 | Max Verstappen | Red Bull Racing | +0.258s |
+| P3 | George Russell | Mercedes | +0.331s |
+| P4 | Lando Norris | McLaren | +0.351s |
+| P5 | Isack Hadjar | Red Bull Racing | +0.699s |
+| P6 | Arvid Lindblad | Racing Bulls | +0.775s |
+| P7 | Liam Lawson | Racing Bulls | +1.197s |
+| P8 | Pierre Gasly | Alpine | +1.212s |
+| P9 | Charles Leclerc | Ferrari | +1.304s |
+| P10 | Franco Colapinto | Alpine | +1.421s |
+
+### ⚠️ Grid Penalties
+
+| Driver | Team | Penalty |
+|--------|------|---------|
+| Kimi Antonelli | Mercedes | 5 places |
+| Oscar Piastri | McLaren | 10 places |
+| Carlos Sainz | Williams | 10 places |
+| Lance Stroll | Aston Martin | 10 places |
+| Oliver Bearman | Haas | 35 places |
+
+- Piastri, Sainz, Stroll, Bearman (and Hamilton) were not in the Q3 top 10, so the model has no qualifying time for them, and they are **not in the prediction**.
+- Antonelli (−5) drops from P1 to P6 on the starting grid and is applied as a small adjustment of +0.02s per place lost on the predicted lap (+0.10s).
+- There is still no per-position grid penalty feature.
+
+### 🤖 Model Prediction
+*Normal weekend (no Sprint). No rookie penalty. Gradient Boosting + XGBoost average.*
+
+| | Driver | Team | Pred Lap (s) |
+|--|--------|------|-------------|
+| 🥇 | Kimi Antonelli * | Mercedes | 100.328 |
+| 🥈 | Max Verstappen | Red Bull Racing | 100.442 |
+| 🥉 | George Russell | Mercedes | 100.447 |
+| P4 | Lando Norris | McLaren | 100.631 |
+| P5 | Isack Hadjar | Red Bull Racing | 101.054 |
+| P6 | Arvid Lindblad | Racing Bulls | 101.185 |
+| P7 | Pierre Gasly | Alpine | 101.592 |
+| P8 | Liam Lawson | Racing Bulls | 101.596 |
+| P9 | Charles Leclerc | Ferrari | 101.639 |
+| P10 | Franco Colapinto | Alpine | 101.676 |
+
+- 🔍 Model MAE: 0.111s (Gradient Boosting 0.120s, XGBoost 0.103s).
+- ⚠️ Antonelli is predicted P1 despite starting P6 after his 5-place penalty because his raw qualifying pace (0.258s clear of Verstappen) and strong Circuit Score (1.432) easily outweigh the +0.10s penalty adjustment.
+
+--- 
 ## 📝 Notes on 2026 Regulations
 
 ### 🆕 Mid-Season Regulation Update — Effective from Miami GP (Round 6)
