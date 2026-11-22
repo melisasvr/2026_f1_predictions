@@ -1723,10 +1723,11 @@ Race Date: July 5, 2026-Silverstone Circuit
 **Race Date: November 21, 2026 — Las Vegas Strip Circuit**
 
 ### 🌡️ Weather
-| Session | Temp | Conditions | Rain | Wind | Humidity |
-|---------|------|------------|------|------|----------|
-| Qualifying | 9°C | 🌙 Clear / Chilly | — | — | — |
-| Race | 14°C | ☁️ Dry / Cool | 10% | 6 km/h | 48% |
+| Session | Temp | Rain | Wind | Humidity |
+|---------|------|------|------|----------|
+| Fri FP1 / FP2 | 14°C / 11°C | 20% | 21 km/h | 45% |
+| Sat FP3 / Qualifying | 13°C / 9°C | 10% | 6 km/h | 44% |
+| Race | 14°C | 10% | 6 km/h | 48% |
 
 > 🌡️ The race is 5°C warmer than qualifying, easing tire warm-up under the desert night sky.
 
@@ -1779,26 +1780,26 @@ Race Date: July 5, 2026-Silverstone Circuit
 - 🔍 Model MAE: 0.111s (Gradient Boosting 0.120s, XGBoost 0.103s).
 - ⚠️ Antonelli is predicted P1 despite starting P6 after his 5-place penalty because his raw qualifying pace (0.258s clear of Verstappen) and strong Circuit Score (1.432) easily outweigh the +0.10s penalty adjustment.
 
-### 🏁 Actual Race Results
+### 🏁 Actual Race Results — Las Vegas GP
+*Official Top 10 classification from the Las Vegas Grand Prix.*
+| | Driver | Team | Time / Gap | Pts |
+|--|--------|------|------------|-----|
+| 🥇 | Max Verstappen | Red Bull Racing | 1:27:39.624 | 25 |
+| 🥈 | Lando Norris | McLaren | +0.639s | 18 |
+| 🥉 | Oscar Piastri | McLaren | +1.529s | 15 |
+| P4 | Kimi Antonelli | Mercedes | +2.574s | 12 |
+| P5 | Pierre Gasly | Alpine | +2.927s | 10 |
+| P6 | Franco Colapinto | Alpine | +7.955s | 8 |
+| P7 | Lewis Hamilton | Ferrari | +12.795s | 6 |
+| P8 | Carlos Sainz Jr. | Williams | +12.938s | 4 |
+| P9 | George Russell | Mercedes | +13.192s | 2 |
+| P10 | Charles Leclerc | Ferrari | +17.554s | 1 |
 
-| Pos | Driver | Team | Grid | Time/Gap |
-|-----|--------|------|------|----------|
-| 🥇 **P1** | Max Verstappen | Red Bull Racing | 4 | Winner |
-| 🥈 **P2** | Lewis Hamilton | Ferrari | 1 | +0.799s |
-| 🥉 **P3** | Kimi Antonelli | Mercedes | 5 | +4.006s |
-| P4 | Charles Leclerc | Ferrari | 3 | +10.707s |
-| P5 | Lando Norris | McLaren | 6 | +11.778s |
-| P6 | George Russell | Mercedes | 2 | +12.263s |
-| P7 | Oscar Piastri | McLaren | — | +19.475s |
-| P8 | Franco Colapinto | Alpine | — | +20.204s |
-| P9 | Liam Lawson | Racing Bulls | 8 | +20.899s |
-| P10 | Pierre Gasly | Alpine | 10 | +21.483s |
-
-**Model Accuracy — Round 19:**
-- 🥇 Winner: ❌ Predicted Hamilton; Verstappen won (Max surged from P4 on the grid to victory)
-- 📊 Exact podium positions: 0/3
-- ✅ Podium drivers identified: 2/3 (Hamilton, Antonelli)
-- 🔴 Verstappen P1 from P4 on the grid & Antonelli P3 from P5 were the surprises
+**Model Accuracy — Round 21:**
+- 🥇 **Winner:** ❌ Predicted Antonelli; Verstappen won (Max converted inherited pole into victory, while Antonelli started P6 after a 5-place grid penalty and finished P4)
+- 📊 **Exact podium positions:** 0/3
+- ✅ **Podium drivers identified:** 1/3 (Predicted Antonelli, Verstappen, Russell; actual podium was Verstappen, Norris, Piastri)
+- 🔴 **Piastri P3 from P17 on the grid** was the biggest surprise, while **Russell threw away a podium fight** by hitting the barriers at Turn 5 on Lap 49
 --- 
 ## 📝 Notes on 2026 Regulations
 
