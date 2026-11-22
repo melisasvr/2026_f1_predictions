@@ -37,7 +37,7 @@ The 2026 season brings **all-new technical regulations** and a **fresh grid of 2
 | R18 | 🇺🇸 United States GP | Austin | Oct 25, 2026 |✅ Antonelli P1 1:34.035|🥇Verstappen ❌ |Verstappen / Hamilton / Antonelli✅✅❌|🥇 Antonelli 🥈 Leclerc 🥉 Verstappen|
 | R19 | 🇲🇽 Mexico City GP | Mexico City | Nov 1, 2026 |✅ Hamilton P1 1:16.514|🥇Hamilton ❌|Hamilton / Russell / Leclerc ✅❌❌|🥇Verstappen /🥈Hamilton /🥉Antonelli|
 | R20 | 🇧🇷 Brazilian GP | São Paulo | Nov 8, 2026 |✅ Norris P1 1:27.47- |🥇Russell ❌|Russell / Norris / Antonelli ❌✅❌ |🥇Norris / 🥈Verstappen /🥉 Hadjar |
-| R21 | 🇺🇸 Las Vegas GP | Las Vegas | Nov 21, 2026 |✅ Verstappen P1 1:34.151|🥇 Antonelli|Antonelli / Verstappen / Russell | — |
+| R21 | 🇺🇸 Las Vegas GP | Las Vegas | Nov 21, 2026 |✅ Verstappen P1 1:34.151|🥇 Antonelli|Antonelli / Verstappen / Russell ❌✅❌|🥇Verstappen /🥈Norris /🥉Piastri|
 | R22 | 🇶🇦 Qatar GP | Lusail | Nov 29, 2026 | — | — | — | — |
 | R23 | 🇦🇪 Abu Dhabi GP | Yas Island | Dec 6, 2026 | — | — | — | — |
 
@@ -1779,6 +1779,26 @@ Race Date: July 5, 2026-Silverstone Circuit
 - 🔍 Model MAE: 0.111s (Gradient Boosting 0.120s, XGBoost 0.103s).
 - ⚠️ Antonelli is predicted P1 despite starting P6 after his 5-place penalty because his raw qualifying pace (0.258s clear of Verstappen) and strong Circuit Score (1.432) easily outweigh the +0.10s penalty adjustment.
 
+### 🏁 Actual Race Results
+
+| Pos | Driver | Team | Grid | Time/Gap |
+|-----|--------|------|------|----------|
+| 🥇 **P1** | Max Verstappen | Red Bull Racing | 4 | Winner |
+| 🥈 **P2** | Lewis Hamilton | Ferrari | 1 | +0.799s |
+| 🥉 **P3** | Kimi Antonelli | Mercedes | 5 | +4.006s |
+| P4 | Charles Leclerc | Ferrari | 3 | +10.707s |
+| P5 | Lando Norris | McLaren | 6 | +11.778s |
+| P6 | George Russell | Mercedes | 2 | +12.263s |
+| P7 | Oscar Piastri | McLaren | — | +19.475s |
+| P8 | Franco Colapinto | Alpine | — | +20.204s |
+| P9 | Liam Lawson | Racing Bulls | 8 | +20.899s |
+| P10 | Pierre Gasly | Alpine | 10 | +21.483s |
+
+**Model Accuracy — Round 19:**
+- 🥇 Winner: ❌ Predicted Hamilton; Verstappen won (Max surged from P4 on the grid to victory)
+- 📊 Exact podium positions: 0/3
+- ✅ Podium drivers identified: 2/3 (Hamilton, Antonelli)
+- 🔴 Verstappen P1 from P4 on the grid & Antonelli P3 from P5 were the surprises
 --- 
 ## 📝 Notes on 2026 Regulations
 
